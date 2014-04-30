@@ -29,10 +29,10 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-    <xs:element name="LangID" type="xs:NCName"/>
-    <xs:element name="ISO639-3" type="xs:NCName"/>
+    <xs:element name="LangID" type="xs:string"/>
+    <xs:element name="ISO639-3" type="xs:string"/>
     <xs:element name="Location" type="xs:string"/>
-    <xs:element name="Country" type="xs:NCName"/>
+    <xs:element name="Country" type="xs:string"/>
     <xs:element name="GeneticRelation" type="xs:string"/>
     <xs:element name="WordOrder" type="xs:string"/>
     <xs:element name="CaseSystem" type="xs:string"/>
@@ -71,8 +71,8 @@
                     <xs:element ref="Morphology"/>
                 </xs:choice>
             </xs:sequence>
-            <xs:attribute name="BasedOnPronominal" type="xs:NCName"/>
-            <xs:attribute name="Complexity" type="xs:NCName"/>
+            <xs:attribute name="BasedOnPronominal" type="xs:string"/>
+            <xs:attribute name="Complexity" type="xs:string"/>
             <xs:attribute name="Replaceable"/>
         </xs:complexType>
     </xs:element>
@@ -98,12 +98,12 @@
             <xs:sequence>
                 <xs:element minOccurs="0" maxOccurs="unbounded" ref="Remark"/>
             </xs:sequence>
-            <xs:attribute name="BodyParts" type="xs:NCName"/>
-            <xs:attribute name="Clothes" type="xs:NCName"/>
+            <xs:attribute name="BodyParts" type="xs:string"/>
+            <xs:attribute name="Clothes" type="xs:string"/>
             <xs:attribute name="Kinship"/>
             <xs:attribute name="ObligatoryPossessed" use="required"/>
-            <xs:attribute name="Others" type="xs:NCName"/>
-            <xs:attribute name="PlantParts" type="xs:NCName"/>
+            <xs:attribute name="Others" type="xs:string"/>
+            <xs:attribute name="PlantParts" type="xs:string"/>
         </xs:complexType>
     </xs:element>
     <xs:element name="RelationPRPD">
@@ -147,11 +147,11 @@
                 <xs:element ref="morph"/>
                 <xs:element minOccurs="0" ref="Remark"/>
             </xs:sequence>
-            <xs:attribute name="FreeBound" use="required" type="xs:NCName"/>
-            <xs:attribute name="Pronoun" type="xs:NCName"/>
+            <xs:attribute name="FreeBound" use="required" type="xs:string"/>
+            <xs:attribute name="Pronoun" type="xs:string"/>
             <xs:attribute name="SharedWithNominal"/>
-            <xs:attribute name="UsedinPronominal" type="xs:NCName"/>
-            <xs:attribute name="pronoun" type="xs:NCName"/>
+            <xs:attribute name="UsedinPronominal" type="xs:string"/>
+            <xs:attribute name="pronoun" type="xs:string"/>
         </xs:complexType>
     </xs:element>
     <xs:element name="morph" type="xs:string"/>
@@ -165,14 +165,14 @@
                 <xs:element minOccurs="0" ref="Asymmetry"/>
             </xs:sequence>
             <xs:attribute name="Dedication" use="required"/>
-            <xs:attribute name="FreeBound" use="required" type="xs:NCName"/>
+            <xs:attribute name="FreeBound" use="required" type="xs:string"/>
             <xs:attribute name="SharedwithNominal" use="required"/>
         </xs:complexType>
     </xs:element>
     <xs:element name="pron">
         <xs:complexType mixed="true">
-            <xs:attribute name="gender" type="xs:NCName"/>
-            <xs:attribute name="number" use="required" type="xs:NCName"/>
+            <xs:attribute name="gender" type="xs:string"/>
+            <xs:attribute name="number" use="required" type="xs:string"/>
             <xs:attribute name="person" use="required" type="xs:NMTOKEN"/>
         </xs:complexType>
     </xs:element>
