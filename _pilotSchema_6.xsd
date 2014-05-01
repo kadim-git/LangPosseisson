@@ -18,7 +18,7 @@
 	<xs:element name="GeneralInfo">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="LangID" type="xs:string" />
+				<xs:element name="LangID" type="xs:token" />
 				<xs:element name="ISO639-3" type="xs:string"/>
 				<xs:element name="Location" type="xs:string"/>
 				<xs:element name="Country" maxOccurs="unbounded" type="xs:string"/>
@@ -65,8 +65,8 @@
 				</xs:choice>
 			</xs:sequence>
 			<xs:attribute name="BasedOnPronominal" type="xs:string"/>
-			<xs:attribute name="Complexity" type="xs:string"/>
-			<xs:attribute name="Replaceable"/>
+			<xs:attribute name="Complexity" type="ComplexityAttrType"/>
+			<xs:attribute name="Replaceable" type="ReplaceableAttrType" />
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="Semantics">
@@ -212,7 +212,7 @@
 			<xs:attribute name="SpecialForm" use="required"/>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="Remarks" type="xs:string"/>
+	<xs:element name="Remarks" type="xs:normalizedString"/>
 	<xs:element name="Translation" type="xs:string"/>
 	<xs:element name="Text" type="xs:string"/>
 	<xs:element name="Gloss" type="xs:string"/>
@@ -228,12 +228,25 @@
 			<xs:element name="Translation" type="xs:string" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="Resources" type="xs:string" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="Remarks" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-			
-			
-		
-		
 		</xs:sequence>
 		<xs:attribute name="SpecialForm" use="required"/>
 	</xs:complexType>
+	
+	<xs:simpleType name="ComplexityAttrType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="symplex" />
+			<xs:enumeration value="complex" />
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xs:simpleType name="ReplaceableAttrType">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="yes" />
+			<xs:enumeration value="?yes" />
+			<xs:enumeration value="no" />
+			<xs:enumeration value="?no" />
+		</xs:restriction>
+	</xs:simpleType>
 </xs:schema>
+
 
