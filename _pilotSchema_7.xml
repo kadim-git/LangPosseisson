@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData xsi:noNamespaceSchemaLocation="_pilotSchema_6.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Language>
+		<GeneralInfo>
+			<LangID>Baure</LangID>
+			<ISO639-3>brg</ISO639-3>
+			<Location>South America</Location>
+			<Country>Bolivia</Country>
+			<GeneticRelation> Arawakan/Maipurean</GeneticRelation>
+			<WordOrder>???</WordOrder>
+			<CaseSystem>???</CaseSystem>
+			<NominalPhrase>???</NominalPhrase>
+			<!-- Comment here to show how Git Hub works -->
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<Strategy Complexity="symplex" Replaceable="no">
+					 <!-- <Remark>This strategy makes use of bound roots. These roots are also often parts of classifiers. They don't appear on their own, a special prefix -e is needed to make the noun unpossessed. This difference between the two strategies cannot be reflectedd properly in our database
+				But it can be seen in one additional pronoun form "unspecified"
+				</Remark> -->
+					<Semantics>
+						<Posessor> 
+human, plant, animal
+							<Resources>Danielsen2007</Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="yes" BodyParts="all" PlantParts="all" Clothes="all" Kinship="?all" Others="some">
+						body parts: head, brain, eye, tongue, tooth, skin, face, back, hand palm, plant parts: leaf, stem, branch, tree, kinship, clothes (although borrowed from Spanish), 'field', 'feather', 'horn'
+. 
+						<Remark>Kinship terms which are borrowed from Spanish use another strategy to mark possession - with possessive pronoun (nowadays they are in use much more than the original Baure words)
+						</Remark>
+						</Possessed>
+						<Resources>Danielsen2007</Resources>
+						<RelationPRPD>
+							inalienable
+							<Resources>Danielsen2007:118</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" FreeBound="Bound">
+							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
+					</Remark>
+							<pron person="1" number="singular">ni-</pron>
+							<pron person="1" number="plural">vi-</pron>
+							<pron person="2" number="singular">pi-</pron>
+							<pron person="2" number="plural">yi-</pron>
+							<pron person="3" number="singular" gender="msc">ro-</pron>
+							<pron person="3" number="singular" gender="fem">ri-</pron>
+							<pron person="3" number="plural">no-</pron>
+							<pron person="unspecified" number="unspecified">e-</pron>
+							<Asymmetry></Asymmetry>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+							<Adnominal>
+								<Text>ntorak to e-ser</Text>
+								<Gloss>1sg=find art unspecified-tooth</Gloss>
+								<Translation>I found a tooth (I don't know whose)</Translation>
+								<Resources></Resources>
+							</Adnominal>
+							<Predicative SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+								<Resources></Resources>
+							</Predicative>
+							<EllidedPossessed SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+								<Resources></Resources>
+								<Remarks></Remarks>
+							</EllidedPossessed>
+						</SyntEnvironment>
+
+				</Strategy>
+				<Strategy Complexity="symplex" Replaceable="no">
+					<Semantics>
+						<Posessor> 
+								?
+							<Resources></Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="no">
+						'glasses'
+						</Possessed>
+						<Resources>Danielsen2007</Resources>
+						<RelationPRPD>
+							alienable
+							<Resources>Danielsen2007:123</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" FreeBound="Bound">
+							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
+					</Remark>
+							<pron person="1" number="singular">ni-</pron>
+							<pron person="1" number="plural">vi-</pron>
+							<pron person="2" number="singular">pi-</pron>
+							<pron person="2" number="plural">yi-</pron>
+							<pron person="3" number="singular" gender="msc">ro-</pron>
+							<pron person="3" number="singular" gender="fem">ri-</pron>
+							<pron person="3" number="plural">no-</pron>
+							<Asymmetry></Asymmetry>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+							<Adnominal>
+								<Text>nihačkis</Text>
+								<Gloss>1sg=glasses</Gloss>
+								<Translation>my glasses</Translation>
+								<Resources></Resources>
+							</Adnominal>
+							<Predicative SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+								<Resources></Resources>
+							</Predicative>
+							<EllidedPossessed SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+								<Resources></Resources>
+								<Remarks></Remarks>
+							</EllidedPossessed>
+						</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="complex" Replaceable="no">
+					<Semantics>
+						<Posessor> 
+								?				
+							<Resources></Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="no">
+						'firewood', 'jar', 'chief', 'basket', 'blood', 'water', 'fire'
+						</Possessed>
+						<Resources>Danielsen2007</Resources>
+						<RelationPRPD>
+							alienable
+							<Resources>Danielsen2007:123</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" FreeBound="Bound">
+							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
+					</Remark>
+							<pron person="1" number="singular">ni-</pron>
+							<pron person="1" number="plural">vi-</pron>
+							<pron person="2" number="singular">pi-</pron>
+							<pron person="2" number="plural">yi-</pron>
+							<pron person="3" number="singular" gender="msc">ro-</pron>
+							<pron person="3" number="singular" gender="fem">ri-</pron>
+							<pron person="3" number="plural">no-</pron>
+							<Asymmetry></Asymmetry>
+						</Pronoun>
+						<Morpheme SharedWithNominal="yes" pronoun="no" FreeBound="Bound">
+							<morph> 
+					-no
+					</morph>
+							<Remark>This morpheme is a "nominlaizer", it has many usages in the language, see 5.2.4,  9.4, 10.2
+					</Remark>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+							<Adnominal>
+								<Text>ni-hapi-n</Text>
+								<Gloss>1sg=jar=poss</Gloss>
+								<Translation>my jar</Translation>
+								<Resources>Danielsen2007:12</Resources>
+							</Adnominal>
+							<Predicative SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+								<Resources></Resources>
+							</Predicative>
+							<EllidedPossessed SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+								<Resources></Resources>
+								<Remarks></Remarks>
+							</EllidedPossessed>
+						</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="complex" Replaceable="no">
+					<Semantics>
+						<Posessor> 
+								?humans				
+							<Resources></Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="no">
+						animals
+						</Possessed>
+						<Resources>Danielsen2007</Resources>
+						<RelationPRPD>
+							alienable
+/inalienable
+							<Resources>Danielsen2007:124</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" FreeBound="Bound">
+							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
+					</Remark>
+							<pron person="1" number="singular">ni-</pron>
+							<pron person="1" number="plural">vi-</pron>
+							<pron person="2" number="singular">pi-</pron>
+							<pron person="2" number="plural">yi-</pron>
+							<pron person="3" number="singular" gender="msc">ro-</pron>
+							<pron person="3" number="singular" gender="fem">ri-</pron>
+							<pron person="3" number="plural">no-</pron>
+							<Asymmetry></Asymmetry>
+						</Pronoun>
+						<Morpheme SharedWithNominal="?yes" pronoun="no" FreeBound="free">
+							<morph> 
+					-per 'domestic animal'
+					</morph>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+							<Adnominal>
+								<Text>ni-per kove'</Text>
+								<Gloss>1sg=dom.animal dog</Gloss>
+								<Translation>my dog</Translation>
+								<Resources>Danielsen2007:124</Resources>
+							</Adnominal>
+							<Predicative SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+								<Resources></Resources>
+							</Predicative>
+							<EllidedPossessed SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+								<Resources></Resources>
+								<Remarks></Remarks>
+							</EllidedPossessed>
+						</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="symplex" Replaceable="no">
+					<Semantics>
+						<Posessor> 
+								?
+							<Resources></Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="no">
+						spanish loanwords, some nouns which don't take possessive suffixes, like 'land'. Danielsen2007:125 classifies them as "non-possessable" but adds that they "can logically be possessed"
+						</Possessed>
+						<Resources>Danielsen2007</Resources>
+						<RelationPRPD>
+							alienable
+							<Resources>Danielsen2007:123</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="?yes" FreeBound="Free">
+							<Remark>this pronoun can also appear in something like applicative. Danielsen2007:320. Maybe external possesion?
+					</Remark>
+							<pron person="1" number="singular">ntir</pron>
+							<pron person="1" number="plural">vitir</pron>
+							<pron person="2" number="singular">pitir</pron>
+							<pron person="2" number="plural">yitir</pron>
+							<pron person="3" number="singular" gender="msc">rotir</pron>
+							<pron person="3" number="singular" gender="fem">ritir</pron>
+							<pron person="3" number="plural">notir</pron>
+							<Asymmetry></Asymmetry>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+							<Adnominal>
+								<Text>to ntir avoel</Text>
+								<Gloss>art 1sgP grandparent</Gloss>
+								<Translation>'my grandfather'.</Translation>
+								<Resources>Danielsen2007:124</Resources>
+							</Adnominal>
+							<Adnominal>
+								<Text>teč notir poewok</Text>
+								<Gloss>dem2m 3plP ground</Gloss>
+								<Translation>'their land'.</Translation>
+								<Resources>Danielsen2007:125</Resources>
+							</Adnominal>
+							<Predicative SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+								<Resources></Resources>
+							</Predicative>
+							<EllidedPossessed SpecialForm="no">
+								<Text>ni-poro-čo to ntir</Text>
+								<Gloss>2sg=lose-appl art 1sgP</Gloss>
+								<Translation>I have lost my toy (I have lost mine)</Translation>
+								<Resources></Resources>
+								<Remarks>It seems that this form is used in general for all strategies to mark elided possessed. Danielsen2007:320: these pro-forms are frequently used like nominals with a preceding determiner and as real pronouns forthe noun reffered to</Remarks>
+							</EllidedPossessed>
+						</SyntEnvironment>
+				</Strategy>
+			</PronominalPossession>
+			<NominalPossession>
+				<Strategy BasedOnPronominal="yes">
+					<!---<Remark>There are not so many clear examples, I am worried about "spanish loanword" and non-possessed nouns like "land". Do they still make use of a possessive pronoun: "his land Juan"? or do they juxtapose? Wht about animals?
+			</Remark -->
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>teč ro-wer to kotis</Text>
+							<Gloss>dem2m 3sgm-houe art lizard</Gloss>
+							<Translation>the house of the lizard</Translation>
+							<Resources></Resources>
+						</Adnominal>
+						<Predicative SpecialForm="?">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+						</Predicative>
+						<EllidedPossessed SpecialForm="?">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="symplex" Replaceable="?no">
+					<Semantics>
+						<Posessor>???
+							<Resources></Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="???">
+						?
+						</Possessed>
+						<Resources></Resources>
+						<RelationPRPD>
+							?
+							<Resources></Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Juxtaposition>
+						<CompoundingTest>it is compounding</CompoundingTest>
+					</Juxtaposition>
+					<SyntEnvironment>
+							<Adnominal>
+								<Text>tiporek-po'e</Text>
+								<Gloss>chicken-head</Gloss>
+								<Translation>chicken head</Translation>
+								<Resources>Danielsen2007:96</Resources>
+							</Adnominal>
+							<Predicative SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+							</Predicative>
+							<EllidedPossessed SpecialForm="?">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+							</EllidedPossessed>
+						</SyntEnvironment>
+				</Strategy>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Ewe</LangID>
+			<ISO639-3>ewe</ISO639-3>
+			<Location>Africa</Location>
+			<Country>Ghana</Country>
+			<Country>Togo</Country>
+			<GeneticRelation>Niger-Congo, Kwa</GeneticRelation>
+			<WordOrder>???</WordOrder>
+			<CaseSystem>???</CaseSystem>
+			<NominalPhrase>???</NominalPhrase>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<Strategy Complexity="complex" Replaceable="no">
+					<Semantics>
+						<Posessor> human
+							<Resources>only examples found</Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="no" BodyParts="all" Clothes="all" Others="most"></Possessed>
+						<Resources>Ameka</Resources>
+						<RelationPRPD>
+							alienable
+							<Resources></Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="no" FreeBound="Free">
+							<Remark>The same form of the pronoun appears in focus constructions
+					</Remark>
+							<pron person="1" number="singular">nyĕ (+high tone)</pron>
+							<pron person="2" number="singular">wŏ  (+high tone)</pron>
+							<pron person="3" number="singular">é</pron>
+							<pron person="1" number="plural">mía</pron>
+							<pron person="2" number="plural">mia</pron>
+							<pron person="3" number="plural">wé</pron>
+							<Asymmetry>
+					1st and 2nd Person do not take ɸé, the strategy is marked by the high tone
+					</Asymmetry>
+						</Pronoun>
+						<Morpheme SharedWithNominal="yes" pronoun="no" FreeBound="Free">
+							<morph> 
+					ɸé
+					</morph>
+						</Morpheme>
+						</Morphology>
+						<SyntEnvironment>
+							<Adnominal>
+								<Text>mía ɸé agble-xɔ kló</Text>
+								<Gloss>1PL	poss farm-house	bare</Gloss>
+								<Translation>Our farm house is without a roof</Translation>
+								<Resources>Ameka:164</Resources>
+							</Adnominal>
+							<Predicative SpecialForm="yes">
+								<Text>kúkú-á	tɔ́-wò-é</Text>
+								<Gloss>hat-DEF POSSPRO-2SG-aFOC</Gloss>
+								<Translation>The hat is yours (I beg you)</Translation>
+								<Resources>Ameka:615</Resources>
+							</Predicative>
+							<EllidedPossessed SpecialForm="yes">
+								<Text>é tɔ́	kú</Text>
+								<Gloss>3SG POSSPRO die</Gloss>
+								<Translation>His/hers is dead</Translation>
+								<Resources>Ameka:176</Resources>
+								<Remarks>"...there is no overt possessive linker when tɔ́ is used. It is just juxtaposed to the possessor."</Remarks>
+								<Remarks>This elliptic construction with 1st person pronoun is used "to address colleagues and people with whom the speaker identifies in some way" tɔ́ 1sg...  Ameka:471</Remarks>
+							</EllidedPossessed>
+						</SyntEnvironment>
+
+				</Strategy>
+				<Strategy Complexity="symplex" Replaceable="yes">
+					<!-- <Remark>
+				spatial, kin and socio-cultural terms can occur in the NP ɸé  NP structure in focused or emphatic context
+				</Remark> -->
+					<Semantics>
+						<Posessor>human
+							<Resources>speculation: pronoun</Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="?no" Kinship="all" Others="some">
+						kinship including 'friend', 'child'; words like "middle", "top", "side", culturally important words like: "name", "reputation", "native/home land", "farm"
+ ... Ameka:16 spatial, kin and socio-cultural terms
+						</Possessed>
+						<Resources>Ameka</Resources>
+						<RelationPRPD>
+							inalienable
+							<Resources></Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+					<Pronoun Dedication="Not dedicated" SharedwithNominal="no" FreeBound="Free">
+						<pron person="1" number="singular">nyĕ</pron>
+						<pron person="2" number="singular">wŏ</pron>
+						<pron person="3" number="singular">é</pron>
+						<pron person="1" number="plural">mía</pron>
+						<pron person="2" number="plural">mia</pron>
+						<pron person="3" number="plural">wé</pron>
+					</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>é se é  tɔgbui-wó    ɸé	kalẽwɔwɔ tsó	ame-wó	gbɔ</Text>
+							<Gloss>3SG hear 3SG grandfather-PL	poss bravery from person-PL	side</Gloss>
+							<Translation>He heard about the bravery of his grandfathers from people.</Translation>
+							<Resources>Ameka:163</Resources>
+						</Adnominal>
+						<Predicative SpecialForm="?">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources></Resources>
+						</Predicative>
+						<EllidedPossessed SpecialForm="">
+							<Text>é tɔ́	kú</Text>
+							<Gloss>3SG POSSPRO die</Gloss>
+							<Translation>His/hers is dead</Translation>
+							<Resources>Ameka:176</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+			</PronominalPossession>
+			<NominalPossession>
+				<Strategy Complexity="symplex" Replaceable="no">
+					<Semantics>
+						<Posessor>animate: human, inanimate: day
+							<Resources>Ameka</Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="no" BodyParts="all" Clothes="all" Others="most">
+						body parts, clothes, other nouns
+						</Possessed>
+						<Resources>Ameka</Resources>
+						<RelationPRPD>
+							alienable
+							<Resources></Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Morpheme Pronoun="no" UsedinPronominal="yes" FreeBound="Free">
+							<morph>
+						ɸé
+						</morph>
+							<Remark>ethymoloically related to "place" - Ameka, p.c. Some dialcts (inland diaects) use wɔ́ instead of</Remark>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+							<Adnominal>
+								<Text>Kofí ɸé awu vú</Text>
+								<Gloss>Kofi poss dress	tear</Gloss>
+								<Translation>Kofi’s garment is torn.</Translation>
+								<Resources>Ameka:163</Resources>
+							</Adnominal>
+							<Predicative SpecialForm="yes">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation>speculation from pronominal examples</Translation>
+							</Predicative>
+							<EllidedPossessed SpecialForm="yes">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation>speculation from pronominal examples</Translation>
+							</EllidedPossessed>
+						</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="symplex" Replaceable="yes">
+					<!-- <Remark>
+				spatial, kin and socio-cultural terms can occur in the NP ɸé  NP structure in focused or emphatic context
+				</Remark> -->
+					<Semantics>
+						<Posessor>animate: human; inanimate: river
+							<Resources>Ameka</Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="?no" Kinship="all" Others="some">
+> 
+ 
+						kinship terms, including 'friend', 'child'; words like "middle", "side", "top", culturally important words like: "name", "reputation", "native/home land", "farm"
+						</Possessed>
+						<Resources></Resources>
+						<RelationPRPD>inalienable
+						<Resources>Ameka</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Juxtaposition>
+						<Remark></Remark>
+						<CompoundingTest>
+							<Text>nye mé nyá ȡeví  má ŋkɔ ó</Text>
+							<Gloss>1SG NEG know child DEM name NEG</Gloss>
+							<Translation>I don’t know the name of that child.</Translation>
+							<Resources></Resources>
+						</CompoundingTest>
+					</Juxtaposition>
+					<SyntEnvironment>
+							<Adnominal>
+								<Text>é se é  tɔgbui-wó    ɸé	kalẽwɔwɔ tsó	ame-wó	gbɔ</Text>
+								<Gloss>3SG hear 3SG grandfather-PL	poss bravery from person-PL	side</Gloss>
+								<Translation>He heard about the bravery of his grandfathers from people.</Translation>
+								<Resources>Ameka:163</Resources>
+							</Adnominal>
+							<Predicative SpecialForm="yes">
+								<Text>xɔ-ȡé-asi	me	nye	ame	tɔ	ó</Text>
+								<Gloss>receive-at-hand NEG be person POSSPRO NEG</Gloss>
+								<Translation>Something received in the hand is not that person's (Something held in the hand is not yours)</Translation>
+								<Resources>Ameka: 229</Resources>
+							</Predicative>
+							<EllidedPossessed SpecialForm="?yes">
+								<Text>not_found</Text>
+								<Gloss></Gloss>
+								<Translation></Translation>
+							</EllidedPossessed>
+						</SyntEnvironment>
+				</Strategy>
+			</NominalPossession>
+		</Possession>
+	</Language>
+</LanguageData>
