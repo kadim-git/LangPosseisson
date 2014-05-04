@@ -83,6 +83,10 @@
 			
 			<xs:attribute name="StrategyID" type="xs:string"/>
 			<xs:attribute name="BaseStrategyID" type="xs:string"/>
+			
+			<xs:attribute name="ID1" type="xs:ID"/>
+			<xs:attribute name="IDREF1" type="xs:IDREF"/>
+			
 		</xs:complexType>
 	</xs:element>
 	
