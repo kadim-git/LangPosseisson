@@ -36,7 +36,19 @@
 				<xs:element ref="NominalPossession"/>
 			</xs:sequence>
 		</xs:complexType>
+
+		<xs:key name="keyStrategyID">
+			<xs:selector xpath="./PronominalPossession/Strategy" />
+			<xs:field xpath="@StrategyID" />
+		</xs:key>
+		
+		<xs:keyref name="referStrategyID" refer="keyStrategyID">
+			<xs:selector xpath="./NominalPossession/Strategy" />
+			<xs:field xpath="@BaseStrategyID" />
+		</xs:keyref>
+			
 	</xs:element>
+	
 	<xs:element name="PronominalPossession">
 		<xs:complexType>
 			<xs:sequence>
@@ -44,6 +56,7 @@
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
+	
 	<xs:element name="NominalPossession">
 		<xs:complexType>
 			<xs:sequence>
@@ -67,8 +80,12 @@
 			<xs:attribute name="BasedOnPronominal" type="xs:string"/>
 			<xs:attribute name="Complexity" type="ComplexityAttrType"/>
 			<xs:attribute name="Replaceable" type="ReplaceableAttrType" />
+			
+			<xs:attribute name="StrategyID" type="xs:string"/>
+			<xs:attribute name="BaseStrategyID" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
+	
 	<xs:element name="Semantics">
 		<xs:complexType>
 			<xs:sequence>
