@@ -14,7 +14,7 @@
 		</GeneralInfo>
 		<Possession>
 			<PronominalPossession>
-				<Strategy Complexity="symplex" Replaceable="no" StrategyID="1" ID1="id1234">
+				<Strategy Complexity="symplex" Replaceable="no" StrategyID="1">
 					 <!-- <Remark>This strategy makes use of bound roots. These roots are also often parts of classifiers. They don't appear on their own, a special prefix -e is needed to make the noun unpossessed. This difference between the two strategies cannot be reflectedd properly in our database
 				But it can be seen in one additional pronoun form "unspecified"
 				</Remark> -->
@@ -73,7 +73,7 @@ human, plant, animal
 					</SyntEnvironment>
 				
 				</Strategy>
-				<Strategy Complexity="symplex" Replaceable="no" StrategyID="2" ID1="id12345">
+				<Strategy Complexity="symplex" Replaceable="no" StrategyID="2">
 					<Semantics>
 						<Posessor> 
 								?
@@ -298,9 +298,11 @@ human, plant, animal
 				</Strategy>
 			</PronominalPossession>
 			<NominalPossession>
-				<Strategy BasedOnPronominal="yes" BaseStrategyID="1" IDREF1="id1234 id12345">
+				<Strategy BasedOnPronominal="yes">
 					<!---<Remark>There are not so many clear examples, I am worried about "spanish loanword" and non-possessed nouns like "land". Do they still make use of a possessive pronoun: "his land Juan"? or do they juxtapose? Wht about animals?
 			</Remark -->
+					<PronStrategy refStrategyID="1" />
+					<PronStrategy refStrategyID="2" />
 					<SyntEnvironment>
 						<Adnominal>
 							<Text>teč ro-wer to kotis</Text>
@@ -319,8 +321,6 @@ human, plant, animal
 							<Translation></Translation>
 						</EllidedPossessed>
 					</SyntEnvironment>
-					<BaseStrategy StrategyID4Multi="1"></BaseStrategy>
-					<BaseStrategy StrategyID4Multi="2"></BaseStrategy>
 				</Strategy>
 				<Strategy Complexity="symplex" Replaceable="?no">
 					<Semantics>

@@ -37,19 +37,14 @@
 			</xs:sequence>
 		</xs:complexType>
 
-		<xs:key name="keyStrategyID">
+		<xs:key name="keyStrategy">
 			<xs:selector xpath="./PronominalPossession/Strategy" />
 			<xs:field xpath="@StrategyID" />
 		</xs:key>
 		
-		<xs:keyref name="referStrategyID" refer="keyStrategyID">
-			<xs:selector xpath="./NominalPossession/Strategy" />
-			<xs:field xpath="@BaseStrategyID" />
-		</xs:keyref>
-		
-		<xs:keyref name="referStrategyID4Multi" refer="keyStrategyID">
-			<xs:selector xpath="./NominalPossession/Strategy/BaseStrategy" />
-			<xs:field xpath="@StrategyID4Multi" />
+		<xs:keyref name="keyrefStrategy" refer="keyStrategy">
+			<xs:selector xpath="./NominalPossession/Strategy/PronStrategy" />
+			<xs:field xpath="@refStrategyID" />
 		</xs:keyref>
 			
 	</xs:element>
@@ -81,12 +76,13 @@
 					<xs:element minOccurs="0" ref="Morphology"/>
 				</xs:choice>
 				
-				<xs:element ref="SyntEnvironment"/>
-				<xs:element name="BaseStrategy" minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="PronStrategy" minOccurs="0" maxOccurs="unbounded">
 					<xs:complexType>
-						<xs:attribute name="StrategyID4Multi" type="xs:string"></xs:attribute>
+						<xs:attribute name="refStrategyID" type="xs:string"></xs:attribute>
 					</xs:complexType>
 				</xs:element>
+				
+				<xs:element ref="SyntEnvironment"/>
 				
 			</xs:sequence>
 			<xs:attribute name="BasedOnPronominal" type="xs:string"/>
@@ -94,12 +90,8 @@
 			<xs:attribute name="Replaceable" type="ReplaceableAttrType" />
 			
 			<xs:attribute name="StrategyID" type="xs:string"/>
-			<xs:attribute name="BaseStrategyID" type="xs:string"/>
-			
-			<xs:attribute name="ID1" type="xs:ID"/>
-			<xs:attribute name="IDREF1" type="xs:IDREFS"/>
-			
-		</xs:complexType>
+
+			</xs:complexType>
 	</xs:element>
 	
 	<xs:element name="Semantics">
