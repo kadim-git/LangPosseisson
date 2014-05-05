@@ -298,7 +298,7 @@ human, plant, animal
 				</Strategy>
 			</PronominalPossession>
 			<NominalPossession>
-				<Strategy BasedOnPronominal="yes" BaseStrategyID="1" IDREF1="id1234">
+				<Strategy BasedOnPronominal="yes" BaseStrategyID="1" IDREF1="id1234 id12345">
 					<!---<Remark>There are not so many clear examples, I am worried about "spanish loanword" and non-possessed nouns like "land". Do they still make use of a possessive pronoun: "his land Juan"? or do they juxtapose? Wht about animals?
 			</Remark -->
 					<SyntEnvironment>
@@ -319,6 +319,8 @@ human, plant, animal
 							<Translation></Translation>
 						</EllidedPossessed>
 					</SyntEnvironment>
+					<BaseStrategy StrategyID4Multi="1"></BaseStrategy>
+					<BaseStrategy StrategyID4Multi="2"></BaseStrategy>
 				</Strategy>
 				<Strategy Complexity="symplex" Replaceable="?no">
 					<Semantics>

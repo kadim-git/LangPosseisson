@@ -46,6 +46,11 @@
 			<xs:selector xpath="./NominalPossession/Strategy" />
 			<xs:field xpath="@BaseStrategyID" />
 		</xs:keyref>
+		
+		<xs:keyref name="referStrategyID4Multi" refer="keyStrategyID">
+			<xs:selector xpath="./NominalPossession/Strategy/BaseStrategy" />
+			<xs:field xpath="@StrategyID4Multi" />
+		</xs:keyref>
 			
 	</xs:element>
 	
@@ -75,7 +80,14 @@
 					<xs:element minOccurs="0" ref="Juxtaposition"/>
 					<xs:element minOccurs="0" ref="Morphology"/>
 				</xs:choice>
+				
 				<xs:element ref="SyntEnvironment"/>
+				<xs:element name="BaseStrategy" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="StrategyID4Multi" type="xs:string"></xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				
 			</xs:sequence>
 			<xs:attribute name="BasedOnPronominal" type="xs:string"/>
 			<xs:attribute name="Complexity" type="ComplexityAttrType"/>
@@ -85,7 +97,7 @@
 			<xs:attribute name="BaseStrategyID" type="xs:string"/>
 			
 			<xs:attribute name="ID1" type="xs:ID"/>
-			<xs:attribute name="IDREF1" type="xs:IDREF"/>
+			<xs:attribute name="IDREF1" type="xs:IDREFS"/>
 			
 		</xs:complexType>
 	</xs:element>
