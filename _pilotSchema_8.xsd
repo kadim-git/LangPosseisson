@@ -177,12 +177,11 @@
 	</xs:element>
 	<xs:element name="morph" type="xs:string"/>
 	<xs:element name="Remark" type="xs:string"/>
-	<xs:element name="Resources" type="xs:string"/>
 	<xs:element name="Pronoun">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element minOccurs="0" ref="Remark"/>
-				<xs:element maxOccurs="unbounded" ref="pron"/>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="pron"/>
 				<xs:element minOccurs="0" ref="Asymmetry"/>
 			</xs:sequence>
 			<xs:attribute name="Dedication" use="required"/>
@@ -194,72 +193,39 @@
 		<xs:complexType mixed="true">
 			<xs:attribute name="gender" type="xs:string"/>
 			<xs:attribute name="number" use="required" type="xs:string"/>
-			<xs:attribute name="person" use="required" type="xs:NMTOKEN"/>
+			<xs:attribute name="person" use="required" type="xs:string"/>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="Asymmetry" type="xs:string"/>
 	<xs:element name="SyntEnvironment">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element maxOccurs="unbounded" ref="Adnominal"/>
-				<xs:element ref="Predicative"/>
-				<xs:element ref="EllidedPossessed"/>
+				<xs:element name="Adnominal" maxOccurs="unbounded" type="ExampleType"/>
+				<xs:element name="Predicative" type="ExampleType"/>
+				<xs:element name="EllidedPossessed" type="ExampleType"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="Adnominal">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="Text"/>
-				<xs:element ref="Gloss"/>
-				<xs:element ref="Translation"/>
-				<xs:element ref="Resources"/>
-			</xs:sequence>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="Predicative">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element ref="Text"/>
-				<xs:element ref="Gloss"/>
-				<xs:element ref="Translation"/>
-				<xs:element minOccurs="0" ref="Resources"/>
-			</xs:sequence>
-			<xs:attribute name="SpecialForm" use="required"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="EllidedPossessedOld">
-		<xs:complexType>
-			<xs:sequence>
-				<xs:element minOccurs="0" maxOccurs="unbounded" ref="Remarks"/>
-				<xs:element ref="Text"/>
-				<xs:element ref="Gloss"/>
-				<xs:element ref="Translation"/>
-				<xs:element minOccurs="0" ref="Resources"/>
-			</xs:sequence>
-			<xs:attribute name="SpecialForm" use="required"/>
-		</xs:complexType>
-	</xs:element>
-	<xs:element name="Remarks" type="xs:normalizedString"/>
-	<xs:element name="Translation" type="xs:string"/>
+	
+	<xs:element name="Remarks" type="xs:normalizedString"/>  
 	<xs:element name="Text" type="xs:string"/>
 	<xs:element name="Gloss" type="xs:string"/>
+	<xs:element name="Translation" type="xs:string"/>
 	
-	<xs:element name="EllidedPossessed" type="ExampleType">
-	
-	</xs:element>
+	<xs:element name="Resources" type="xs:string" />
 	
 	<xs:complexType name="ExampleType">
 		<xs:sequence>
-			<xs:element name="Remarks" type="xs:string" minOccurs="0" />	
-			<xs:element name="Text" type="xs:string" minOccurs="0" />
-			<xs:element name="Gloss" type="xs:string" minOccurs="0" />
-			<xs:element name="Translation" type="xs:string" minOccurs="0" />
-			<xs:element name="Resources" type="xs:string" minOccurs="0" 															/>
+			<xs:element ref="Remarks" minOccurs="0" />	
+			<xs:element ref="Text" minOccurs="0" />
+			<xs:element ref="Gloss" minOccurs="0" />
+			<xs:element ref="Translation" minOccurs="0" />
+			<xs:element ref="Resources" minOccurs="0" />
 			
 		</xs:sequence>
-		<xs:attribute name="SpecialForm" use="required"/>
+		<xs:attribute name="SpecialForm"/>
 	</xs:complexType>
+	
 	
 	<xs:simpleType name="ComplexityAttrType">
 		<xs:restriction base="xs:string">
