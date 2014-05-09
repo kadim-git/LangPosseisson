@@ -144,12 +144,12 @@
 	</xs:element>
 	<xs:element name="CompoundingTest">
 		<xs:complexType mixed="true">
-			<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:sequence minOccurs="0" maxOccurs="unbounded">
+				<xs:element ref="Text"/>	
 				<xs:element ref="Gloss"/>
-				<xs:element ref="Resources"/>
-				<xs:element ref="Text"/>
 				<xs:element ref="Translation"/>
-			</xs:choice>
+				<xs:element ref="Resources"/>
+			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	<xs:element name="Morphology">
