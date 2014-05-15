@@ -576,4 +576,218 @@ human, plant, animal
 			</NominalPossession>
 		</Possession>
 	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Yucatec Maya</LangID>
+			<ISO639-3>yua</ISO639-3>
+			<Location>Central America</Location>
+			<Country>Mexico</Country>
+			<Country>Belize</Country>
+			<GeneticRelation>Mayan, Yucatecan</GeneticRelation>
+			<WordOrder>VUA(G) in  transitive clauses, VS(G) in intrsansitive (A-actor, U-undergoer G-goal)</WordOrder>
+			<CaseSystem>no case marking</CaseSystem>
+			<NominalPhrase>simple attributive adjectives occur prenominally, other modifiers follow the noun. head marking (possessed noun is marked), numeral and possessive classifiers</NominalPhrase>
+	<!-- A short typological overview by by E.Verhoeven (2007) was really helpful  -->
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+	<!-- There are two paradigms of dependent pronouns Set A: prefixes and set B: suffixes Verhoeven calls set A: subject/possessor clitics and set B absolutive suffixes-->
+				<Strategy Complexity="symplex" Replaceable="?no" StrategyID="1">
+	<!-- Words like `hand' can take suffix -el to convey the meaning 'my own hands', emphasis. See example in Strategy 2 -->
+					<Semantics>
+						<Posessor>
+							<Remark>Body parts are considered as a separate class but later we see that they are part-whole</Remark>
+	human
+	<Resources>
+	Lehman1998: 74
+	</Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="Partially" BodyParts="some" PlantParts="somel" Clothes="???" Kinship="???" Others="???">
+	mouth, hand/arm, tongue
+ (obligatorily possessed, detransitivisation needed to make them unpossessed)
+	<!-- This strategy is NOT available for nouns like 'water', 'oak', 'liana', etc. See Lehman: 67 -->
+							<Resources>Lehman:74</Resources>
+						</Possessed>
+						<RelationPRPD>
+	inalienable
+	<Resources></Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="no" FreeBound="free" SharedwithNominal="yes">
+							<Remark>Same pronominal clitics are used in verbal morphology for subjects</Remark>
+							<pron number="sg" person="1">in</pron>
+							<pron number="sg" person="2">a</pron>
+							<pron number="sg" person="3">u</pron>
+							<pron number="pl" person="1">k</pron>
+							<pron number="pl" person="2">a... -e'x</pron>
+							<pron number="pl" person="3">u... -o'b</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>in chi'</Text>
+							<Gloss>my mouth</Gloss>
+							<Translation>My mouth</Translation>
+							<Resources>Lehman: 75</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>in bak'</Text>
+							<Gloss>poss.1sg flesh</Gloss>
+							<Translation>my flesh (which I possess)</Translation>
+							<Resources>Lehman: 75</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text>mi'n k'aat a ti'a'l-i'</Text>
+							<Gloss>neg:poss.1.sg wish poss.2 property-NEGF</Gloss>
+							<Translation>I don't want yours</Translation>
+							<Resources>Lehman: 46 E37</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="complex" Replaceable="?yes" StrategyID="2">
+	<!-- According to Lehman -el is in complementary distribution with classifiers -->
+					<Semantics>
+						<Posessor></Posessor>
+						<Possessed ObligatoryPossessed="no">some body parts, like 'flesh' or 'bone' </Possessed>
+	<!-- 'bone' is the same word as 'horn', but 'bone' needs -el suffix -->
+						<RelationPRPD>alienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="no" FreeBound="Free" SharedwithNominal="yes">
+							<pron number="sg" person="1">in</pron>
+							<pron number="sg" person="2">a</pron>
+							<pron number="sg" person="3">u</pron>
+							<pron number="pl" person="1">k</pron>
+							<pron number="pl" person="2">a... -e'x</pron>
+							<pron number="pl" person="3">u... -o'b</pron>
+						</Pronoun>
+						<Morpheme SharedWithNominal="?yes" pronoun="no" FreeBound="bound">
+							<morph>
+	-el
+	</morph>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>in bak'-el</Text>
+							<Gloss>poss.1sg flesh-rel</Gloss>
+							<Translation>my flesh (of my body)</Translation>
+						</Adnominal>
+						<Adnominal>
+							<Text>u ha'-il k'a'naab</Text>
+							<Gloss>poss.3 water-rel sea</Gloss>
+							<Translation>water of the sea</Translation>
+							<Resources>Lehamn: 67 E70</Resources>
+						</Adnominal>
+						<Adnominal>
+	<!-- I am not sure if this is really adnominal, but it is a very interesting example how -el can meen 'own' and attach to inalienable nouns-->
+							<Text>(le beh-o') t-in xiimbal-t-ah t-in w-iik-il</Text>
+							<Gloss>deff road-d2 past-sbj.1.sg walk-trr-cmpl loc-poss.1sg 0-foot-rel</Gloss>
+							<Translation>(that road) I went it on my own feet</Translation>
+							<Resources>Lehman: 38 E22</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Remarks>instead of elided possessed Yucatec uses the noun 'property', clitic attaches to it directly, see refStrategyID="1"</Remarks>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>Lehman: 46</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="complex" Replaceable="?yes" StrategyID="3">
+	<!-- I will put all classifiers into one strategy. FOr Replaceable: compare examples with -el and classifiers -->
+					<Semantics>
+						<Posessor>
+	?animate, ?human, in Lehman's terms "high empathy"
+	<Resources>Lehamn: 67</Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="no">words like 'water', 'oak' which don't comine with possessive clitics directly, but also many neutral nouns.  Detched body parts (if, for example, treated as food), but NOT inalienable body parts
+	<!-- Not acceptable with kinship terms -->
+							<Resources>Lehman: 67</Resources>
+						</Possessed>
+						<RelationPRPD>
+	Realtion is specified by the classifier
+	<Resources>Lehman: 67</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="no" FreeBound="free" SharedwithNominal="yes">
+							<pron number="sg" person="1">in</pron>
+							<pron number="sg" person="2">a</pron>
+							<pron number="sg" person="3">u</pron>
+							<pron number="pl" person="1">k</pron>
+							<pron number="pl" person="2">a... -e'x</pron>
+							<pron number="pl" person="3">u... -o'b</pron>
+						</Pronoun>
+						<Morpheme FreeBound="free">
+							<morph>paay 'cl.haul'; ch'a' 'cl.fetch' w-o'ch cl.food kool 'cl.pull'</morph>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>in paay/ch'a'/w-o'ch ha</Text>
+							<Gloss>poss.1sg cl.haul/cl.fetch/0-cl.food water</Gloss>
+							<Translation>'My water'</Translation>
+							<Resources>Lehman: 67 E69</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Remarks>instead of elided possessed Yucatec uses the noun 'property', clitic attaches to it directly, see refStrategyID="1"</Remarks>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>Lehman: 46</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+			</PronominalPossession>
+			<NominalPossession>
+				<Strategy>
+					<PronStrategy refStrategyID="1" />
+					<PronStrategy refStrategyID="2" />
+					<PronStrategy refStrategyID="3" />
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>k-u y-u'b-ik u k'aay hun-tuul x-ch'uppaal</Text>
+							<Gloss>impf-sbj.3 0-hear-incmpl poss.3 song one-cl.animate F-girl</Gloss>
+							<Translation>He hears the singing of a girl</Translation>
+							<Resources>Lehman:38 E21</Resources>
+	<!-- Observe that here "u k'aay" her song marks the possession -->
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+			</NominalPossession>
+		</Possession>
+	</Language>
 </LanguageData>

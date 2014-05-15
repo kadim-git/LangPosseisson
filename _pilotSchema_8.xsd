@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
 	<xs:element name="LanguageData">
 		<xs:complexType>
@@ -243,6 +243,18 @@
 			<xs:enumeration value="??" />
 		</xs:restriction>
 	</xs:simpleType>
+	
+	
+   <xs:simpleType name="ObligatoryPossessed">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="yes" />
+			<xs:enumeration value="Partially" />
+			<xs:enumeration value="no" />
+			<xs:enumeration value="?no" />
+			<xs:enumeration value="??" />
+		</xs:restriction>
+	</xs:simpleType>
+
 </xs:schema>
 
 
