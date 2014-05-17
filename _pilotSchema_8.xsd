@@ -191,6 +191,7 @@
 	</xs:element>
 	<xs:element name="pron">
 		<xs:complexType mixed="true">
+		  <xs:attribute name="proximity" type="xs:string"/>
 			<xs:attribute name="gender" type="xs:string"/>
 			<xs:attribute name="number" use="required" type="xs:string"/>
 			<xs:attribute name="person" use="required" type="xs:string"/>

@@ -790,4 +790,114 @@ human, plant, animal
 			</NominalPossession>
 		</Possession>
 	</Language>
+	<Language>
+	<GeneralInfo>
+	<LangID>Shughni</LangID>
+	<ISO639-3></ISO639-3>
+	<Location>Central Asia</Location>
+	<Country>Tajikistan</Country>
+	<Country>Afghanistan</Country>
+	<GeneticRelation>Indo-European, East-Iranian</GeneticRelation>
+	<WordOrder>SOV</WordOrder>
+	<CaseSystem> Pronouns show Absolutive - Oblique</CaseSystem>
+	<NominalPhrase>???</NominalPhrase>
+	</GeneralInfo>
+	<Possession>
+	<!--I did not include Pronoun-and as a second Straegy, because it is not clear from the examples if this combination is acutually used in adnominal possession. Note however that it is used in Ellipsis 
+	Consider examples in EdelmanDodykhudoeva:812 ar chiz wi-nd ca vud fuk-a0-i binest everything HIM-POSS what was all he lost 
+	Observe doubling (and context shift) in  EdelmanDodykhudoeva:816 ya nala mund-mu kor lap 'she says me-POSS me  work much-->
+	<PronominalPossession>
+	<Strategy Complexity="symplex" Replaceable="?no" StrategyID="1">
+	<Semantics>
+	<Posessor>no information about inanimate possessors</Posessor>
+	<Possessed ObligatoryPossessed="no">As in other Iraninan langugeas, a possessive pronoun is used to make reference to body parts, kinsjip terms, etc. "I hurt my hand"
+	<Resources>Edelman1987 : 299</Resources>
+	</Possessed>
+	<RelationPRPD>Edelman suggests that possessive pronoun is a covert realization of inalienability. She observes that in prepositional phrases the preposition can intervean between the inalienable possessed and the possesive pronoun
+	<Resources>Edelman1987:299</Resources>
+	<Resources>EdelmanDodykhudoeva:792</Resources>
+	</RelationPRPD>
+	</Semantics>
+	<Morphology>
+	<Pronoun Dedication="not dedicated" FreeBound="free" SharedwithNominal="no">
+	<!-- There are no special possessive forms of the pronouns. Oblique forms are used in possessive constructions -->
+	<pron number="sg" person="1" >mu</pron>
+	<pron number="sg" person="1" >maS</pron>
+	<pron number="pl" person="2" >tu</pron>
+	<pron number="pl" person="2" >tama</pron>		
+	<!-- The 3rd proximity is the one which is not visible --><pron number="pl" person="2" >tama</pron>		
+	<pron number="sg" person="3" gender="m" proximity="3">wi</pron>
+	<pron number="sg" person="3" gender="f" proximity="3">wm</pron>
+	<pron number="pl" person="3" proximity="3">wev</pron>
+	<pron number="sg" person="3" gender="m" proximity="2">di</pron>
+	<pron number="sg" person="3" gender="f" proximity="2">dam</pron>
+	<pron number="pl" person="3" proximity="2">dev</pron>
+	<pron number="sg" person="3" gender="m" proximity="1">mi</pron>
+	<pron number="sg" person="3" gender="f" proximity="1">mam</pron>
+	<pron number="pl" person="3" proximity="1">mev</pron>
+	<Asymmetry>
+	3rd person pronouns are demonstratives. There is destinction for gender
+.  Oblique form is different rom the absolute in demonstratives and in 1st person singular. There is no difference in 1st person plural or in the 2nd person
+	</Asymmetry>
+	</Pronoun>
+	</Morphology>
+	<SyntEnvironment>
+	<Adnominal>
+	<Text></Text>
+	</Adnominal>
+	<Predicative SpecialForm="yes" >
+	<Remarks>The suffix -and is used in nominal possession</Remarks>
+	<Text>yu mu-nd</Text>
+	<Gloss>dem 1sg-poss</Gloss>
+	<Translation>This is mine</Translation>
+	<Resources>EdelmanDodykhudoeva:797 (3)</Resources>
+	</Predicative>
+	<EllidedPossessed>
+	<Text></Text>
+	<Gloss></Gloss>
+	<Translation></Translation>
+	<Resources>not_found</Resources>
+	</EllidedPossessed>
+	</SyntEnvironment>
+	</Strategy>
+	</PronominalPossession>
+	<NominalPossession>
+	<Strategy Complexity="symplex" Replaceable="no">
+	<!-- EdelmanDodykhudoeva:796 -797 (2) (3) claim that -and also marks location and direction wev-andi 'from them'  -->
+	<Semantics>
+	<Posessor>
+	<Remark>EdelmanDodykhudoeva:796 -797 (2) (3) claim that -and also marks location and direction wev-andi 'from them'</Remark>
+	???</Posessor>
+	<Possessed ObligatoryPossessed="no">???</Possessed>
+	<RelationPRPD>???</RelationPRPD>
+	</Semantics>
+	<Morphology>
+	<Morpheme FreeBound="bound">
+	<morph>-and</morph>
+	</Morpheme>
+	</Morphology>
+	<SyntEnvironment>
+	<Adnominal>
+	<Text></Text>
+	<Gloss></Gloss>
+	<Translation></Translation>
+	<Resources>not_found</Resources>
+	</Adnominal>
+	<Predicative>
+	<Text></Text>
+	<Gloss></Gloss>
+	<Translation></Translation>
+	<Resources>not_found</Resources>
+	</Predicative>
+	<EllidedPossessed>
+		<Text></Text>
+	<Gloss></Gloss>
+	<Translation></Translation>
+	<Resources>not_found</Resources>
+	</EllidedPossessed>
+	</SyntEnvironment>
+	</Strategy>
+	</NominalPossession>
+	</Possession>
+	</Language>
 </LanguageData>
