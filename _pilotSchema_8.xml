@@ -37,7 +37,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" FreeBound="Bound">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" Placement="Possessed">
 							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
 					</Remark>
 							<pron person="1" number="singular">ni-</pron>
@@ -89,7 +89,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" FreeBound="Bound">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" Placement="Possessed">
 							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
 					</Remark>
 							<pron person="1" number="singular">ni-</pron>
@@ -139,7 +139,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" FreeBound="Bound">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" Placement="Possessed">
 							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
 					</Remark>
 							<pron person="1" number="singular">ni-</pron>
@@ -150,7 +150,7 @@ human, plant, animal
 							<pron person="3" number="singular" gender="fem">ri-</pron>
 							<pron person="3" number="plural">no-</pron>
 						</Pronoun>
-						<Morpheme SharedWithNominal="yes" pronoun="no" FreeBound="Bound">
+						<Morpheme SharedWithNominal="yes" pronoun="no" Placement="Possessed">
 							<Remark>This morpheme is a "nominlaizer", it has many usages in the language, see 5.2.4,  9.4, 10.2
 					</Remark>
 							<morph> 
@@ -196,7 +196,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" FreeBound="Bound">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" Placement="Possessed">
 							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
 					</Remark>
 							<pron person="1" number="singular">ni-</pron>
@@ -207,7 +207,7 @@ human, plant, animal
 							<pron person="3" number="singular" gender="fem">ri-</pron>
 							<pron person="3" number="plural">no-</pron>
 						</Pronoun>
-						<Morpheme SharedWithNominal="?yes" pronoun="no" FreeBound="free">
+						<Morpheme SharedWithNominal="?yes" pronoun="no" Placement="free">
 							<morph> 
 					-per 'domestic animal'
 					</morph>
@@ -250,7 +250,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="?yes" FreeBound="Free">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="?yes" Placement="Free">
 							<Remark>this pronoun can also appear in something like applicative. Danielsen2007:320. Maybe external possesion?
 					</Remark>
 							<pron person="1" number="singular">ntir</pron>
@@ -389,7 +389,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="no" FreeBound="Free">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="no" Placement="Free">
 							<Remark>The same form of the pronoun appears in focus constructions
 . Asymmetry: 1st and 2nd Person do not take ɸé, the strategy is marked by the high tone
 					</Remark>
@@ -400,7 +400,7 @@ human, plant, animal
 							<pron person="2" number="plural">mia</pron>
 							<pron person="3" number="plural">wé</pron>
 						</Pronoun>
-						<Morpheme SharedWithNominal="yes" pronoun="no" FreeBound="Free">
+						<Morpheme SharedWithNominal="yes" pronoun="no" Placement="Free">
 							<morph> 
 					ɸé
 					</morph>
@@ -449,7 +449,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="no" FreeBound="Free">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="no" Placement="Free">
 							<pron person="1" number="singular">nyĕ</pron>
 							<pron person="2" number="singular">wŏ</pron>
 							<pron person="3" number="singular">é</pron>
@@ -497,7 +497,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Morpheme Pronoun="no" UsedinPronominal="yes" FreeBound="Free">
+						<Morpheme Pronoun="no" UsedinPronominal="yes" Placement="Free">
 							<Remark>ethymoloically related to "place" - Ameka, p.c. Some dialcts (inland diaects) use wɔ́ instead of</Remark>
 							<morph>
 						ɸé
@@ -614,7 +614,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" FreeBound="free" SharedwithNominal="yes">
+						<Pronoun Dedication="no" Placement="free" SharedwithNominal="yes">
 							<Remark>Same pronominal clitics are used in verbal morphology for subjects</Remark>
 							<pron number="sg" person="1">in</pron>
 							<pron number="sg" person="2">a</pron>
@@ -660,7 +660,7 @@ human, plant, animal
 						<RelationPRPD>alienable</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" FreeBound="Free" SharedwithNominal="yes">
+						<Pronoun Dedication="no" Placement="Free" SharedwithNominal="yes">
 							<pron number="sg" person="1">in</pron>
 							<pron number="sg" person="2">a</pron>
 							<pron number="sg" person="3">u</pron>
@@ -668,7 +668,7 @@ human, plant, animal
 							<pron number="pl" person="2">a... -e'x</pron>
 							<pron number="pl" person="3">u... -o'b</pron>
 						</Pronoun>
-						<Morpheme SharedWithNominal="?yes" pronoun="no" FreeBound="bound">
+						<Morpheme SharedWithNominal="?yes" pronoun="no" Placement="Possessed">
 							<morph>
 	-el
 	</morph>
@@ -725,7 +725,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" FreeBound="free" SharedwithNominal="yes">
+						<Pronoun Dedication="no" Placement="free" SharedwithNominal="yes">
 							<pron number="sg" person="1">in</pron>
 							<pron number="sg" person="2">a</pron>
 							<pron number="sg" person="3">u</pron>
@@ -733,7 +733,7 @@ human, plant, animal
 							<pron number="pl" person="2">a... -e'x</pron>
 							<pron number="pl" person="3">u... -o'b</pron>
 						</Pronoun>
-						<Morpheme FreeBound="free">
+						<Morpheme Placement="free">
 							<morph>paay 'cl.haul'; ch'a' 'cl.fetch' w-o'ch cl.food kool 'cl.pull'</morph>
 						</Morpheme>
 					</Morphology>
@@ -791,113 +791,505 @@ human, plant, animal
 		</Possession>
 	</Language>
 	<Language>
-	<GeneralInfo>
-	<LangID>Shughni</LangID>
-	<ISO639-3></ISO639-3>
-	<Location>Central Asia</Location>
-	<Country>Tajikistan</Country>
-	<Country>Afghanistan</Country>
-	<GeneticRelation>Indo-European, East-Iranian</GeneticRelation>
-	<WordOrder>SOV</WordOrder>
-	<CaseSystem> Pronouns show Absolutive - Oblique</CaseSystem>
-	<NominalPhrase>???</NominalPhrase>
-	</GeneralInfo>
-	<Possession>
+		<GeneralInfo>
+			<LangID>Shughni</LangID>
+			<ISO639-3></ISO639-3>
+			<Location>Central Asia</Location>
+			<Country>Tajikistan</Country>
+			<Country>Afghanistan</Country>
+			<GeneticRelation>Indo-European, East-Iranian</GeneticRelation>
+			<WordOrder>SOV</WordOrder>
+			<CaseSystem> Pronouns show Absolutive - Oblique</CaseSystem>
+			<NominalPhrase>???</NominalPhrase>
+		</GeneralInfo>
+		<Possession>
 	<!--I did not include Pronoun-and as a second Straegy, because it is not clear from the examples if this combination is acutually used in adnominal possession. Note however that it is used in Ellipsis 
 	Consider examples in EdelmanDodykhudoeva:812 ar chiz wi-nd ca vud fuk-a0-i binest everything HIM-POSS what was all he lost 
 	Observe doubling (and context shift) in  EdelmanDodykhudoeva:816 ya nala mund-mu kor lap 'she says me-POSS me  work much-->
-	<PronominalPossession>
-	<Strategy Complexity="symplex" Replaceable="?no" StrategyID="1">
-	<Semantics>
-	<Posessor>no information about inanimate possessors</Posessor>
-	<Possessed ObligatoryPossessed="no">As in other Iraninan langugeas, a possessive pronoun is used to make reference to body parts, kinsjip terms, etc. "I hurt my hand"
+			<PronominalPossession>
+				<Strategy Complexity="symplex" Replaceable="?no" StrategyID="1">
+					<Semantics>
+						<Posessor>no information about inanimate possessors</Posessor>
+						<Possessed ObligatoryPossessed="no">As in other Iraninan langugeas, a possessive pronoun is used to make reference to body parts, kinsjip terms, etc. "I hurt my hand"
 	<Resources>Edelman1987 : 299</Resources>
-	</Possessed>
-	<RelationPRPD>Edelman suggests that possessive pronoun is a covert realization of inalienability. She observes that in prepositional phrases the preposition can intervean between the inalienable possessed and the possesive pronoun
+						</Possessed>
+						<RelationPRPD>Edelman suggests that possessive pronoun is a covert realization of inalienability. She observes that in prepositional phrases the preposition can intervean between the inalienable possessed and the possesive pronoun
 	<Resources>Edelman1987:299</Resources>
-	<Resources>EdelmanDodykhudoeva:792</Resources>
-	</RelationPRPD>
-	</Semantics>
-	<Morphology>
-	<Pronoun Dedication="not dedicated" FreeBound="free" SharedwithNominal="no">
+							<Resources>EdelmanDodykhudoeva:792</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="not dedicated" Placement="free" SharedwithNominal="no">
 	<!-- There are no special possessive forms of the pronouns. Oblique forms are used in possessive constructions -->
-	<pron number="sg" person="1" >mu</pron>
-	<pron number="sg" person="1" >maS</pron>
-	<pron number="pl" person="2" >tu</pron>
-	<pron number="pl" person="2" >tama</pron>		
-	<!-- The 3rd proximity is the one which is not visible --><pron number="pl" person="2" >tama</pron>		
-	<pron number="sg" person="3" gender="m" proximity="3">wi</pron>
-	<pron number="sg" person="3" gender="f" proximity="3">wm</pron>
-	<pron number="pl" person="3" proximity="3">wev</pron>
-	<pron number="sg" person="3" gender="m" proximity="2">di</pron>
-	<pron number="sg" person="3" gender="f" proximity="2">dam</pron>
-	<pron number="pl" person="3" proximity="2">dev</pron>
-	<pron number="sg" person="3" gender="m" proximity="1">mi</pron>
-	<pron number="sg" person="3" gender="f" proximity="1">mam</pron>
-	<pron number="pl" person="3" proximity="1">mev</pron>
-	<Asymmetry>
+							<pron number="sg" person="1">mu</pron>
+							<pron number="sg" person="1">maS</pron>
+							<pron number="pl" person="2">tu</pron>
+							<pron number="pl" person="2">tama</pron>		
+	<!-- The 3rd proximity is the one which is not visible -->
+							<pron number="pl" person="2">tama</pron>
+							<pron number="sg" person="3" gender="m" proximity="3">wi</pron>
+							<pron number="sg" person="3" gender="f" proximity="3">wm</pron>
+							<pron number="pl" person="3" proximity="3">wev</pron>
+							<pron number="sg" person="3" gender="m" proximity="2">di</pron>
+							<pron number="sg" person="3" gender="f" proximity="2">dam</pron>
+							<pron number="pl" person="3" proximity="2">dev</pron>
+							<pron number="sg" person="3" gender="m" proximity="1">mi</pron>
+							<pron number="sg" person="3" gender="f" proximity="1">mam</pron>
+							<pron number="pl" person="3" proximity="1">mev</pron>
+							<Asymmetry>
 	3rd person pronouns are demonstratives. There is destinction for gender
 .  Oblique form is different rom the absolute in demonstratives and in 1st person singular. There is no difference in 1st person plural or in the 2nd person
 	</Asymmetry>
-	</Pronoun>
-	</Morphology>
-	<SyntEnvironment>
-	<Adnominal>
-	<Text></Text>
-	</Adnominal>
-	<Predicative SpecialForm="yes" >
-	<Remarks>The suffix -and is used in nominal possession</Remarks>
-	<Text>yu mu-nd</Text>
-	<Gloss>dem 1sg-poss</Gloss>
-	<Translation>This is mine</Translation>
-	<Resources>EdelmanDodykhudoeva:797 (3)</Resources>
-	</Predicative>
-	<EllidedPossessed>
-	<Text></Text>
-	<Gloss></Gloss>
-	<Translation></Translation>
-	<Resources>not_found</Resources>
-	</EllidedPossessed>
-	</SyntEnvironment>
-	</Strategy>
-	</PronominalPossession>
-	<NominalPossession>
-	<Strategy Complexity="symplex" Replaceable="no">
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text></Text>
+						</Adnominal>
+						<Predicative SpecialForm="yes">
+							<Remarks>The suffix -and is used in nominal possession</Remarks>
+							<Text>yu mu-nd</Text>
+							<Gloss>dem 1sg-poss</Gloss>
+							<Translation>This is mine</Translation>
+							<Resources>EdelmanDodykhudoeva:797 (3)</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+			</PronominalPossession>
+			<NominalPossession>
+				<Strategy Complexity="symplex" Replaceable="no">
 	<!-- EdelmanDodykhudoeva:796 -797 (2) (3) claim that -and also marks location and direction wev-andi 'from them'  -->
-	<Semantics>
-	<Posessor>
-	<Remark>EdelmanDodykhudoeva:796 -797 (2) (3) claim that -and also marks location and direction wev-andi 'from them'</Remark>
+					<Semantics>
+						<Posessor>
+							<Remark>EdelmanDodykhudoeva:796 -797 (2) (3) claim that -and also marks location and direction wev-andi 'from them'</Remark>
 	???</Posessor>
-	<Possessed ObligatoryPossessed="no">???</Possessed>
-	<RelationPRPD>???</RelationPRPD>
-	</Semantics>
-	<Morphology>
-	<Morpheme FreeBound="bound">
-	<morph>-and</morph>
-	</Morpheme>
-	</Morphology>
-	<SyntEnvironment>
-	<Adnominal>
-	<Text></Text>
-	<Gloss></Gloss>
-	<Translation></Translation>
-	<Resources>not_found</Resources>
-	</Adnominal>
-	<Predicative>
-	<Text></Text>
-	<Gloss></Gloss>
-	<Translation></Translation>
-	<Resources>not_found</Resources>
-	</Predicative>
-	<EllidedPossessed>
-		<Text></Text>
-	<Gloss></Gloss>
-	<Translation></Translation>
-	<Resources>not_found</Resources>
-	</EllidedPossessed>
-	</SyntEnvironment>
-	</Strategy>
-	</NominalPossession>
-	</Possession>
+						<Possessed ObligatoryPossessed="no">???</Possessed>
+						<RelationPRPD>???</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Morpheme Placement="Possessor">
+							<morph>-and</morph>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+			</NominalPossession>
+		</Possession>
 	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Daakaka</LangID>
+			<ISO639-3>bpa</ISO639-3>
+			<Location>Oceania</Location>
+			<Country>Vanuatu</Country>
+			<GeneticRelation>Austronesian, Malayo-Polynesian, Central-Eastern Malayo-Polynesian, Eastern Malayo-Polynesian, Oceanic, Central-Eastern Oceanic, Remote Oceanic, North and Central Vanuatu, Northeast Vanuatu-Banks Islands, East Vanuatu</GeneticRelation>
+			<WordOrder>
+	<!-- The only obligatory elements in most sentences are a subject, a TAM marker and a predicate: Subject TAM Verb Object. Sentences can be expanded by topics, which stand before the subject constituent -->
+	SVO, The only obligatory elements in most sentences are a subject, a TAM marker and a predicate
+	<!--the default word order with transitive verbs is SVO; except for the distinction between subject pronouns and non-subject pronouns, word order is the only way to mark argument structure.--></WordOrder>
+			<CaseSystem>no cases, word order</CaseSystem>
+			<NominalPhrase>
+	<!-- the clitic (a)ne is used to increase valency in intransitive and semitransitive verbs as well as in nouns and adverbs -->
+	Three noun classes in Daakaka: inflected nouns, uninflected transitive nouns and intransitive nouns
+	<!-- Inflected nouns receive one of fifteen person-number endings to specify who they belong to as in kus-uk (nose-1s.poss) ‘my nose’. They mostly refer to concepts which are relational with respect to a person or an animal, such as body parts and kinship relations.--></NominalPhrase>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+	<!--the possessive pronouns form one paradigm with the possessive linkers and the nominal transitivizer, and the resulting phrases share many crucial semantic and morpho-syntactic properties -->
+				<Strategy Complexity="symplex" Replaceable="?yes" StrategyID="1">
+		<!-- It seems to be in variation with strategy 2 -->
+					<Semantics>
+						<Posessor>non-human third person possessors</Posessor>
+						<Possessed ObligatoryPossessed="no">
+							<Remark>morphologically intransitive noun</Remark>
+				???Are there restrictions on semanrtics of the possessed?
+				</Possessed>
+						<RelationPRPD>inalienable
+				<Resources>vonPrince2012:131</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="???" Placement="Possessed" SharedwithNominal="no">
+							<pron number="sg/pl" person="3">-an</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>bosi=an</Text>
+							<Gloss>bone=trans.3poss</Gloss>
+							<Translation>its bone</Translation>
+							<Resources>vonPrince2012:131</Resources>
+						</Adnominal>
+						<Predicative>
+							<Remarks>the way it is formulated: the major difference between linkers and transitivised constructions is that only linkers can appear in predicative possesion</Remarks>
+							<Text>not_possible</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>vonPrince2102:130</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="complex" Replaceable="?yes" StrategyID="2">
+				<!-- It seems to be in variation with strategy 1, but only for inanimate 3rd person possessors -->
+					<Semantics>
+						<Posessor>human/non human, any person... no restriction described <!-- human possessors and possessors with other person and number
+properties than third person singular --></Posessor>
+						<Possessed ObligatoryPossessed="no">
+							<Remark>morphologically intransitive noun</Remark>
+				???Are there restrictions on semanrtics of the possessed?
+				</Possessed>
+						<RelationPRPD>inalienable
+				<Resources>vonPrince2012:131</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="no" Placement="free" SharedwithNominal="no">
+				<!-- this is not a possessive pronoun! This is a personal pronoun -->
+							<pron number="" person=""></pron>
+						</Pronoun>
+						<Morpheme Placement="Possessed" SharedWithNominal="yes">
+							<Remark>transitiviser, makes a transitive noun out of intransitive </Remark>
+							<morph>
+				(a)ne
+				</morph>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>bosi=ne nge</Text>
+							<Gloss>bone=trans 3s</Gloss>
+							<Translation>his/her bone</Translation>
+							<Resources>vonPrince2012:131</Resources>
+						</Adnominal>
+						<Predicative>
+							<Remarks>the way it is formulated: the major difference between linkers and transitivised constructions is that only linkers can appear in predicative possesion</Remarks>
+							<Text>not_possible</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>vonPrince2102:130</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="complex" Replaceable="no" StrategyID="3">
+					<Semantics>
+						<Posessor>linker genitives are restricted to animate possessors</Posessor>
+						<Possessed ObligatoryPossessed="no"> nouns that refer to parts of a body, such as internal organs if they are possessed alienably
+	<Resources>vonPrince2012: 129
+	Pre-nominal possessive pronouns can be used with all nouns, including transitive and inflected <!-- I hope I understood it correctly -->
+nouns.
+	</Resources>
+						</Possessed>
+						<RelationPRPD>alienable possession
+	<Resources>vonPrince2012: 129</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+	<!-- "possessive pronoun is inflected for person and number and prefixed by a classifier" A pronoun with a classifier form a linker... or is it a classifier inflected for person? -->
+						<Pronoun Dedication="?yes" Placement="free" SharedwithNominal="no">
+							<Remark>I don't know if the pronoun or the classifier is the bound moroheme. Probably classifier is bound, because it is also the prefix on linkers</Remark>
+							<pron number="sg" person="3">-an</pron>
+							<pron number="" person=""></pron>
+						</Pronoun>
+						<Morpheme Placement="possessor" SharedWithNominal="yes">
+						<!-- Even though the choice of the classifier is not completely predictable from the meaning of the
+possessed noun, both the m- class and the ∅- class are closely associated with several specific
+semantic domains. For the m- class, the most important two such domains are dwellings (of
+humans or animals) and liquids. Examples are em ‘house’, beleem ‘door’, and bwee ‘vessel,
+shell’ for dwellings; and wye ‘fresh water’ and tes ‘seawater’ for liquids. It also includes sisis
+‘teats’ and vyos ‘young (drinkable) coconut’.
+The zero prefix ∅- goes with all animals, food items and edible plants, and some tools.
+The third classifier, s- goes with everything that does not fit into the other two classes, including
+kinship terms and abstract nouns.-->
+							<Remark>
+							Pre-nominal possessive pronouns and the two linkers are always prefixed by one of three nominal
+classifiers.   They differ from typical possessive classifiers in Oceanic languages in that they are not relational classifiers, but
+rather agree with the lexical gender of the head noun: In contrast to other Oceanic languages
+[compare e.g. Lichtenberk, 1983, 2009b], the choice of classifier is independent of the possessor’s
+intentions with regard to the possessum.</Remark>
+							<morph>s-, m-  ∅-</morph>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>∅-an bosi </Text>
+							<Gloss>cl2-3s.poss bone</Gloss>
+							<Translation>his/her bone (the bone is not a physical part of its possessor)</Translation>
+							<Resources>vonPrince2012: 129</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>∅-ok ebya-on</Text>
+							<Gloss>cl2-1s.poss wing-3s</Gloss>
+							<Translation> my wing (of the bird)</Translation>
+							<Resources>vonPrince2012: 131</Resources>
+						</Adnominal>
+						<Predicative>
+							<Remarks>linkers and pre-nominal possessive
+pronouns can also be used as predicates without the presence of a possessed noun</Remarks>
+							<Text>Mw=i s-ok.</Text>
+							<Gloss>real=cop cl3-1s.poss</Gloss>
+							<Translation>It is mine</Translation>
+							<Resources>vonPrince2012: 130 (16)</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Remarks>probably the same as predicative</Remarks>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="symplex" Replaceable="no" StrategyID="4">
+					<Semantics>
+						<Posessor>human</Posessor>
+						<Possessed ObligatoryPossessed="yes">
+				<!-- Lexically transitive -->
+				?are there semantic restrictions?</Possessed>
+						<RelationPRPD>inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="no" Placement="free" SharedwithNominal="no">
+				<!--  personal pronoun -->
+							<pron number="sg" person="3">nge</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>bwee nge</Text>
+							<Gloss>shell.of 3s.poss </Gloss>
+							<Translation>his/her shell</Translation>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="symplex" Replaceable="?yes" StrategyID="5">
+					<Semantics>
+						<Posessor>non-human</Posessor>
+						<Possessed ObligatoryPossessed="yes">
+				<!-- Lexically transitive -->
+				?are there semantic restrictions?</Possessed>
+						<RelationPRPD>inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="yes" Placement="Possessed" SharedwithNominal="no">
+							<pron number="sg/pl" person="3">-sye /-tye</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>bwee-tye</Text>
+							<Gloss>shell.of-3poss(nhum)</Gloss>
+							<Translation>its shell</Translation>
+							<Resources>vonPrince2012: 132</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+			</PronominalPossession>
+			<NominalPossession>
+	<!-- Alienable possession is expressed by a linker, prefixed by a classifier, as in atuwo s-e Baeluk
+(basket cl3-poss(sp) name) ‘Baeluk’s basket’; if the possessor is expressed by a pronoun, this
+possessive pronoun is inflected for person and number and prefixed by a classifier, and it
+precedes the possessed noun as in s-an atuwo (cl3-3s.poss basket) ‘his basket’. -->
+				<Strategy BasedOnPronominal="no" Complexity="complex" Replaceable="no">
+					<Semantics>
+						<Posessor>restricted to animate possessors</Posessor>
+						<Possessed ObligatoryPossessed="no">
+						nouns that refer to parts of a body, such as internal organs if they are possessed alienably
+	 					<Resources>vonPrince2012: 129</Resources>
+						</Possessed>
+						<RelationPRPD>alienable possession
+						<Resources>vonPrince2012: 129</Resources>
+						</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Morpheme Placement="free">
+	<!-- I follow von Prince's analysis, the linker is free, the classifier is the prefix on the linker -->
+							<morph>-e</morph>
+						</Morpheme>
+						<Morpheme Placement="linker" UsedinPronominal="yes">
+	<!-- It is exactly the same morpheme as in pronominal possession, but it is a prefix on the linker here, not on the pronoun/possessor -->
+							<Remark>Pre-nominal possessive pronouns and the two linkers are always prefixed by one of three nominal
+classifiers. The three classifiers are s-, m- and the zero morpheme ∅-. They differ from
+typical possessive classifiers in Oceanic languages in that they are not relational classifiers, but
+rather agree with the lexical gender of the head noun: In contrast to other Oceanic languages
+[compare e.g. Lichtenberk, 1983, 2009b], the choice of classifier is independent of the possessor’s
+intentions with regard to the possessum. In some cases, the choice of classifier depends
+on whether a noun fits into a certain semantic domain. For example, when talking about the
+possession of animals, everyone will use inevitably the same classifier (∅-), independent of
+whether they intend to eat, breed, sell or play with the animal.</Remark>
+							<morph>s-, m-  ∅-</morph>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>bosi ∅-e Baeluk</Text>
+							<Gloss>bone cl2-poss Baeluk</Gloss>
+							<Translation>Baeluk's bone (a bone from an animal which is in the possession of Baeluk)</Translation>
+							<Resources>vonPrince2012: 129</Resources>
+						</Adnominal>
+						<Predicative>
+							<Remarks>linkers and pre-nominal possessive pronouns can also be used as predicates without the presence of a possessed noun</Remarks>
+							<Text> barar en=te mw=i ∅-e Baeluk</Text>
+							<Gloss> pig def=med real=cop cl2-poss Baeluk</Gloss>
+							<Translation> this pig is Baeluk’s </Translation>
+						</Predicative>
+						<EllidedPossessed>
+							<Remarks>probably same as predicative, with a linker</Remarks>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy BasedOnPronominal="no" Complexity="symplex" Replaceable="no">
+					<Semantics>
+						<Posessor>?no specification</Posessor>
+						<Possessed ObligatoryPossessed="no">
+						<!-- morphologiaclly intransitive -->
+						semantically not specified
+						</Possessed>
+						<RelationPRPD>inalienable possession</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Morpheme Placement="possessed" UsedinPronominal="yes">
+							<Remark>Transitivising intransitive noun, so that it can enter inalienable possessession construction</Remark>
+							<morph>(a)ne</morph>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>mubuo=ane tyu </Text>
+							<Gloss> meat=trans chicken</Gloss>
+							<Translation> chicken meat </Translation>
+							<Resources>vonPrince2012: 132</Resources>
+						</Adnominal>
+						<Predicative>
+							<Remarks>the way it is formulated: the major difference between linkers and transitivised constructions is that only linkers can appear in predicative possesion</Remarks>
+							<Text>not_possible</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>vonPrince2102:130</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="symplex" Replaceable="no" BasedOnPronominal="no">
+					<Semantics>
+						<Posessor>?not specified</Posessor>
+						<Possessed ObligatoryPossessed="yes">
+				<!-- morphologically transitive -->
+				lexically transitive, realational nouns</Possessed>
+						<RelationPRPD>inalienable possession</RelationPRPD>
+					</Semantics>
+					<Juxtaposition>
+						<CompoundingTest></CompoundingTest>
+					</Juxtaposition>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>bwee tuwu</Text>
+							<Gloss> shell.of bushnut</Gloss>
+							<Translation> the shell of the bushnut</Translation>
+							<Resources>vonPrince2102:130</Resources>
+						</Adnominal>
+						<Predicative>
+							<Remarks>most probably does not exist, because only linkers participate in predicative possession</Remarks>
+							<Text>not_possible</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+			</NominalPossession>
+		</Possession>
+	</Language>
+<!--		<Language>
+	<GeneralInfo>
+	<LangID>Movima</LangID>
+	</GeneralInfo>
+	</Language> -->
+<!--	<Language>
+	<GeneralInfo>
+	<LangID>Mussau</LangID>
+	<ISO639-3>emi</ISO639-3>
+	<Location>Oceania</Location>
+	<Country>Papua New Guinea</Country>
+	<GeneticRelation>Austronesian, Malayo-Polynesian, Central-Eastern Malayo-Polynesian, Eastern Malayo-Polynesian, Oceanic</GeneticRelation>
+	<WordOrder>???</WordOrder>
+	<CaseSystem>???</CaseSystem>
+	<NominalPhrase>???</NominalPhrase>
+	</GeneralInfo>
+	</Language> -->
 </LanguageData>

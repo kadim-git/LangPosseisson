@@ -156,7 +156,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element minOccurs="0" ref="Pronoun"/>
-				<xs:element minOccurs="0" ref="Morpheme"/>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="Morpheme"/>
 <!--				<xs:element ref="SyntEnvironment"/> -->
 			</xs:sequence>
 		</xs:complexType>
@@ -164,11 +164,11 @@
 	<xs:element name="Morpheme">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="0" ref="Remark"/>	
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="Remark"/>	
 				<xs:element ref="morph"/>
 				
 			</xs:sequence>
-			<xs:attribute name="FreeBound" use="required" type="xs:string"/>
+			<xs:attribute name="Placement" use="required" type="xs:string"/>
 			<xs:attribute name="Pronoun" type="xs:string"/>
 			<xs:attribute name="SharedWithNominal"/>
 			<xs:attribute name="UsedinPronominal" type="xs:string"/>
@@ -185,7 +185,7 @@
 				<xs:element minOccurs="0" ref="Asymmetry"/>
 			</xs:sequence>
 			<xs:attribute name="Dedication" use="required"/>
-			<xs:attribute name="FreeBound" use="required" type="xs:string"/>
+			<xs:attribute name="Placement" use="required" type="xs:string"/>
 			<xs:attribute name="SharedwithNominal" use="required"/>
 		</xs:complexType>
 	</xs:element>
