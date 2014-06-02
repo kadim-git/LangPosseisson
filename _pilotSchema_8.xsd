@@ -202,7 +202,7 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="Adnominal" maxOccurs="unbounded" type="ExampleType"/>
-				<xs:element name="Predicative" type="ExampleType"/>
+				<xs:element name="Predicative" maxOccurs="unbounded" type="ExampleType"/>
 				<xs:element name="EllidedPossessed" type="ExampleType"/>
 			</xs:sequence>
 		</xs:complexType>
