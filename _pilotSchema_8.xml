@@ -1646,7 +1646,7 @@ whether they intend to eat, breed, sell or play with the animal.</Remark>
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="???" Placement="free" SharedwithNominal="yes">
+						<Pronoun Dedication="???" Placement="Possessed" SharedwithNominal="yes">
 							<Remark>The system os very complex, with dual, trial and paukal, for the full paradigm see Brownie:31</Remark>
 							<pron number="sg" person="1">-ghi/-ghu</pron>
 							<pron number="sg" person="2">-m</pron>
@@ -1879,5 +1879,95 @@ whether they intend to eat, breed, sell or play with the animal.</Remark>
 			</NominalPossession>
 		</Possession>
 	</Language> 
+	<Language>
+	<GeneralInfo>
+	<LangID>Guarani</LangID>
+	<ISO639-3></ISO639-3>
+	<Location>South America</Location>
+	<Country>Paraguay</Country>
+	<GeneticRelation>Tupi-Guarani</GeneticRelation>
+	<WordOrder>VO, subject appears before or afterthe verb</WordOrder>
+	<CaseSystem>no case marking on nouns, agreement on the verbs is active/inactive</CaseSystem>
+	<NominalPhrase>it seems that adjective precedes te noun, no marking</NominalPhrase>
+	</GeneralInfo>
+	<Possession>
+	<PronominalPossession>
+	<Strategy Complexity="symplex" Replaceable="no" StrategyID="1">
+	<Semantics>
+	<Posessor>? no information</Posessor>
+	<Possessed ObligatoryPossessed="no">no information</Possessed>
+	<RelationPRPD>any relation</RelationPRPD>
+	</Semantics>
+	<Morphology>
+	<Pronoun Dedication="?no" Placement="possessed" SharedwithNominal="no">
+	<Remark>phonologically identical to free pronouns (inavtive agreement on verbs(</Remark>
+	<pron number="sg" person="1">che-</pron>
+	<pron number="sg" person="2">nde-</pron> <!-- in her table it is ne- -->
+	<pron number="sg/pl" person="3">i-/ij-/iñ-</pron>
+	<pron number="pl" person="1incl">ñane-</pron>
+	<pron number="pl" person="1excl">ore-</pron>
+	<pron number="pl" person="2">pene-</pron>
+	<!-- one more example with no difference in number for 3rd person -->
+	</Pronoun>
+	</Morphology>
+	<SyntEnvironment>
+	<Adnominal>
+	<Text>Ai-ko-se-nte yvoty-rõ ha ai-memi nde-yvotyty-pe</Text>
+	<Gloss>1ac-live-des-just flower-as and 1ac-be you-garden-in</Gloss>
+	<Translation>How I would like to be a flower and be in your garden</Translation>
+	<Resources>Velazquez-Castillo1996:55</Resources>
+	</Adnominal>
+	<Predicative SpecialForm="yes">
+	<Remarks>page 84: relational nouns are not allowed in these constructions</Remarks>
+	<Text>pe-mbaraka che-mba'e</Text>
+	<Gloss>that-guitar 1sg-thing</Gloss>
+	<Translation>That guitar is mine (lit. my thing)</Translation>
+	<Resources>Velazquez-Castillo1996:83</Resources>
+	</Predicative>
+	<EllidedPossessed>
+	<Text></Text>
+	<Gloss></Gloss>
+	<Translation></Translation>
+	<Resources>not_found</Resources>
+	</EllidedPossessed>
+	</SyntEnvironment>
+	</Strategy>
+	</PronominalPossession>
+	<NominalPossession>
+	<Strategy>
+	<Semantics>
+	<Posessor>? no information</Posessor>
+	<Possessed ObligatoryPossessed="no">no information</Possessed>
+	<RelationPRPD>any relation</RelationPRPD>
+	</Semantics>
+	<Juxtaposition>
+	<CompoundingTest>
+	???
+	</CompoundingTest>
+	</Juxtaposition>
+	<SyntEnvironment>
+	<Adnominal>
+	<Text>Ao poti o-ñasaingo-pa yvyra rakã-re</Text>
+	<Gloss>clothes clean 3AC-hang-TOT tree branch</Gloss>
+	<Translation>A lot of clean clothes hang from the branches of the tree</Translation>
+	<Resources>Velazquez-Castillo1996:50</Resources>
+	</Adnominal>
+	<Predicative SpecialForm="yes">
+	<Text>Ko-ajaka Maria-mba'e</Text>
+	<Gloss>this-basket Maria-thing</Gloss>
+	<Translation>This basket is Maria's</Translation>
+	<Resources>Velazquez-Castillo1996:84</Resources>
+	</Predicative>
+	<EllidedPossessed>
+		<Text></Text>
+	<Gloss></Gloss>
+	<Translation></Translation>
+	<Resources>not_found</Resources>
+	</EllidedPossessed>
+	</SyntEnvironment>
+	</Strategy>
+	</NominalPossession>
+	</Possession>
+	</Language>
 	<!-- Add the Andes languages from Adelaars book -->
 </LanguageData>
