@@ -1970,5 +1970,178 @@ whether they intend to eat, breed, sell or play with the animal.</Remark>
 			</NominalPossession>
 		</Possession>
 	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Tzutujil</LangID>
+			<ISO639-3>tzj</ISO639-3>
+			<Location>South America</Location>
+			<Country>Guatemala</Country>
+			<GeneticRelation>Mayan</GeneticRelation>
+			<WordOrder>???</WordOrder>
+			<CaseSystem>???</CaseSystem>
+			<NominalPhrase>???</NominalPhrase>
+		</GeneralInfo>
+		<Possession>
+	<!-- Some nouns like 'son in law' or 'house' have a suppletive form which appears in possessive constructions -->
+			<PronominalPossession>
+				<Strategy Complexity="symplex" Replaceable="yes" StrategyID="1">
+					<Semantics>
+						<Posessor>not_found</Posessor>
+						<Possessed ObligatoryPossessed="partially">father, horse, house, wood, raw sugar, louse, money, grandmother, grandchild etc.
+<!-- Some of the nouns which are marked by this strategy are obligatorily possessed: grmndmother, grandchild. But not all. the obligatorily possessed are THE SUBSET subset of nouns in this class is obligatoritly possessed -->
+<!--some body parts, kinship terms need a special suffix to appear unpossessed --></Possessed>
+						<RelationPRPD>?inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="no" Placement="bound" SharedwithNominal="yes">
+	<!-- Ergative person markers -->
+							<pron person="1" number="singular">nuu- (n-)/ in- (Ø)</pron>
+							<pron person="2" number="singular">aa- / a-</pron>
+							<pron person="3" number="singular">ruu- (r-) uu-(Ø)</pron>
+							<pron person="1" number="plural">qaa- (qa-)</pron>
+							<pron person="2" number="plural">ee- (e-)</pron>
+							<pron person="3" number="plural">kee- (ki-)</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>K'o jun ruu-keej</Text>
+							<Gloss>Exist a his-horse</Gloss>
+							<Translation>He has a horse (His horse exists)</Translation>
+							<Resources>Dayley1985: 142 (4a)</Resources>
+						</Adnominal>
+						<Predicative SpecialForm="?">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources></Resources>
+						</Predicative>
+						<EllidedPossessed SpecialForm="?">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources></Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy Complexity="complex" Replaceable="yes" StrategyID="2">
+	<!-- The same nouns that get "Abnormal possession marking" can get "Normal" possesion marking -->
+					<Semantics>
+						<Posessor>inanimate object, animal, ?human</Posessor>
+						<Possessed ObligatoryPossessed="no"> <!-- instances of abnormal possession. --> Examples: blood, bone, month, shadow</Possessed>
+						<RelationPRPD>"deviates from prototypical ownership". When inanimate object or an animal has something that would normally be owned by a human or when a human possesses something which is normally alienable, but possesses it in inalienable way
+	</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun Dedication="no" Placement="possessed" SharedwithNominal="yes">
+							<pron person="1" number="singular">nuu- (n-)/ in- (Ø)</pron>
+							<pron person="2" number="singular">aa- / a-</pron>
+							<pron person="3" number="singular">ruu- (r-) uu-(Ø)</pron>
+							<pron person="1" number="plural">qaa- (qa-)</pron>
+							<pron person="2" number="plural">ee- (e-)</pron>
+							<pron person="3" number="plural">kee- (ki-)</pron>
+						</Pronoun>
+						<Morpheme Placement="possessed">
+							<morph> -aa1/-ii1/-ee1/-uu1</morph>
+	<!-- Note however that the suffix -aa1, -ee1 already is a part of words like 'relative', 'contents', 'redness' -->
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>n-kik'-eel</Text>
+							<Gloss>my-blood-poss</Gloss>
+							<Translation>My blood of my body</Translation>
+							<Resources>Dayley1985: 144 </Resources>
+						</Adnominal>
+						<Predicative SpecialForm="?">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources></Resources>
+						</Predicative>
+						<EllidedPossessed SpecialForm="?">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>???</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+			</PronominalPossession>
+			<NominalPossession>
+				<Strategy BasedOnPronominal="yes">
+					<PronStrategy refStrategyID="1" />
+					<PronStrategy refStrategyID="2" />
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>K'o jun ruu-keej n-ata7</Text>
+							<Gloss>Exist a his-horse my-father</Gloss>
+							<Translation>My father has a horse (My farther's horse exists)</Translation>
+							<Resources>Dayley1985: 142 (4a)</Resources>
+						</Adnominal>
+						<Predicative SpecialForm="?">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+						</Predicative>
+						<EllidedPossessed SpecialForm="?">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+				<Strategy BasedOnPronominal="no" Replaceable="?yes">
+	<!-- This type is described specifically by Dayley as possession it is listed as a type of compouns, where the ergatve prefix "can be omitted"  -->
+					<Semantics>
+						<Posessor>
+						 not_specified
+							<Resources></Resources>
+						</Posessor>
+						<Possessed ObligatoryPossessed="yes/no">
+						not_specified
+						</Possessed>
+						<RelationPRPD>
+							not_specified
+						</RelationPRPD>
+					</Semantics>
+					<Juxtaposition>
+						<CompoundingTest>
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources></Resources>
+						</CompoundingTest>
+					</Juxtaposition>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>(r)chi7 jaay</Text>
+							<Gloss>mouth house</Gloss>
+							<Translation>the door of the house
+								</Translation>
+							<Resources>Dayley1985: 149</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>smaal wii7aaj</Text>
+							<Gloss>hair head</Gloss>
+							<Translation>hair of the head
+								</Translation>
+							<Resources>Dayley1985: 149</Resources>
+						</Adnominal>
+						<Predicative SpecialForm="">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+						</Predicative>
+						<EllidedPossessed SpecialForm="">
+							<Text>not_found</Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</Strategy>
+			</NominalPossession>
+		</Possession>
+	</Language>
 	<!-- Add the Andes languages from Adelaars book -->
 </LanguageData>
