@@ -220,7 +220,7 @@
 			
 			</xs:sequence>
 			<xs:attribute name="Label" type="xs:string"/>
-			<xs:attribute name="Placement" use="required" type="xs:string"/>
+			<xs:attribute name="MorphStatus" use="required" type="xs:string"/>
 			<xs:attribute name="Pronoun" type="xs:string"/>
 			<xs:attribute name="SharedWithNominal" type="xs:string"/>
 			<xs:attribute name="UsedinPronominal" type="xs:string"/>
@@ -239,7 +239,7 @@
 				<xs:element minOccurs="0" ref="Asymmetry"/>
 			</xs:sequence>
 			<xs:attribute name="Dedication" use="required"/>
-			<xs:attribute name="Placement" use="required" type="xs:string"/>
+			<xs:attribute name="MorphStatus" use="required" type="xs:string"/>
 			<xs:attribute name="SharedwithNominal" use="required"/>
 		</xs:complexType>
 	</xs:element>

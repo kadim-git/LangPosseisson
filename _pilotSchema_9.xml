@@ -40,7 +40,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" Placement="Possessed">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" MorphStatus="Possessed">
 							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
 					</Remark>
 							<pron person="1" number="singular">ni-</pron>
@@ -98,7 +98,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" Placement="Possessed">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" MorphStatus="Possessed">
 							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
 					</Remark>
 							<pron person="1" number="singular">ni-</pron>
@@ -148,7 +148,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" Placement="Possessed">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" MorphStatus="Possessed">
 							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
 					</Remark>
 							<pron person="1" number="singular">ni-</pron>
@@ -159,7 +159,7 @@ human, plant, animal
 							<pron person="3" number="singular" gender="fem">ri-</pron>
 							<pron person="3" number="plural">no-</pron>
 						</Pronoun>
-						<Morpheme SharedWithNominal="yes" Placement="Possessed">
+						<Morpheme SharedWithNominal="yes" MorphStatus="Possessed">
 							<morph> 
 					-no
 					</morph>
@@ -204,7 +204,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" Placement="Possessed">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="yes" MorphStatus="Possessed">
 							<Remark>The same pronominal clitics mark subject agreement on the verbs (and object agreement) Danielsen2007: 92
 					</Remark>
 							<pron person="1" number="singular">ni-</pron>
@@ -215,7 +215,7 @@ human, plant, animal
 							<pron person="3" number="singular" gender="fem">ri-</pron>
 							<pron person="3" number="plural">no-</pron>
 						</Pronoun>
-						<Morpheme SharedWithNominal="?yes" Placement="free">
+						<Morpheme SharedWithNominal="?yes" MorphStatus="free">
 							<morph> 
 					-per
 					</morph>
@@ -259,7 +259,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="?yes" Placement="Free">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="?yes" MorphStatus="Free">
 							<Remark>this pronoun can also appear in something like applicative. Danielsen2007:320. Maybe external possesion?
 					</Remark>
 							<pron person="1" number="singular">ntir</pron>
@@ -398,7 +398,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="no" Placement="Free">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="no" MorphStatus="Free">
 							<Remark>The same form of the pronoun appears in focus constructions
 . Asymmetry: 1st and 2nd Person do not take ɸé, the strategy is marked by the high tone
 					</Remark>
@@ -409,7 +409,7 @@ human, plant, animal
 							<pron person="2" number="plural">mia</pron>
 							<pron person="3" number="plural">wé</pron>
 						</Pronoun>
-						<Morpheme SharedWithNominal="yes" Placement="Free">
+						<Morpheme SharedWithNominal="yes" MorphStatus="Free">
 							<morph> 
 					ɸé
 					</morph>
@@ -458,7 +458,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="Not dedicated" SharedwithNominal="no" Placement="Free">
+						<Pronoun Dedication="Not dedicated" SharedwithNominal="no" MorphStatus="Free">
 							<pron person="1" number="singular">nyĕ</pron>
 							<pron person="2" number="singular">wŏ</pron>
 							<pron person="3" number="singular">é</pron>
@@ -554,7 +554,7 @@ human, plant, animal
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Morpheme Pronoun="no" UsedinPronominal="yes" Placement="Free">
+						<Morpheme Pronoun="no" UsedinPronominal="yes" MorphStatus="Free">
 							<Remark>ethymoloically related to "place" - Ameka, p.c. Some dialcts (inland diaects) use wɔ́ instead of</Remark>
 							<morph>
 						ɸé
@@ -619,7 +619,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						<RelationPRPD>?inalienable</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="possessed/free" SharedwithNominal="yes">
+						<Pronoun Dedication="no" MorphStatus="possessed/free" SharedwithNominal="yes">
 							<pron number="sg" person="1">kä</pron>
 							<pron number="sg" person="2">?a (w)-</pron>
 							<pron number="sg" person="3">?u (y)-</pron>
@@ -665,7 +665,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="possessed/free" SharedwithNominal="yes">
+						<Pronoun Dedication="no" MorphStatus="possessed/free" SharedwithNominal="yes">
 							<pron number="sg" person="1">kä</pron>
 							<pron number="sg" person="2">?a (w)-</pron>
 							<pron number="sg" person="3">?u (y)-</pron>
@@ -674,7 +674,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 							<pron number="pl" person="2">?a... -la</pron>
 							<pron number="pl" person="3">?u... -lop'</pron>
 						</Pronoun>
-						<Morpheme Placement="possessed">
+						<Morpheme MorphStatus="possessed">
 							<morph>-a(l)/ -i(l)/ -e(l)</morph>
 							<Explanation></Explanation>
 						</Morpheme>
@@ -721,7 +721,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="possessed/free" SharedwithNominal="yes">
+						<Pronoun Dedication="no" MorphStatus="possessed/free" SharedwithNominal="yes">
 							<pron number="sg" person="1">kä</pron>
 							<pron number="sg" person="2">?a (w)-</pron>
 							<pron number="sg" person="3">?u (y)-</pron>
@@ -730,7 +730,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 							<pron number="pl" person="2">?a... -la</pron>
 							<pron number="pl" person="3">?u... -lop'</pron>
 						</Pronoun>
-						<Morpheme Label="classifier" Placement="free">
+						<Morpheme Label="classifier" MorphStatus="free">
 							<Remark>In contrast to other Mayan langages, there are no other classifiers</Remark>
 							<morph>	pa? </morph>
 							<Explanation>classifier	`edible', 'drinkable' 'toys' </Explanation>
@@ -768,7 +768,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						<RelationPRPD>no restrictions described, seems to be more free than in other strategies</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="free" SharedwithNominal="???">
+						<Pronoun Dedication="no" MorphStatus="free" SharedwithNominal="???">
 	<!-- independent possesive pronouns. The third person pronoun "tuba" also means "who, which belongs to" it is used in nominal possession-->
 							<pron number="sg" person="1">täk'a</pron>
 							<pron number="sg" person="2">ta?a / de ?ande</pron>
@@ -924,7 +924,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="free" SharedwithNominal="yes">
+						<Pronoun Dedication="no" MorphStatus="free" SharedwithNominal="yes">
 							<Remark>Same pronominal clitics are used in verbal morphology for subjects</Remark>
 							<pron number="sg" person="1">in</pron>
 							<pron number="sg" person="2">a</pron>
@@ -970,7 +970,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						<RelationPRPD>alienable</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="Free" SharedwithNominal="yes">
+						<Pronoun Dedication="no" MorphStatus="Free" SharedwithNominal="yes">
 							<pron number="sg" person="1">in</pron>
 							<pron number="sg" person="2">a</pron>
 							<pron number="sg" person="3">u</pron>
@@ -978,7 +978,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 							<pron number="pl" person="2">a... -e'x</pron>
 							<pron number="pl" person="3">u... -o'b</pron>
 						</Pronoun>
-						<Morpheme SharedWithNominal="?yes" Placement="Possessed">
+						<Morpheme SharedWithNominal="?yes" MorphStatus="Possessed">
 							<morph>
 	-el
 	</morph>
@@ -1036,7 +1036,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="free" SharedwithNominal="yes">
+						<Pronoun Dedication="no" MorphStatus="free" SharedwithNominal="yes">
 							<pron number="sg" person="1">in</pron>
 							<pron number="sg" person="2">a</pron>
 							<pron number="sg" person="3">u</pron>
@@ -1044,7 +1044,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 							<pron number="pl" person="2">a... -e'x</pron>
 							<pron number="pl" person="3">u... -o'b</pron>
 						</Pronoun>
-						<Morpheme Label="classifier" Placement="free">
+						<Morpheme Label="classifier" MorphStatus="free">
 							<morph>paay</morph>
 							<morph> ch'a' </morph>
 							<morph> w-o'ch </morph>
@@ -1148,7 +1148,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="not dedicated" Placement="free" SharedwithNominal="no">
+						<Pronoun Dedication="not dedicated" MorphStatus="free" SharedwithNominal="no">
 	<!-- There are no special possessive forms of the pronouns. Oblique forms are used in possessive constructions -->
 							<pron number="sg" person="1">mu</pron>
 							<pron number="sg" person="1">maS</pron>
@@ -1198,7 +1198,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 				<Strategy BasedOnPronominal="yes">
 					<PronStrategy refStrategyID="1" />
 					<Morphology>
-						<Morpheme Placement="Possessor">
+						<Morpheme MorphStatus="Possessor">
 							<morph>-and</morph>
 							<Explanation>can also mark location, for verbs like `hit'</Explanation>
 						</Morpheme>
@@ -1298,7 +1298,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="yes" Placement="Possessed" SharedwithNominal="no">
+						<Pronoun Dedication="yes" MorphStatus="Possessed" SharedwithNominal="no">
 							<pron number="sg/pl" person="3">-an</pron>
 						</Pronoun>
 					</Morphology>
@@ -1338,7 +1338,7 @@ properties than third person singular --></Posessor>
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="free" SharedwithNominal="no">
+						<Pronoun Dedication="no" MorphStatus="free" SharedwithNominal="no">
 				<!-- this not a possessive pronoun. It is  non-subject personal pronoun -->
 							<pron number="sg" person="1">nye</pron>
 							<pron number="sg" person="2">ngok</pron>
@@ -1356,7 +1356,7 @@ properties than third person singular --></Posessor>
 							<pron number="paucal" person="2">kamsi</pron>
 							<pron number="paucal" person="3">nyosi</pron>
 						</Pronoun>
-						<Morpheme Label="transitiviser" Placement="Possessed" SharedWithNominal="yes">
+						<Morpheme Label="transitiviser" MorphStatus="Possessed" SharedWithNominal="yes">
 							<!-- <Remark>transitiviser, makes a transitive noun out of intransitive </Remark> -->
 							<morph>(a)ne</morph>
 							<Explanation>transitiviser, makes a transitive noun out of intransitive </Explanation>
@@ -1399,7 +1399,7 @@ nouns.
 					</Semantics>
 					<Morphology>
 	<!-- "possessive pronoun is inflected for person and number and prefixed by a " A pronoun with a  form a linker... or is it a  inflected for person? -->
-						<Pronoun Dedication="?yes" Placement="free" SharedwithNominal="no">
+						<Pronoun Dedication="?yes" MorphStatus="free" SharedwithNominal="no">
 							<Remark>I don't know if the pronoun or the  is the bound moroheme. Probably  is bound, because it is also the prefix on linkers</Remark>
 							<pron number="sg" person="1">-ok</pron>
 							<pron number="sg" person="2">-am</pron>
@@ -1417,7 +1417,7 @@ nouns.
 							<pron number="paucal" person="2">-amsi</pron>
 							<pron number="paucal" person="3">-asi</pron>
 						</Pronoun>
-						<Morpheme Label="classifier" Placement="possessor" SharedWithNominal="yes">
+						<Morpheme Label="classifier" MorphStatus="possessor" SharedWithNominal="yes">
 						<!-- Even though the choice of the  is not completely predictable from the meaning of the
 possessed noun, both the m- class and the ∅- class are closely associated with several specific
 semantic domains. For the m- class, the most important two such domains are dwellings (of
@@ -1477,7 +1477,7 @@ pronouns can also be used as predicates without the presence of a possessed noun
 						<RelationPRPD>inalienable</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="free" SharedwithNominal="no">
+						<Pronoun Dedication="no" MorphStatus="free" SharedwithNominal="no">
 				<!--  personal pronoun -->
 							<pron number="sg" person="1">nye</pron>
 							<pron number="sg" person="2">ngok</pron>
@@ -1525,7 +1525,7 @@ pronouns can also be used as predicates without the presence of a possessed noun
 						<RelationPRPD>inalienable</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="yes" Placement="Possessed" SharedwithNominal="no">
+						<Pronoun Dedication="yes" MorphStatus="Possessed" SharedwithNominal="no">
 							<pron number="sg/pl" person="3">-sye /-tye</pron>
 						</Pronoun>
 					</Morphology>
@@ -1568,13 +1568,13 @@ precedes the possessed noun as in s-an atuwo (cl3-3s.poss basket) ‘his basket�
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Morpheme Label="linker" Placement="free">
+						<Morpheme Label="linker" MorphStatus="free">
 	<!-- I follow von Prince's analysis, the linker is free, the  is the prefix on the linker -->
 							<morph>-e </morph>
 							<morph> -an</morph>
 							<Explanation>-e (singular)/ -an (plural)</Explanation>
 						</Morpheme>
-						<Morpheme Label="classifier/linker" Placement="linker" UsedinPronominal="yes">
+						<Morpheme Label="classifier/linker" MorphStatus="linker" UsedinPronominal="yes">
 	<!-- It is exactly the same morpheme as in pronominal possession, but it is a prefix on the linker here, not on the pronoun/possessor -->
 							<Remark>Pre-nominal possessive pronouns and the two linkers are always prefixed by one of three nominal
 classifiers. The three s are s-, m- and the zero morpheme ∅-. They differ from
@@ -1624,7 +1624,7 @@ classifiers.</Explanation>
 						<RelationPRPD>inalienable possession</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Morpheme Label="transitiviser" Placement="possessed" UsedinPronominal="yes">
+						<Morpheme Label="transitiviser" MorphStatus="possessed" UsedinPronominal="yes">
 							<!--<Remark>Transitivising intransitive noun, so that it can enter inalienable possessession construction</Remark>-->
 							<morph>(a)ne</morph>
 							<Explanation>Transitivising intransitive noun, so that it can enter inalienable possessession construction</Explanation>
@@ -1745,7 +1745,7 @@ classifiers.</Explanation>
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="???" Placement="Possessed" SharedwithNominal="yes">
+						<Pronoun Dedication="???" MorphStatus="Possessed" SharedwithNominal="yes">
 							<Remark>The system os very complex, with dual, trial and paukal, for the full paradigm see Brownie:31</Remark>
 							<pron number="sg" person="1">-ghi/-ghu</pron>
 							<pron number="sg" person="2">-m</pron>
@@ -1787,7 +1787,7 @@ classifiers.</Explanation>
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="???" Placement="free" SharedwithNominal="yes">
+						<Pronoun Dedication="???" MorphStatus="free" SharedwithNominal="yes">
 							<Remark>The system os very complex, with dual, trial and paukal, for the full paradigm see Brownie:31</Remark>
 							<pron number="sg" person="1">-ghi/-ghu</pron>
 							<pron number="sg" person="2">-m</pron>
@@ -1797,7 +1797,7 @@ classifiers.</Explanation>
 							<pron number="pl" person="2">-imim</pron>
 							<pron number="pl" person="3">-ira</pron>
 						</Pronoun>
-						<Morpheme Label="classifier" Placement="pronoun">
+						<Morpheme Label="classifier" MorphStatus="pronoun">
 						<!-- classifiers -->
 							<morph>ai-</morph>
 							<morph>ale-</morph>
@@ -1926,7 +1926,7 @@ classifiers.</Explanation>
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Morpheme Placement="possessor">
+						<Morpheme MorphStatus="possessor">
 							<morph>ng-</morph>
 							<Explanation></Explanation>
 						</Morpheme>
@@ -1961,7 +1961,7 @@ classifiers.</Explanation>
 						</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Morpheme Placement="possessed">
+						<Morpheme MorphStatus="possessed">
 							<morph>-i</morph>
 							<Explanation></Explanation>
 						</Morpheme>
@@ -2012,7 +2012,7 @@ classifiers.</Explanation>
 						<RelationPRPD>any relation</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="?no" Placement="possessed" SharedwithNominal="no">
+						<Pronoun Dedication="?no" MorphStatus="possessed" SharedwithNominal="no">
 							<Remark>phonologically identical to free pronouns (inavtive agreement on verbs(</Remark>
 							<pron number="sg" person="1">che-</pron>
 							<pron number="sg" person="2">nde-</pron> <!-- in her table it is ne- -->
@@ -2107,7 +2107,7 @@ classifiers.</Explanation>
 						<RelationPRPD>?inalienable</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="bound" SharedwithNominal="yes">
+						<Pronoun Dedication="no" MorphStatus="bound" SharedwithNominal="yes">
 	<!-- Ergative person markers -->
 							<pron person="1" number="singular">nuu- (n-)/ in- (Ø)</pron>
 							<pron person="2" number="singular">aa- / a-</pron>
@@ -2147,7 +2147,7 @@ classifiers.</Explanation>
 	</RelationPRPD>
 					</Semantics>
 					<Morphology>
-						<Pronoun Dedication="no" Placement="possessed" SharedwithNominal="yes">
+						<Pronoun Dedication="no" MorphStatus="possessed" SharedwithNominal="yes">
 							<pron person="1" number="singular">nuu- (n-)/ in- (Ø)</pron>
 							<pron person="2" number="singular">aa- / a-</pron>
 							<pron person="3" number="singular">ruu- (r-) uu-(Ø)</pron>
@@ -2155,7 +2155,7 @@ classifiers.</Explanation>
 							<pron person="2" number="plural">ee- (e-)</pron>
 							<pron person="3" number="plural">kee- (ki-)</pron>
 						</Pronoun>
-						<Morpheme Placement="possessed">
+						<Morpheme MorphStatus="possessed">
 							<morph> -aa1/-ii1/-ee1/-uu1</morph>
 	<!-- Note however that the suffix -aa1, -ee1 already is a part of words like 'relative', 'contents', 'redness' -->
 							<Explanation></Explanation>
