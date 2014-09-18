@@ -17,7 +17,7 @@
 		<Possession>
 			<PronominalPossession>
 					<!--  StrategyID="5" is the default to mark elided possessed, this is the strategy used for Spanish borrowings??? -->
-				<StrategyPronom Complexity="symplex" StrategyID="1"> 
+				<StrategyPronom Complexity="simplex" StrategyID="1"> 
 					 <!-- <Remark>This strategy makes use of bound roots. These roots are also often parts of s. They don't appear on their own, a special prefix -e is needed to make the noun unpossessed. This difference between the two strategies cannot be reflectedd properly in our database
 				But it can be seen in one additional pronoun form "unspecified"
  
@@ -85,7 +85,7 @@ human, plant, animal
 					</SyntEnvironment>
 				
 				</StrategyPronom>
-	<!--			<Strategy Complexity="symplex" StrategyID="2">
+	<!--			<Strategy Complexity="simplex" StrategyID="2">
 					<Semantics>
 						<Posessor> 
 								?
@@ -255,7 +255,7 @@ human, plant, animal
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronom>
-				<StrategyPronom Complexity="symplex" StrategyID="4">
+				<StrategyPronom Complexity="simplex" StrategyID="4">
 					<Semantics>
 						<Posessor> 
 								?
@@ -505,7 +505,7 @@ human, plant, animal
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronom>
-				<StrategyPronom Complexity="symplex" StrategyID="2">
+				<StrategyPronom Complexity="simplex" StrategyID="2">
 					<!-- <Remark>
 				spatial, kin and socio-cultural terms can occur in the NP ɸé  NP structure in focused or emphatic context
 				</Remark> -->
@@ -556,7 +556,7 @@ human, plant, animal
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronom>
-				<StrategyPronomNonCanonical Complexity="symplex" StrategyID="3">
+				<StrategyPronomNonCanonical Complexity="simplex" StrategyID="3">
 					<Morphology>
 						<Pronoun AttachmentSite="Free" Dedication="???" SharedwithNominal="???">
 							<pron number="???" person="???">tɔ́</pron>
@@ -631,7 +631,7 @@ human, plant, animal
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyNomJuxt>
-				<StrategyNomMorph Complexity="symplex" StrategyID="2">
+				<StrategyNomMorph Complexity="simplex" StrategyID="2">
 					<Semantics>
 						<Posessor>animate: human, inanimate: day
 							<Resources>Ameka</Resources>
@@ -700,7 +700,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 		</GeneralInfo>
 		<Possession>
 			<PronominalPossession>
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 					<Semantics>
 						<Posessor>
 	animate or not animate
@@ -746,7 +746,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronom>
-				<StrategyPronom Complexity="symplex" StrategyID="2">
+				<StrategyPronom Complexity="simplex" StrategyID="2">
 					<Semantics>
 						<Posessor>
 	???
@@ -860,7 +860,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronom>
-				<StrategyPronom Complexity="symplex" StrategyID="4">
+				<StrategyPronom Complexity="simplex" StrategyID="4">
 	<!-- the same example with 'fox' is possible with classifier -->
 					<Semantics>
 						<Posessor>?human</Posessor>
@@ -1036,7 +1036,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 		<Possession>
 			<PronominalPossession>
 	<!-- There are two paradigms of dependent pronouns Set A: prefixes and set B: suffixes Verhoeven calls set A: subject/possessor clitics and set B absolutive suffixes-->
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 	<!-- Words like `hand' can take suffix -el to convey the meaning 'my own hands', emphasis. See example in Strategy 2 -->
 					<Semantics>
 						<Posessor>
@@ -1365,7 +1365,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 	Consider examples in EdelmanDodykhudoeva:812 ar chiz wi-nd ca vud fuk-a0-i binest everything HIM-POSS what was all he lost 
 	Observe doubling (and context shift) in  EdelmanDodykhudoeva:816 ya nala mund-mu kor lap 'she says me-POSS me  work much-->
 			<PronominalPossession>
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 					<Semantics>
 						<Posessor>no information about inanimate possessors</Posessor>
 						<Possessed ObligatoryPossessed="no">As in other Iraninan langugeas, a possessive pronoun is used to make reference to body parts, kinsjip terms, etc. "I hurt my hand"
@@ -1582,7 +1582,7 @@ Chontal in Oaxaca and Nicaragua for the same reason). -->
 		<Possession>
 			<PronominalPossession>
 	<!--the possessive pronouns form one paradigm with the possessive linkers and the nominal transitivizer, and the resulting phrases share many crucial semantic and morpho-syntactic properties -->
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 		<!-- It seems to be in variation with strategy 2 -->
 					<Semantics>
 						<Posessor>non-human third person possessors</Posessor>
@@ -1773,7 +1773,7 @@ pronouns can also be used as predicates without the presence of a possessed noun
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronom>
-				<StrategyPronom Complexity="symplex" StrategyID="4">
+				<StrategyPronom Complexity="simplex" StrategyID="4">
 					<Semantics>
 						<Posessor>human</Posessor>
 						<Possessed ObligatoryPossessed="yes">
@@ -1824,7 +1824,7 @@ pronouns can also be used as predicates without the presence of a possessed noun
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronom>
-				<StrategyPronom Complexity="symplex" StrategyID="5">
+				<StrategyPronom Complexity="simplex" StrategyID="5">
 					<Semantics>
 						<Posessor>non-human</Posessor>
 						<Possessed ObligatoryPossessed="yes">
@@ -1924,7 +1924,7 @@ classifiers.</Explanation>
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyNomMorph>
-				<StrategyNomMorph Complexity="symplex" StrategyID="2">
+				<StrategyNomMorph Complexity="simplex" StrategyID="2">
 					<Semantics>
 						<Posessor>?no specification</Posessor>
 						<Possessed ObligatoryPossessed="no">
@@ -2042,7 +2042,7 @@ classifiers.</Explanation>
 		<Possession>
 			<PronominalPossession>
 	<!-- direct: alienable/inalienable, indirect, associative -->
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 						<!-- associative possessive construction for animal body parts Brownie:75 -->
 					<Semantics>
 						<Posessor>no information</Posessor>
@@ -2260,7 +2260,7 @@ classifiers.</Explanation>
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyNomJuxt>
-				<StrategyNomMorph Complexity="symplex" StrategyID="4">
+				<StrategyNomMorph Complexity="simplex" StrategyID="4">
 					<Semantics>
 						<Posessor></Posessor>
 						<Possessed ObligatoryPossessed="?no">part-whole, description, characteristic</Possessed>
@@ -2295,7 +2295,7 @@ classifiers.</Explanation>
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyNomMorph>
-				<StrategyNomMorph Complexity="symplex" StrategyID="5">
+				<StrategyNomMorph Complexity="simplex" StrategyID="5">
 					<Semantics>
 						<Posessor></Posessor>
 						<Possessed ObligatoryPossessed="?no">part-whole, description, characteristic</Possessed>
@@ -2348,7 +2348,7 @@ classifiers.</Explanation>
 		</GeneralInfo>
 		<Possession>
 			<PronominalPossession>
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 					<Semantics>
 						<Posessor>? no information</Posessor>
 						<Possessed ObligatoryPossessed="no">no information</Possessed>
@@ -2476,7 +2476,7 @@ classifiers.</Explanation>
 		<Possession>
 	<!-- Some nouns like 'son in law' or 'house' have a suppletive form which appears in possessive constructions -->
 			<PronominalPossession>
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 					<Semantics>
 						<Posessor>not_found</Posessor>
 						<Possessed ObligatoryPossessed="partially">father, horse, house, wood, raw sugar, louse, money, grandmother, grandchild etc.
@@ -2682,7 +2682,7 @@ classifiers.</Explanation>
 		</GeneralInfo>
 		<Possession>
 			<PronominalPossession>
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 	<!--	<Remark>Symplex if plural marking is not considered. Plurality of the possessor is (optionaly) marked by a separate morpheme on the possessed-->
 					<Semantics>
 						<Posessor>
@@ -3030,7 +3030,7 @@ Some nouns can have different marking: back, money
 		</GeneralInfo>
 		<Possession>
 			<PronominalPossession>
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 					<Semantics>
 						<Posessor>
 							?human
@@ -3090,7 +3090,7 @@ Some nouns can have different marking: back, money
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronom>
-				<StrategyPronom Complexity="symplex" StrategyID="2">
+				<StrategyPronom Complexity="simplex" StrategyID="2">
 					<Semantics>
 						<Posessor>
 							?human
@@ -3144,7 +3144,7 @@ Some nouns can have different marking: back, money
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronom>
-				<StrategyPronom Complexity="symplex" StrategyID="3">
+				<StrategyPronom Complexity="simplex" StrategyID="3">
 					<Semantics>
 						<Posessor>
 							?human
@@ -3277,6 +3277,7 @@ Some nouns can have different marking: back, money
 					</SyntEnvironment>
 				</StrategyNomJuxt>
 				<StrategyNomPron StrategyID="2">
+				<PronStrategy refStrategyID="2"/>
 					<Morphology>
 						<Pronoun AttachmentSite="free" Dedication="???no" SharedwithNominal="yes">
 							<pron person="1" number="singular">ino</pron>
@@ -3321,6 +3322,7 @@ Some nouns can have different marking: back, money
 					</SyntEnvironment>
 				</StrategyNomPron>
 				<StrategyNomPron StrategyID="3">
+				<PronStrategy refStrategyID="3"/>
 					<Morphology>
 						<Pronoun AttachmentSite="free" Dedication="???" SharedwithNominal="yes">
 							<pron person="1" number="singular">inagu</pron>
@@ -3377,7 +3379,7 @@ Some nouns can have different marking: back, money
 		</GeneralInfo>
 		<Possession>
 			<PronominalPossession>
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 					<Semantics>
 						<Posessor>
 							preference for 3rd person
@@ -3547,6 +3549,7 @@ Some nouns can have different marking: back, money
 			</PronominalPossession>
 			<NominalPossession>
 				<StrategyNomPron StrategyID="1">
+				<PronStrategy refStrategyID="1"/>
 					<Morphology>
 						<Pronoun AttachmentSite="???Pronoun" Dedication="Dedicated" SharedwithNominal="no">
 							<pron person="1" number="singular">sǝ- / s-, z-</pron>
@@ -3590,6 +3593,7 @@ This is Ergative case marker on the possessor
 					</SyntEnvironment>
 				</StrategyNomPron>
 				<StrategyNomPron StrategyID="2">
+				<PronStrategy refStrategyID="2"/>
 			<!-- I have not fpund examples, but this strategy should exist! otherwise it means that inaienability is restricted to pronominal possessio -->
 					<Morphology>
 						<Pronoun AttachmentSite="???Pronoun" Dedication="Dedicated" SharedwithNominal="no">
@@ -3697,7 +3701,7 @@ marked with the suffix -a. No determiners, no definitness markers
 		</GeneralInfo>
 		<Possession>
 			<PronominalPossession>
-				<StrategyPronom Complexity="symplex" StrategyID="1">
+				<StrategyPronom Complexity="simplex" StrategyID="1">
 					<Semantics>
 						<Posessor>?animate</Posessor>
 						<Possessed ObligatoryPossessed="partially" BodyParts="yes" Kinship="partially" Others="yes">it is not clear which obligatorily possessed (dependednt) nouns really are in this class. Obligatorily possessed  `hand' , `jaw', 'head', `mother' are in this class, but also `shue' </Possessed>
@@ -3715,10 +3719,19 @@ marked with the suffix -a. No determiners, no definitness markers
 							<pron number="sg" person="1">ni-</pron>
 							<pron number="sg" person="2">ki-</pron>
 							<pron number="sg" person="3">o-</pron>
-							<pron number="pl" person="2" inclusive="inclusive">ki-...-inaw</pron>
+							<pron number="pl" person="1" inclusive="exclusive">ni-...-inan</pron>
+							<pron number="pl" person="1" inclusive="inclusive">ki-...-inaw</pron>
+							<pron number="pl" person="2">ki-...-iwaw</pron>
+							<pron number="pl" person="3">o-...-iwaw</pron>
 						</Pronoun>
 					</Morphology>
 					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pPron>o</pPron>-<pPosed>ôsisim</pPosed>-a</Text>
+							<Gloss>3-grandchild.NDA-OBV</Gloss>
+							<Translation>…his grandchildren</Translation>
+						</Adnominal>
 						<Adnominal>
 							<Text>ni-stikwân</Text>
 							<Gloss>1-head.NDI</Gloss>
@@ -3757,7 +3770,10 @@ denote kinship or close relations. But also `dog', `cat' are in this class. </Po
 							<pron number="sg" person="1">ni-</pron>
 							<pron number="sg" person="2">ki-</pron>
 							<pron number="sg" person="3">o-</pron>
-							<pron number="pl" person="2" inclusive="inclusive">ki-...-inaw</pron>
+							<pron number="pl" person="1" inclusive="exclusive">ni-...-inan</pron>
+							<pron number="pl" person="1" inclusive="inclusive">ki-...-inaw</pron>
+							<pron number="pl" person="2">ki-...-iwaw</pron>
+							<pron number="pl" person="3">o-...-iwaw</pron>
 						</Pronoun>
 						<Morpheme AttachmentSite="Possessed">
 							<morph>-im</morph>
@@ -3767,6 +3783,12 @@ objects</Explanation>
 						</Morpheme>
 					</Morphology>
 					<SyntEnvironment>
+						<Adnominal>
+							<Text>…oy-<pPron>o</pPron>-<pPosed>ôsisim</pPosed>-<pMorp>im</pMorp>-â-w</Text>
+							<Gloss>RED-3-grandchild.DNA-DISJ-IMP-3</Gloss>
+							<Translation>…her grandchildren</Translation>
+							<Resources>Muhlbauer2007(from K^a-pimw^ew^ehahk 1998)</Resources>
+						</Adnominal>
 						<Adnominal>
 							<Text>ni-minôs-im</Text>
 							<Gloss>1-cat.NA-DISJ</Gloss>
@@ -3796,7 +3818,10 @@ objects</Explanation>
 							<pron number="sg" person="1">ni-</pron>
 							<pron number="sg" person="2">ki-</pron>
 							<pron number="sg" person="3">o-</pron>
-							<pron number="pl" person="2" inclusive="inclusive">ki-...-inaw</pron>
+							<pron number="pl" person="1" inclusive="exclusive">ni-...-inan</pron>
+							<pron number="pl" person="1" inclusive="inclusive">ki-...-inaw</pron>
+							<pron number="pl" person="2">ki-...-iwaw</pron>
+							<pron number="pl" person="3">o-...-iwaw</pron>
 						</Pronoun>
 					</Morphology>
 					<SyntEnvironment>
@@ -3828,7 +3853,10 @@ objects</Explanation>
 							<pron number="sg" person="1">ni-</pron>
 							<pron number="sg" person="2">ki-</pron>
 							<pron number="sg" person="3">o-</pron>
-							<pron number="pl" person="2" inclusive="inclusive">ki-...-inaw</pron>
+							<pron number="pl" person="1" inclusive="exclusive">ni-...-inan</pron>
+							<pron number="pl" person="1" inclusive="inclusive">ki-...-inaw</pron>
+							<pron number="pl" person="2">ki-...-iwaw</pron>
+							<pron number="pl" person="3">o-...-iwaw</pron>
 						</Pronoun>
 						<Morpheme AttachmentSite="Possessed">
 							<morph>-im</morph>
@@ -3839,11 +3867,13 @@ objects</Explanation>
 					</Morphology>
 					<SyntEnvironment>
 						<Adnominal>
-							<Text><pPron>o</pPron>-<pPosed>minôs</pPosed>-<pMorp>im</pMorp>-a <pPosor>wâp-astim</pPosor></Text>
+							<Text>
+								<pPron>o</pPron>-<pPosed>minôs</pPosed>-<pMorp>im</pMorp>-a <pPosor>wâp-astim</pPosor>
+							</Text>
 							<Gloss>3-cat.NA-DISJ-OBV white-horse.NA</Gloss>
 							<Translation>Wâpastim’s cat</Translation>
 						</Adnominal>
-							<Predicative>
+						<Predicative>
 							<Text></Text>
 							<Gloss></Gloss>
 							<Translation></Translation>
@@ -3857,6 +3887,370 @@ objects</Explanation>
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyNomPron>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Guajiro</LangID>
+			<!-- alternative name Wayúu 
+			The existing linguistic literature on the Guajiro language is substantial.We shall only
+mention a few studies, such as Celed´on (1878), Holmer (1949), Hildebrandt (1963),
+Olza and Jusay´u (1978), Jusay´u and Olza (1981, 1988), Goulet (1981), Alvarez (1985,
+1993, 1994, 1996), Mansen and Captain (2000), and Mosonyi and Mosonyi (2000).-->
+			<ISO639-3>guc</ISO639-3>
+			<Location>South America</Location>
+			<Country>Colombia</Country>
+			<Country>Venezuela</Country>
+			<GeneticRelation>Maipurean (Arawak)</GeneticRelation>
+			<WordOrder>verb-initial with a preference for VSO
+order.</WordOrder>
+			<CaseSystem>In Guajiro the subject and object roles remain unmarked. There is a set of relational
+stems that function as oblique case markers.</CaseSystem>
+			<NominalPhrase>nouns marked for definiteness. prenominal definite
+articles: ti (feminine), či (masculine) and na (plural). Adjectives and the possessor in a genitive construction follow the noun they
+modify. Demonstratives,
+personal pronouns (third person only), nouns marked for definiteness, verbal
+subject prefixes and possessive prefixes (third person only), the (suffixed) object of a
+transitive verb in a non-present tense, and the (suffixed) subject of a non-transitive verb
+must be specified for gender–number.</NominalPhrase>
+			<InterchangeaStrategies>???</InterchangeaStrategies>
+			<RelStrategies>I have not found examples for Nominal possesison of alienable nouns, but most probably it is parallel to pronominal possesion of alienable nouns and requires a relational suffix</RelStrategies>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<StrategyPronom Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Posessor>
+		???
+		</Posessor>
+						<Possessed ObligatoryPossessed="????">body parts, kinship terms</Possessed>
+						<RelationPRPD>???inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Dedication="not dedicated" SharedwithNominal="yes">
+		<!-- The prefixes are personal reference markers, which
+can either refer to the subject of a verb, or to the possessor of a noun -->
+							<pron number="sg" person="1">ta-</pron>
+							<pron number="pl" person="1">wa-</pron>
+							<pron number="sg" person="2">pɨ-</pron>
+							<pron number="pl" person="2">hɨ-</pron>
+							<pron number="sg" person="3" gender="msc">nɨ-</pron>
+							<pron number="pl" person="3" gender="msc">na-</pron>
+							<pron number="sg" person="3" gender="fem">hɨ-/sɨ-</pron>
+							<pron number="sg" person="zero">a-</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pPron>ta</pPron>-<pPosed>ye:</pPosed>
+							</Text>
+							<Gloss>1P.SG-tongue</Gloss>
+							<Translation>my tongue</Translation>
+							<Resources> Adelaar2004: 120 (based on Alvarez 1994: 87)</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="2">
+					<Semantics>
+						<Posessor>
+		???
+		</Posessor>
+						<Possessed ObligatoryPossessed="???">cloth</Possessed>
+						<RelationPRPD>???alienable</RelationPRPD>
+							<!--	 If the possession is alienable a special relational form of the noun must be used.
+Relational forms normally contain one of a set of special suffixes (155).-->
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Dedication="not dedicated" SharedwithNominal="yes">
+		<!-- The prefixes are personal reference markers, which
+can either refer to the subject of a verb, or to the possessor of a noun -->
+							<pron number="sg" person="1">ta-</pron>
+							<pron number="pl" person="1">wa-</pron>
+							<pron number="sg" person="2">pɨ-</pron>
+							<pron number="pl" person="2">hɨ-</pron>
+							<pron number="sg" person="3" gender="msc">nɨ-</pron>
+							<pron number="pl" person="3" gender="msc">na-</pron>
+							<pron number="sg" person="3" gender="fem">hɨ-/sɨ-</pron>
+							<pron number="sg" person="zero">a-</pron>
+						</Pronoun>
+						<Morpheme AttachmentSite="possessed">
+							<morph>-se</morph>
+							<Explanation>The suffix forms "the relational form of the noun"</Explanation>
+						<!--The existence
+of such relational suffixes is frequent in the Amazonian region, in Central America and
+in Mesoamerica. In the Andean region it is limited to a few languages (Atacame˜no,
+Mochica). For a detailed treatment of relational forms in Guajiro see Alvarez (1996).-->
+						</Morpheme>
+					</Morphology>
+					
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pPron>ta</pPron>-<pPosed>kulu:t</pPosed>-<pMorp>se</pMorp>
+							</Text>
+							<Gloss>1P.SG-cloth-RL</Gloss>
+							<Translation>my cloth</Translation>
+							<Resources> Adelaar2004: 120 (based on Alvarez 1994: 67)</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</StrategyPronom>
+			
+			</PronominalPossession>
+			<NominalPossession>
+				<StrategyNomPron StrategyID="1">
+					<PronStrategy refStrategyID="1"/>
+					<Semantics>
+						<Posessor>
+		???
+		</Posessor>
+						<Possessed ObligatoryPossessed="????">body parts, kinship terms</Possessed>
+						<RelationPRPD>???inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology></Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pPron>nɨ</pPron>-<pPosed>ši</pPosed>
+								<pPosor>kami:ru</pPosor>
+							</Text>
+							<Gloss>3P.SG.MS-father Camilo</Gloss>
+							<Translation>Camilo's father</Translation>
+							<Resources>Adelaar 2004 (based on Alvarez 1996: 31)</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>a-tunku-ši kami:rɨ? <pPosor>hu-luʔu</pPosor> tɨ <pPron>sɨi</pPron>-<pPosed>ka-lɨ</pPosed>
+							</Text>
+							<Gloss> ZP-sleep-S.MS Camilo 3P.FE-inside the.FE hammock.DF.FE</Gloss>
+							<Translation>Camilo sleeps in the hammock. (lit. inside it's hammock)</Translation>
+							<Resources>Adelaar2004 (based on Alvarez 1994: 125)</Resources>
+<!-- In Guajiro the subject and object roles remain unmarked. There is a set of relational
+stems that function as oblique case markers. They can take possessive personal-reference
+prefixes, forming a possessive phrase with their complement (157). 
+I don't understand it, it is not clear from the example. The marker should have other form-->						
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</StrategyNomPron>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Toba</LangID>
+			<ISO639-3>tob</ISO639-3>
+			<Location>South America</Location>
+			<Country>Paraguay</Country>
+			<Country>Argentina</Country>
+			<GeneticRelation>Guaicuruan</GeneticRelation>
+			<WordOrder>Word order in Toba is relatively free. In transitive clauses, SVO predominates, and
+in intransitive clauses VS. Possessors tend to follow possessed elements.</WordOrder>
+			<CaseSystem></CaseSystem>
+			<NominalPhrase></NominalPhrase>
+			<InterchangeaStrategies>???</InterchangeaStrategies>
+			<RelStrategies></RelStrategies>
+			<!--Toba language and culture have been extensively studied (Censabella 1996; Klein 1973, 1978, 1981; Messineo 2000),
+			there is a nominal possessor paradigm C-->
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<StrategyPronom Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Posessor>???</Posessor>
+						<Possessed ObligatoryPossessed="yes/???all obligatory possessed are in the class. but  is the whole class obligatory possesed?">body parts (including the outer parts, internal organs, fluids and 
+secretions, as well as some features and attributes of the body), kin terms,  p	arasites that live in man, diseases, images of the body (like shadow) "physical, mental and spiritual bodies intimately 
+related to human beings" (name, dream), intrinsic
+human properties (like names) and some objects made by humans (ornaments, clothing, housing, 
+utensils, musical instruments, vehicles, weapons and tools)</Possessed>
+						<RelationPRPD>inalienable? mixed?</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Dedication="???dedicated" SharedwithNominal="???yes">
+		<!-- The nominal possessor forms are largely identical to the verbal undergoers, but 1st person is different -->
+							<pron number="sg" person="1">i-</pron>
+							<pron number="pl" person="1">qad-</pron>
+							<pron number="sg" person="2">ʔad-</pron>
+							<pron number="pl" person="2">qad-...-i</pron>
+							<pron number="???sg" person="3">l-</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text><pPron>ya</pPron>-<pPosed>pia</pPosed>-te</Text>
+							<Gloss>1P.SG-leg-D</Gloss>
+							<Translation>my two legs (dual)</Translation>
+							<Resources>Adelaar2004 (based on Messineo 2000: 137)</Resources>
+						</Adnominal>
+						<Adnominal>
+						<Text>ya-teʔe</Text>
+						<Gloss>1pos-mother</Gloss>
+						<Translation>my mother</Translation>
+						<Resources>Messineo2003: 129</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="2">
+					<Semantics>
+						<Posessor>???</Posessor>
+						<Possessed ObligatoryPossessed="no">The names that belong to this 
+field refers to items that can be separated from their owners ("hat", "shovel") or 
+are commonly not ownable ("wood", "earth"), as shown in the following examples:</Possessed>
+						<RelationPRPD>alienable? mixed? </RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="morpheme" Dedication="???dedicated" SharedwithNominal="???yes">
+		<!-- The nominal possessor forms are largely identical to the verbal undergoers, but 1st person is different -->
+							<pron number="sg" person="1">i-</pron>
+							<pron number="pl" person="1">qad-</pron>
+							<pron number="sg" person="2">ʔad-</pron>
+							<pron number="pl" person="2">qad-...-i</pron>
+							<pron number="???" person="3">l-</pron>
+							<!-- It seems that 3rd person is optional-->
+						</Pronoun>
+						<Morpheme AttachmentSite="possessed">
+						<morph>-n-</morph>
+						<Explanation>The particle / n / can be interpreted as a classifier alienable possession 
+or as a marker of "capacity to be possessed" semantically means and, unlike 
+Construction Pos- N, greater conceptual distance between the possessor and the possessed.</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Remarks>The actual prononciation is ɲadoʔo, so we don't see the difference in the amount of morphology</Remarks>
+							<Text>i-n-adoʔo</Text>
+							<Gloss>1pos-al-sombrero</Gloss>
+							<Translation>my sombrero</Translation>
+							<Resources>Messineo2003: 134</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</StrategyPronom>
+							<StrategyPronom Complexity="complex" StrategyID="3">
+					<Semantics>
+						<Posessor>human</Posessor>
+						<Possessed ObligatoryPossessed="???">domestic animal</Possessed>
+						<RelationPRPD>?domestic animal</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="morpheme" Dedication="???dedicated" SharedwithNominal="???yes">
+		<!-- The nominal possessor forms are largely identical to the verbal undergoers, but 1st person is different -->
+							<pron number="sg" person="1">i-</pron>
+							<pron number="pl" person="1">qad-</pron>
+							<pron number="sg" person="2">ʔad-</pron>
+							<pron number="pl" person="2">qad-...-i</pron>
+							<pron number="???" person="3">l-</pron>
+							<!-- It seems that 3rd person is optional-->
+						</Pronoun>
+						<Morpheme AttachmentSite="free" Label="classifier">
+						<morph>-lo</morph>
+						<Explanation>only one classifier, for domestic animals</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>ha-na <pPron>i</pPron>-<pMorp>lo</pMorp> <pPosed>wa:ka</pPosed></Text>
+							<Gloss>fem-D 1pos-Clg cow</Gloss>
+							<Translation>my cow</Translation>
+							<Resources>Messineo2003: 136</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</StrategyPronom>
+			</PronominalPossession>
+			<NominalPossession>
+			<StrategyNomPron StrategyID="1">
+			<PronStrategy refStrategyID="1"/>
+			<SyntEnvironment>
+			<Adnominal>
+			<Text>so <pPron>la</pPron>-<pPosed>qaya</pPosed> so <pPosor>ya-teʔe</pPosor></Text>
+			<Gloss>D 3pos-brother D 1pos-mother</Gloss>
+			<Translation>The brother of my mother (lit .: 'brother my mother')</Translation>
+			<Resources>Messineo2003diss: 132</Resources>
+			</Adnominal>
+			<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+			</SyntEnvironment>
+			</StrategyNomPron>
 			</NominalPossession>
 		</Possession>
 	</Language>
