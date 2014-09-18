@@ -116,9 +116,9 @@
 		<xs:element name="StrategyNomPron">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element name="PronStrategy" minOccurs="0" maxOccurs="unbounded">
+				<xs:element name="PronStrategy" minOccurs="1" maxOccurs="unbounded">
 					<xs:complexType>
-						<xs:attribute name="refStrategyID" type="xs:string"></xs:attribute>
+						<xs:attribute name="refStrategyID" use="required" type="xs:string"></xs:attribute>
 					</xs:complexType>
 				</xs:element>
 				
@@ -366,7 +366,7 @@
 	
 	<xs:simpleType name="ComplexityAttrType">
 		<xs:restriction base="xs:string">
-			<xs:enumeration value="symplex" />
+			<xs:enumeration value="simplex" />
 			<xs:enumeration value="complex" />
 		</xs:restriction>
 	</xs:simpleType>
