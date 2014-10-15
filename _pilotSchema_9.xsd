@@ -213,13 +213,13 @@
 	<xs:element name="Semantics">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element ref="Posessor"/>
+				<xs:element ref="Possessor"/>
 				<xs:element ref="Possessed"/>
 				<xs:element ref="RelationPRPD"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
-	<xs:element name="Posessor">
+	<xs:element name="Possessor">
 		<xs:complexType mixed="true">
 			<xs:sequence>
 				<xs:element minOccurs="0" maxOccurs="unbounded" ref="Remark"/>
@@ -271,7 +271,7 @@
 	<xs:element name="Morphology">
 		<xs:complexType>
 			<xs:sequence>
-				<xs:element minOccurs="0" ref="Pronoun"/>
+				<xs:element minOccurs="0" maxOccurs="unbounded" ref="Pronoun"/>
 				<xs:element minOccurs="0" maxOccurs="unbounded" ref="Morpheme"/>
 <!--				<xs:element ref="SyntEnvironment"/> -->
 			</xs:sequence>
