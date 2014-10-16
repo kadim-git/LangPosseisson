@@ -4808,6 +4808,11 @@ the definiteness value of the DP on which they appear) modifiers follow the noun
 						<EllidedPossessed></EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyPronomNonCanonical>
+				<StrategyNotFound>
+				<ConsultedResources>TuckerMpaayei1955: 21</ConsultedResources>
+				<ResourcesToCheck>Storto</ResourcesToCheck>
+				<SyntEnvironment></SyntEnvironment>
+				</StrategyNotFound>
 			</PronominalPossession>
 			<NominalPossession>
 				<StrategyNomMorph Complexity="complex" StrategyID="1">
@@ -4912,7 +4917,8 @@ nit-iko-iksisst-wa
 					</Morphology>
 					<SyntEnvironment>
 						<Adnominal>
-							<Text>amo <pPron>n</pPron>-<pPosed>o'tokáán</pPosed></Text>
+							<Text>amo <pPron>n</pPron>-<pPosed>o'tokáán</pPosed>
+							</Text>
 							<Gloss>dem 1-hair</Gloss>
 							<Translation>This is my (own) hair.</Translation>
 							<Resources>Bliss and Gruber 2011, Gruber2014</Resources>
@@ -4960,7 +4966,8 @@ nit-iko-iksisst-wa
 					</Morphology>
 					<SyntEnvironment>
 						<Adnominal>
-							<Text>amo <pPron>nit</pPron>-<pPosed>o'tokáán</pPosed></Text>
+							<Text>amo <pPron>nit</pPron>-<pPosed>o'tokáán</pPosed>
+							</Text>
 							<Gloss>dem 1-hair</Gloss>
 							<Translation>This is my (clipping of his) hair</Translation>
 							<Resources></Resources>
@@ -4986,10 +4993,15 @@ nit-iko-iksisst-wa
 				</StrategyPronom>
 			</PronominalPossession>
 			<NominalPossession>
-				<StrategyNomPron StrategyID="1">
+			<StrategyNotFound>
+			<ConsultedResources> Gruber2014 </ConsultedResources>
+			<ResourcesToCheck>Bliss, dissertation</ResourcesToCheck>
+			<SyntEnvironment></SyntEnvironment>
+			</StrategyNotFound>
+				<!-- <StrategyNomPron StrategyID="1">
 					<PronStrategy refStrategyID="1"/>
 					<Morphology>
-						
+					
 					</Morphology>
 					<SyntEnvironment>
 						<Predicative>
@@ -5008,12 +5020,10 @@ nit-iko-iksisst-wa
 				</StrategyNomPron>
 				<StrategyNomPron StrategyID="2">
 					<PronStrategy refStrategyID="2" />
-					<Morphology>
-					</Morphology>
+					<Morphology></Morphology>
 					<SyntEnvironment>
 						<Adnominal>
-							<Text>
-							</Text>
+							<Text></Text>
 							<Gloss></Gloss>
 							<Translation></Translation>
 						</Adnominal>
@@ -5030,11 +5040,11 @@ nit-iko-iksisst-wa
 							<Resources>not_found</Resources>
 						</EllidedPossessed>
 					</SyntEnvironment>
-				</StrategyNomPron>
+				</StrategyNomPron> -->
 			</NominalPossession>
 		</Possession>
 	</Language>
-		<Language>
+	<Language>
 		<GeneralInfo>
 			<LangID>Maltese</LangID>
 			<ISO639-3></ISO639-3>
@@ -5059,10 +5069,10 @@ nit-iko-iksisst-wa
 				<StrategyPronom Complexity="complex" StrategyID="1">
 					<Semantics>
 						<Possessor></Possessor>
-						<Possessed ObligatoryPossessed="partially" BodyParts="yes" Kinship="yes"  Others="abstract nouns, time preiods, money">All obligatorily possesed nouns are a subset of this class. invoke the notion of inalienability. Stolz classifies them as:
+						<Possessed ObligatoryPossessed="partially" BodyParts="yes" Kinship="yes" Others="abstract nouns, time preiods, money">All obligatorily possesed nouns are a subset of this class. invoke the notion of inalienability. Stolz classifies them as:
 						body parts, kinship, life-cycle, home, abstract properties, part-whole (half, share), clothes/belongings, various (street, money). Examples: brother, mouth, hand, eye, neck, head, childhood, country, master, thing, life, name, wife, husband, children, self, place, money, need, beauty, room, pocket, etc...
 						<!-- Variation across speakers, also depends on the style -->
-						<Resources>Ambros 1998:75 Stolz</Resources>
+							<Resources>Ambros 1998:75 Stolz</Resources>
 						</Possessed>
 						<RelationPRPD>mixed</RelationPRPD>
 						<!-- This is not a "less common strategy", as some people claim. Stolz convinsigly shows that it combines with a large class of nouns -->
@@ -5071,18 +5081,18 @@ nit-iko-iksisst-wa
 						<Pronoun AttachmentSite="morpheme," Dedication="not dedicated" SharedwithNominal="no">
 						<!-- in the same example "you are alone" alone is inflected for 2nd  person, prepositions like "with" inflect in the same way 
 						Stolz: bound possesive marker resemble subject and object markers on finite verbs-->
-						<pron number="sg" person="1">-i/-ja</pron>
-						<pron number="sg" person="2">-ek/-ok/-k</pron>
-						<pron number="sg" person="3" gender="msc">-u/-h</pron>
-						<pron number="sg" person="3" gender="fem">-ha</pron>
-						<pron number="pl" person="1">-na</pron>
-						<pron number="pl" person="2">-kom</pron>
-						<pron number="pl" person="3">-kom</pron>
+							<pron number="sg" person="1">-i/-ja</pron>
+							<pron number="sg" person="2">-ek/-ok/-k</pron>
+							<pron number="sg" person="3" gender="msc">-u/-h</pron>
+							<pron number="sg" person="3" gender="fem">-ha</pron>
+							<pron number="pl" person="1">-na</pron>
+							<pron number="pl" person="2">-kom</pron>
+							<pron number="pl" person="3">-kom</pron>
 						</Pronoun>
 						<Morpheme AttachmentSite="possessed">
-						<Remark>Inflected nouns don't combine with definite articles</Remark>
-						<morph>-t</morph>
-						<Explanation>characterises noun as possessed! NB: it does not appear with all stams. Stems ending with a vowel don't seem to need it</Explanation>
+							<Remark>Inflected nouns don't combine with definite articles</Remark>
+							<morph>-t</morph>
+							<Explanation>characterises noun as possessed! NB: it does not appear with all stams. Stems ending with a vowel don't seem to need it</Explanation>
 						</Morpheme>
 					<!-- Stolz -->
 					</Morphology>
@@ -5118,17 +5128,17 @@ nit-iko-iksisst-wa
 					<Morphology>
 						<Pronoun AttachmentSite="preposition" Dedication="not dedicated" SharedwithNominal="no">
 						<!-- in the same example "you are alone" alone is inflected for 2nd  person, prepositions like "with" inflect in the same way-->
-						<pron number="sg" person="1">-i</pron>
-						<pron number="sg" person="2">-ek</pron>
-						<pron number="sg" person="3" gender="msc">-u</pron>
-						<pron number="sg" person="3" gender="fem">-ha</pron>
-						<pron number="pl" person="1">-na</pron>
-						<pron number="pl" person="2">-kom</pron>
-						<pron number="pl" person="3">-kom</pron>
+							<pron number="sg" person="1">-i</pron>
+							<pron number="sg" person="2">-ek</pron>
+							<pron number="sg" person="3" gender="msc">-u</pron>
+							<pron number="sg" person="3" gender="fem">-ha</pron>
+							<pron number="pl" person="1">-na</pron>
+							<pron number="pl" person="2">-kom</pron>
+							<pron number="pl" person="3">-kom</pron>
 						</Pronoun>
 						<Morpheme AttachmentSite="free">
-						<morph>ta- (tiegħ/tagħ)</morph>
-						<Explanation>inflected preposition, stem allomorhy, depending which pronoun the preposition combines with</Explanation>
+							<morph>ta- (tiegħ/tagħ)</morph>
+							<Explanation>inflected preposition, stem allomorhy, depending which pronoun the preposition combines with</Explanation>
 						</Morpheme>
 					</Morphology>
 					<SyntEnvironment>
@@ -5155,23 +5165,22 @@ nit-iko-iksisst-wa
 			<NominalPossession>
 				<StrategyNomJuxt StrategyID="1">
 					<Semantics>
-					<Possessor></Possessor>
-					<Possessed ObligatoryPossessed="yes" BodyParts="yes" Kinship="yes"> father, mother, duaghter (close blood relation),
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="yes" BodyParts="yes" Kinship="yes"> father, mother, duaghter (close blood relation),
 					<!--restricted primarily to head nouns denoting kinship relations 
-			and body parts  (but cf. Fabri 1996; Gatt 2003)-->
-					</Possessed>
-					<RelationPRPD>inalienable</RelationPRPD>
+			and body parts  (but cf. Fabri 1996; Gatt 2003)--></Possessed>
+						<RelationPRPD>inalienable</RelationPRPD>
 					</Semantics>
 					<Juxtaposition>
-					<Remark>the head noun lacks overt determination, Construct State</Remark>
-					<CompoundingTest>???</CompoundingTest>
+						<Remark>the head noun lacks overt determination, Construct State</Remark>
+						<CompoundingTest>???</CompoundingTest>
 					</Juxtaposition>
 					<SyntEnvironment>
-					<Adnominal>
-						<Text>omm Pietru</Text>
-						<Gloss>mother Peter</Gloss>
-						<Translation>Peter's mother</Translation>
-						<Resources>Gatt</Resources>
+						<Adnominal>
+							<Text>omm Pietru</Text>
+							<Gloss>mother Peter</Gloss>
+							<Translation>Peter's mother</Translation>
+							<Resources>Gatt</Resources>
 						</Adnominal>
 						<Adnominal>
 							<Text>id it-tifel</Text>
@@ -5195,22 +5204,22 @@ nit-iko-iksisst-wa
 				</StrategyNomJuxt>
 				<StrategyNomMorph Complexity="simplex" StrategyID="2">
 					<Semantics>
-					<Possessor></Possessor>
-					<Possessed ObligatoryPossessed="no">husband, wife, maid, author, widow, </Possessed>
-					<RelationPRPD>mixed: a broader range of possessive relations. also contextually specified relations.</RelationPRPD>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="no">husband, wife, maid, author, widow, </Possessed>
+						<RelationPRPD>mixed: a broader range of possessive relations. also contextually specified relations.</RelationPRPD>
 					<!--(cf. Koptjevskaja-Tamm 1996)-->
 					</Semantics>
 					<Morphology>
-					<Morpheme AttachmentSite="free">
+						<Morpheme AttachmentSite="free">
 					<!-- the Periphrastic Possessive Construction (PPC), which is also right-branching, requires the mediation of the possessive marker ta
 					between head noun and possessor NP. 
 					The head NP can be realised as definite or as a bare indefinite NP,-->
-					<morph>ta'</morph>
-					<Explanation>possessive marker</Explanation>
-					</Morpheme>
+							<morph>ta'</morph>
+							<Explanation>possessive marker</Explanation>
+						</Morpheme>
 					</Morphology>
 					<SyntEnvironment>
-					<Adnominal>
+						<Adnominal>
 							<Text>(il-)karozza ta' Pietru</Text>
 							<Gloss>DEF-car Poss Peter</Gloss>
 							<Translation>Peter's car (definite)/ a car of Peter's(indefinite)</Translation>
@@ -5233,4 +5242,57 @@ nit-iko-iksisst-wa
 			</NominalPossession>
 		</Possession>
 	</Language>
+	<!--	<Language>
+	<GeneralInfo>
+			<LangID>Nêlêmwa</LangID>
+			<ISO639-3>nee</ISO639-3>
+			<Location>Oceania</Location>
+			<Country>New Caledonia</Country>
+			<GeneticRelation>Austronesian, Malayo-Polynesian, Oceanic, Central-Eastern Oceanic, Remote Oceanic, New Caledonian</GeneticRelation>
+			<WordOrder>VOS</WordOrder>
+			<CaseSystem></CaseSystem>
+			<NominalPhrase></NominalPhrase>
+			<InterchangeaStrategies></InterchangeaStrategies>
+			<RelStrategies></RelStrategies>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+						<StrategyNotFound>
+			</StrategyNotFound>
+	<StrategyPronom Complexity="" StrategyID=""></StrategyPronom>
+			</PronominalPossession>
+			<NominalPossession>
+			<StrategyNotFound>
+			</StrategyNotFound>
+			<StrategyNomMorph Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed=""></Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology></Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>shaya i thaamwa eli</Text>
+							<Gloss>work link woman that:anaph</Gloss>
+							<Translation>(It’s) the work of that woman.</Translation>
+							<Resources>BRIL 80</Resources>
+						</Adnominal>
+						<Predicative>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Predicative>
+						<EllidedPossessed>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</EllidedPossessed>
+					</SyntEnvironment>
+				</StrategyNomMorph>
+			</NominalPossession>
+		</Possession>
+	</Language>  -->
 </LanguageData>

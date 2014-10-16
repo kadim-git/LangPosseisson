@@ -58,7 +58,9 @@
 				<!--<xs:element maxOccurs="unbounded" ref="Strategy"/>-->
 				<xs:element maxOccurs="unbounded" ref="StrategyPronom"/>
 				<xs:element minOccurs="0" maxOccurs="unbounded" ref="StrategyPronomNonCanonical"/>
-				</xs:sequence>
+				<xs:element minOccurs="0" ref ="StrategyNotFound"></xs:element>
+				
+			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
 	
@@ -70,6 +72,7 @@
 					<xs:element ref="StrategyNomJuxt"></xs:element>
 					<xs:element ref="StrategyNomPron"></xs:element>
 					<xs:element ref="StrategyNomNonCanonical"></xs:element>
+					<xs:element ref ="StrategyNotFound"></xs:element>
 					
 					
 					<!-- TEMP ELEMENT TO DELETE WHEN STRATEGIES ARE CORRECTED-->
@@ -81,8 +84,21 @@
 		
 		</xs:complexType>
 	</xs:element>
-
-
+	
+	<xs:element name="StrategyNotFound">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice minOccurs="0" maxOccurs="unbounded">
+					<xs:element name="ConsultedResources" type="xs:string"></xs:element>
+					<xs:element name="ResourcesToCheck" type="xs:string"></xs:element>
+				</xs:choice>
+				<xs:element ref="SyntEnvironment"/>
+			
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
 	
 	<xs:element name="StrategyNomMorph">
 		<xs:complexType>
@@ -98,11 +114,11 @@
 		
 		</xs:complexType>
 	</xs:element>
-
+	
 	<xs:element name="StrategyNomJuxt">
 		<xs:complexType>
 			<xs:sequence>
-			
+				
 				<xs:element ref="Semantics"/>
 				<xs:element ref="Juxtaposition"/>
 				<xs:element ref="SyntEnvironment"/>
@@ -112,8 +128,8 @@
 		
 		</xs:complexType>
 	</xs:element>
-	
-		<xs:element name="StrategyNomPron">
+		
+	<xs:element name="StrategyNomPron">
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="PronStrategy" minOccurs="1" maxOccurs="unbounded">
@@ -136,7 +152,7 @@
 		
 		</xs:complexType>
 	</xs:element>
-
+	
 	
 	
 	<xs:element name="StrategyNomNonCanonical">
@@ -327,8 +343,8 @@
 		<xs:complexType>
 			<xs:sequence>
 				<xs:element name="Adnominal" minOccurs="0" maxOccurs="unbounded" type="ExampleType"/>
-				<xs:element name="Predicative" maxOccurs="unbounded" type="ExampleType"/>
-				<xs:element name="EllidedPossessed" maxOccurs="unbounded" type="ExampleType"/>
+				<xs:element name="Predicative" minOccurs="0" maxOccurs="unbounded" type="ExampleType"/>
+				<xs:element name="EllidedPossessed" minOccurs="0" maxOccurs="unbounded" type="ExampleType"/>
 			</xs:sequence>
 		</xs:complexType>
 	</xs:element>
@@ -342,7 +358,7 @@
 				<xs:element name="pMorp" type="xs:string"></xs:element>
 				<xs:element name="pPosed" type="xs:string"></xs:element>
 				<xs:element name="pPosor" type="xs:string"></xs:element>
-
+			
 			</xs:choice>
 		</xs:complexType>
 	
@@ -361,7 +377,7 @@
 			<xs:element ref="Resources" minOccurs="0" />
 		
 		</xs:sequence>
-		</xs:complexType>
+	</xs:complexType>
 	
 	
 	<xs:simpleType name="ComplexityAttrType">
