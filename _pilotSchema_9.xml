@@ -4809,9 +4809,9 @@ the definiteness value of the DP on which they appear) modifiers follow the noun
 					</SyntEnvironment>
 				</StrategyPronomNonCanonical>
 				<StrategyNotFound>
-				<ConsultedResources>TuckerMpaayei1955: 21</ConsultedResources>
-				<ResourcesToCheck>Storto</ResourcesToCheck>
-				<SyntEnvironment></SyntEnvironment>
+					<ConsultedResources>TuckerMpaayei1955: 21</ConsultedResources>
+					<ResourcesToCheck>Storto</ResourcesToCheck>
+					<SyntEnvironment></SyntEnvironment>
 				</StrategyNotFound>
 			</PronominalPossession>
 			<NominalPossession>
@@ -4993,11 +4993,11 @@ nit-iko-iksisst-wa
 				</StrategyPronom>
 			</PronominalPossession>
 			<NominalPossession>
-			<StrategyNotFound>
-			<ConsultedResources> Gruber2014 </ConsultedResources>
-			<ResourcesToCheck>Bliss, dissertation</ResourcesToCheck>
-			<SyntEnvironment></SyntEnvironment>
-			</StrategyNotFound>
+				<StrategyNotFound>
+					<ConsultedResources> Gruber2014 </ConsultedResources>
+					<ResourcesToCheck>Bliss, dissertation</ResourcesToCheck>
+					<SyntEnvironment></SyntEnvironment>
+				</StrategyNotFound>
 				<!-- <StrategyNomPron StrategyID="1">
 					<PronStrategy refStrategyID="1"/>
 					<Morphology>
@@ -5242,29 +5242,255 @@ nit-iko-iksisst-wa
 			</NominalPossession>
 		</Possession>
 	</Language>
-	<!--	<Language>
-	<GeneralInfo>
+	<Language>
+		<GeneralInfo>
 			<LangID>Nêlêmwa</LangID>
 			<ISO639-3>nee</ISO639-3>
 			<Location>Oceania</Location>
 			<Country>New Caledonia</Country>
 			<GeneticRelation>Austronesian, Malayo-Polynesian, Oceanic, Central-Eastern Oceanic, Remote Oceanic, New Caledonian</GeneticRelation>
-			<WordOrder>VOS</WordOrder>
-			<CaseSystem></CaseSystem>
+			<WordOrder>VOS, but subject pronouns stand before the verb in [sVo] order</WordOrder>
+			<CaseSystem>a mixed accusative–ergative system: it is accusative with subject/object pronouns, but post-verbal nominal
+arguments are marked as absolutive and ergative with [verb abs.patient erg.
+agent] order.</CaseSystem>
 			<NominalPhrase></NominalPhrase>
 			<InterchangeaStrategies></InterchangeaStrategies>
 			<RelStrategies></RelStrategies>
 		</GeneralInfo>
 		<Possession>
 			<PronominalPossession>
-						<StrategyNotFound>
-			</StrategyNotFound>
-	<StrategyPronom Complexity="" StrategyID=""></StrategyPronom>
+			<!--by a possessive pronoun suffixed to the possessee
+(mwa-ny ‘my house’) (Table 2.1)
+Possessive pronouns only refer to
+animates, inanimates are marked.-->
+				<StrategyPronom Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor>animate</Possessor>
+						<Possessed ObligatoryPossessed="partially">leg, foot. all obligatory possessed nouns (foot) are in this class. kinship reference terms, body parts, some of which also serve as locative markers, nouns expressing causal, consecutive, purposive/benefactive or malefactive,
+comitative relations, abstract notions, hâmwa-t/-n ‘replacement’, shala-t/-n ‘reserved object’, notions such as: boo-t/-n ‘smell’, yaara-t/-n ‘name’, hâlûû-t/-n ‘shadow. Some non-obligatorily possessed (hiuse) are also in this class.</Possessed>
+						<!--direct constructions express inherent, close relationships
+(including most kinship terms, body parts, etc.),-->
+						<RelationPRPD>inalienable: direct constructions express inherent, close relationships
+(including most kinship terms, body parts, etc.)</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="after" Dedication="yes" SharedwithNominal="?">
+							<pron number="sg" person="1">-ny</pron>
+							<pron number="sg" person="2">-m</pron>
+							<pron number="sg" person="3">-n</pron>
+							<pron number="dual" person="1" inclusive="inclusive">-(h)î</pron>
+							<pron number="dual" person="1" inclusive="exclusive">-man</pron>
+							<pron number="pl" person="1" inclusive="inclusive">-hâ</pron>
+							<pron number="pl" person="1" inclusive="exclusive">-va</pron>
+							<pron number="dual" person="2">-mon</pron>
+							<pron number="pl" person="2">-wa</pron>
+							<pron number="dual" person="3">-h(li)</pron>
+							<pron number="pl" person="3">-h(la)</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>kua-ny</Text>
+							<Gloss>foot-1sg</Gloss>
+							<Translation>my foot</Translation>
+							<Resources>BRIL:67</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="2">
+					<Semantics>
+						<Possessor>animate</Possessor>
+						<Possessed ObligatoryPossessed="no">???</Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="classifier" Position="after" Dedication="yes" SharedwithNominal="?">
+							<pron number="sg" person="1">-ny</pron>
+							<pron number="sg" person="2">-m</pron>
+							<pron number="sg" person="3">-n</pron>
+							<pron number="dual" person="1" inclusive="inclusive">-(h)î</pron>
+							<pron number="dual" person="1" inclusive="exclusive">-man</pron>
+							<pron number="pl" person="1" inclusive="inclusive">-hâ</pron>
+							<pron number="pl" person="1" inclusive="exclusive">-va</pron>
+							<pron number="dual" person="2">-mon</pron>
+							<pron number="pl" person="2">-wa</pron>
+							<pron number="dual" person="3">-h(li)</pron>
+							<pron number="pl" person="3">-h(la)</pron>
+						</Pronoun>
+						<Morpheme AttachmentSite="PossessedStam">
+							<morph>Stam alternation</morph>
+							<Explanation>Stam alternation: wany - waja</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pPosed>waja</pPosed>
+								<pPosor>-ny</pPosor>
+							</Text>
+							<Gloss>boat-1sg</Gloss>
+							<Translation>my boat</Translation>
+							<Resources>BRIL:67</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="3">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="no">not obligatorily possessed</Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="free" Dedication="yes" SharedwithNominal="no">
+							<pron number="sg" person="1">na</pron>
+							<pron number="sg" person="2">yo</pron>
+							<pron number="sg" person="3">ye</pron>
+							<pron number="dual" person="1" inclusive="inclusive">(h)î</pron>
+							<pron number="dual" person="1" inclusive="exclusive">man</pron>
+							<pron number="pl" person="1" inclusive="inclusive">hâ</pron>
+							<pron number="pl" person="1" inclusive="exclusive">va</pron>
+							<pron number="dual" person="2">mon</pron>
+							<pron number="pl" person="2">wa</pron>
+							<pron number="dual" person="3">h(li)</pron>
+							<pron number="pl" person="3">h(la)</pron>
+			<!--Pronouns marking indirect possession are formally similar to the oblique objects pronouns of verbs-->
+						</Pronoun>
+						<Morpheme AttachmentSite="free" Label="linker">
+							<morph>i</morph>
+							<Explanation>Indirect possession is marked by a linker</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>bu i na</Text>
+							<Gloss>hook LIN 1sg</Gloss>
+							<Translation>my hook</Translation>
+							<Resources>BRIL:60</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="simplex" StrategyID="4">
+					<Semantics>
+						<Possessor>animate</Possessor>
+						<Possessed ObligatoryPossessed="yes">this is the unmarked form for obligatorily possessed nouns. It is not clear if non-obligatorily possessed nouns can also take this suffix. Probably yes, similar to Daakaka</Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="after" Dedication="yes" SharedwithNominal="?yes">
+							<pron number="sg" person="3">-n</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>kua-n</Text>
+							<Gloss>foot-3sg</Gloss>
+							<Translation>His/her foot</Translation>
+							<Resources>BRIL:68</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="simplex" StrategyID="5">
+					<Semantics>
+						<Possessor>inanimate</Possessor>
+						<Possessed ObligatoryPossessed="yes">this is the unmarked form for obligatorily possessed nouns. It is not clear if non-obligatorily possessed nouns can also take this suffix. Probably yes, similar to Daakaka</Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="after" Dedication="yes" SharedwithNominal="?yes">
+							<pron number="sg" person="3">-t</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>kua-t</Text>
+							<Gloss>foot-3sg</Gloss>
+							<Translation>It's foot</Translation>
+							<Resources>BRIL:68</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="6">
+					<Semantics>
+						<Possessor>animate</Possessor>
+						<Possessed ObligatoryPossessed="no"></Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="classifier" Position="after" Dedication="yes" SharedwithNominal="???">
+							<pron number="sg" person="1">-ny</pron>
+							<pron number="sg" person="2">-m</pron>
+							<pron number="sg" person="3">-n</pron>
+							<pron number="dual" person="1" inclusive="inclusive">-(h)î</pron>
+							<pron number="dual" person="1" inclusive="exclusive">-man</pron>
+							<pron number="pl" person="1" inclusive="inclusive">-hâ</pron>
+							<pron number="pl" person="1" inclusive="exclusive">-va</pron>
+							<pron number="dual" person="2">-mon</pron>
+							<pron number="pl" person="2">-wa</pron>
+							<pron number="dual" person="3">-h(li)</pron>
+							<pron number="pl" person="3">-h(la)</pron>
+						</Pronoun>
+						<Morpheme AttachmentSite="possessedStam" Label="StamAlternation">
+							<morph></morph>
+							<Explanation>free nouns 2 have direct determination with some root modification: wany-waja</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pMorp>khoo</pMorp>-<pPosor>ny</pPosor>
+								<pPosed>nok</pPosed>
+							</Text>
+							<Gloss>food-1sg fish</Gloss>
+							<Translation>my (food) fish/ my fish (to eat)</Translation>
+							<Resources>BRIL:67</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
 			</PronominalPossession>
 			<NominalPossession>
-			<StrategyNotFound>
-			</StrategyNotFound>
-			<StrategyNomMorph Complexity="simplex" StrategyID="1">
+			<!-- 1.Direct possession
+is marked either by a postposed possessor NP (as in mwa agu hleny ‘this person’s
+house’ (lit. house person this)) 
+
+3. Indirect possession is marked by a linker, as in bu i
+na ‘my hook’ (lit. hook of me).-->
+				<StrategyNomMorph Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor>inanimate</Possessor>
+						<Possessed ObligatoryPossessed="?partially">all obligatorily possessed are in this class. But are there non-obligatorily possessed? leg, foot. all obligatory possessed nouns (foot) are in this class. kinship reference terms, body parts, some of which also serve as locative markers, nouns expressing causal, consecutive, purposive/benefactive or malefactive,
+comitative relations, abstract notions, hâmwa-t/-n ‘replacement’, shala-t/-n ‘reserved object’, notions such as: boo-t/-n ‘smell’, yaara-t/-n ‘name’, hâlûû-t/-n ‘shadow. Some non-obligatorily possessed (hiuse) are also in this class.</Possessed>
+						<RelationPRPD>inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Morpheme AttachmentSite="possessed" Position="after">
+							<morph>-t</morph>
+							<morph>-n</morph>
+							<Explanation>-t is a special pronoun for inanimate possessor, -n is a special pronoun for animate possessor</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>kua-t taap</Text>
+							<Gloss>leg-3sg table</Gloss>
+							<Translation>the table leg</Translation>
+							<Resources>BRIL:67</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomMorph>
+				<StrategyNomPron StrategyID="2">
+					<PronStrategy refStrategyID="4"/>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>khoo-<pPosor>t</pPosor>
+								<pPosor>puaka</pPosor>
+							</Text>
+							<Gloss>food-3sg pig</Gloss>
+							<Translation>pig's food</Translation>
+							<Resources>BRIL:60</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomPron>
+				<StrategyNomMorph Complexity="simplex" StrategyID="4">
 					<Semantics>
 						<Possessor></Possessor>
 						<Possessed ObligatoryPossessed=""></Possessed>
@@ -5276,7 +5502,7 @@ nit-iko-iksisst-wa
 							<Text>shaya i thaamwa eli</Text>
 							<Gloss>work link woman that:anaph</Gloss>
 							<Translation>(It’s) the work of that woman.</Translation>
-							<Resources>BRIL 80</Resources>
+							<Resources>BRIL:80</Resources>
 						</Adnominal>
 						<Predicative>
 							<Text></Text>
@@ -5292,7 +5518,749 @@ nit-iko-iksisst-wa
 						</EllidedPossessed>
 					</SyntEnvironment>
 				</StrategyNomMorph>
+				<StrategyNomPron StrategyID="3">
+					<PronStrategy refStrategyID="4"/>
+					<Semantics>
+						<Possessor>inanimate</Possessor>
+						<Possessed ObligatoryPossessed="no"></Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="classifier" Position="after" Dedication="yes" SharedwithNominal="?">
+							<pron number="sg" person="1">-ny</pron>
+							<pron number="sg" person="2">-m</pron>
+							<pron number="sg" person="3">-n</pron>
+							<pron number="dual" person="1" inclusive="inclusive">-(h)î</pron>
+							<pron number="dual" person="1" inclusive="exclusive">-man</pron>
+							<pron number="pl" person="1" inclusive="inclusive">-hâ</pron>
+							<pron number="pl" person="1" inclusive="exclusive">-va</pron>
+							<pron number="dual" person="2">-mon</pron>
+							<pron number="pl" person="2">-wa</pron>
+							<pron number="dual" person="3">-h(li)</pron>
+							<pron number="pl" person="3">-h(la)</pron>
+						</Pronoun>
+						<Morpheme AttachmentSite="free" Label="classifier">
+							<morph>khoo- 'meat or fish food'</morph>
+							<morph>maa- 'chewed food'</morph>
+							<morph>thiiva- 'flower seedlings'</morph>
+							<morph>pwaxi- 'for pets, or cattle'</morph>
+							<morph>Keet- 'basket'</morph>
+							<Explanation>and many others! possessive pronouns can be prefixed by  classifiers. all relational and possessive classifiers follow the bound-nouns possession marking pattern</Explanation>
+						<!--Classifiers in New Caledonian languages generally pertain to specific domains, such
+as food, drinks, plants, baskets, animals, and weapons.4 They express inherent
+properties of food types (flesh, starch, vegetable or leaves, crabs, etc.), types of
+ingestion (kêâ-n nu ‘his coconut’ (to drink)), or types of food processing (maachewed
+food)
+As expected with relational classifiers, some nouns may occur with various
+classifiers, depending on the semantics of the relationship:
+caa-ny manyoong ‘my cassava’ (caa- classifier for starch food)
+ââ-ny manyoong ‘my cassava’ (ââ- classifier for seedlings and plantations)
+khoo-ny nok ‘my fish’ (khoo- food classifier for meat or fish)
+fha-ny nok ‘my fish’ (fha-
+-->
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text></Text>
+							<Gloss></Gloss>
+							<Translation></Translation>
+							<Resources>not_found</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomPron>
 			</NominalPossession>
 		</Possession>
-	</Language>  -->
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Aymara</LangID>
+			<ISO639-3></ISO639-3>
+			<Location>South America</Location>
+			<Country>Bolivia</Country>
+			<Country>Peru</Country>
+			<Country>Chile</Country>
+			<GeneticRelation></GeneticRelation>
+			<WordOrder></WordOrder>
+			<CaseSystem></CaseSystem>
+			<NominalPhrase>the Aymara plural marker normally precedes the possessive endings, although
+the opposite order is also allowed.</NominalPhrase>
+			<InterchangeaStrategies></InterchangeaStrategies>
+			<RelStrategies></RelStrategies>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<StrategyPronom Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="no"></Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="after" Dedication="yes" SharedwithNominal="???no">
+						<!--Personal possessive suffixes co-occur only with nouns, temporals, positionals and with the
+corresponding interrogatives-->
+							<pron number="sg/pl" person="1">-ha/-ja</pron>
+							<pron number="sg/pl" person="2">-ma</pron>
+							<pron number="sg/pl" person="3">-pa</pron>
+							<pron number="sg/pl" person="4">-sa</pron>
+							<!--All are exclusively human possessors with the exception of {-pa} which may be used for animates
+or inanimates. The personal possessive suffixes occur on the possessed nominal to mark it as possessed.-->
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>wawa-naka-ha</Text>
+							<Gloss>child-PL-1P</Gloss>
+							<Translation>my children</Translation>
+							<Resources>Adelaar:277 from Briggs 1988</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>wawa-ha-naka</Text>
+							<Gloss>child-1P-PL</Gloss>
+							<Translation>my children</Translation>
+							<Resources>Adelaar:277 from Briggs 1988</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="2">
+					<Semantics>
+						<Possessor>animate, human</Possessor>
+						<Possessed ObligatoryPossessed="no"></Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="after" Dedication="yes" SharedwithNominal="???no">
+						<!--Personal possessive suffixes co-occur only with nouns, temporals, positionals and with the
+corresponding interrogatives-->
+							<pron number="sg/pl" person="1">-ha/-ja</pron>
+							<pron number="sg/pl" person="2">-ma</pron>
+							<pron number="sg/pl" person="3">-pa</pron>
+							<pron number="sg/pl" person="4">-sa</pron>
+							<!--All are exclusively human possessors with the exception of {-pa} which may be used for animates
+or inanimates. The personal possessive suffixes occur on the possessed nominal to mark it as possessed.-->
+						</Pronoun>
+						<Morpheme AttachmentSite="possessor" Position="after">
+							<morph>-na</morph>
+							<Explanation>On a human (???nominal) -na marks possession, that is, the person who possesses the item that is
+itself marked with the personal possessive suffixes </Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>naya-n uta-ja</Text>
+							<Gloss>1sg-poss house-1sg</Gloss>
+							<Translation>my house</Translation>
+							<Resources>Hardman2001: 155</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+			</PronominalPossession>
+			<NominalPossession>
+				<StrategyNomPron StrategyID="1">
+					<PronStrategy refStrategyID="2"/>
+					<Semantics>
+						<Possessor>animate, human</Possessor>
+						<Possessed ObligatoryPossessed="no"></Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>Mariya-n uta-pa-r sar-i</Text>
+							<Gloss>Maria-poss house-3sg-??? went-???</Gloss>
+							<Translation>She went to Mary's house.</Translation>
+							<Resources>Hardman2001: 232</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomPron>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Moskona</LangID>
+			<ISO639-3>mtj</ISO639-3>
+			<Location>Oceania</Location>
+			<Country>Papua New Guinea</Country>
+			<GeneticRelation>East Bird’s Head</GeneticRelation>
+			<WordOrder>AVO/SV</WordOrder>
+			<CaseSystem></CaseSystem>
+			<NominalPhrase></NominalPhrase>
+			<InterchangeaStrategies>yes, the nominal/pronominal possessor is typically omitted if retrievable
+from context</InterchangeaStrategies>
+			<RelStrategies>Nominal strategies correspond to pronominal: inflected nouns or analytically marked possessors.</RelStrategies>
+			<!-- Unpossessable nouns Nouns which are unpossessable include those denoting
+natural phenomena and uncontrollable events or entities, such as disease. These are
+viewed as a type of non-volitional entity affecting a person. The affecting entity, such
+as mekek ‘fungus’ in (4) or misirna ‘sickness’ in (5), occurs as the agent in a transitive
+clause, utilizing the verb en ‘do’, with the experiencer as object.
+(4) mekek ø-en eri
+fungus 3sg-do they.pl
+They have a fungal infection.
+(5) misirna ø-en ofa
+sickness 3sg-do s/he
+S/he has a sickness.
+			nouns (excluding proper names) may be
+grouped as those which denote types of humans and are definite as to number and
+those which do not denote humans and are indefinite as to number. Nouns which denote humans are subdivided into generic nouns denoting
+types of humans (e.g. orna ‘man’ or eferiok ‘small child’) and nouns denoting a
+kinship relationship (e.g. -okera ‘older sibling same sex’ or -edina ‘grandparent’)
+
+Nouns which are
+indefinite as to number are either alienable or inalienable nouns and are defined
+morphophonologically. 
+Alienable nouns, with the exception of recent loans, have the
+fused segment /m/ in root-initial position (e.g. mow ‘land’ or mod ‘house’). 
+This
+segment may possibly be a fossilized alienable noun class marker or the nominalizing
+prefix m- ‘nomz’, but forms without the fused segment have not been observed.
+Inalienable nouns have a non-high vowel in root-initial position (e.g. osum ‘nose’ or
+egak ‘leg’). . -->
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<StrategyPronom Complexity="simplex" StrategyID="1">
+				<!--The
+possessed noun is accompanied by either a possessive pronoun (pr) or a possessive
+prefix (pr-) denoting the possessor preceding the possessed noun-->
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="yes">Require detransitivisation to appear unpossessed.
+					Some kinship terns in vocative form are marked like this.
+			Part-whole relation: parts of humans, animals, and plants, numerous
+inanimate objects in nature (mountain side). A number of intangible things which are closely associated with a person’s identity: such as ofoms ‘effort/energy’, owas ‘strength’, efena ‘spirit/image/
+character’, owoka ‘name’, oga ‘speech’, and okowosos ‘footprint’. </Possessed>
+						<RelationPRPD>inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Dedication="yes" SharedwithNominal="???">
+							<pron number="sg" person="1">di-</pron>
+							<pron number="pl" person="1">mi-</pron>
+							<pron number="sg" person="2">bi-</pron>
+							<pron number="du" person="2">y-</pron>
+							<pron number="pl" person="2">Yi-</pron>
+							<pron number="sg" person="3">ø-</pron>
+							<pron number="pl" person="3">i-/ø-</pron> <!--ø- for non-human possessors -->
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>di-egak</Text>
+							<Gloss>1sg-leg</Gloss>
+							<Translation>my leg</Translation>
+							<Resources>GRAVELLE:94</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>memega ø-ebrosurs</Text>
+							<Gloss>mountain 3sg-crown.of head</Gloss>
+							<Translation>mountain peak</Translation>
+							<Resources>GRAVELLE:95</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="2">
+					
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="no"> Some kinship terms, including 'mother' and 'father' are marked like this. These alienable nouns comprise items which
+occur in nature (e.g. merga ‘tree/wood’ or mow ‘land’) but may also include items
+made by humans (e.g. meru ‘handle’ or mosom ‘ax’). All items which
+are human-constructed are expressed as alienable nouns: cultural items, such as mosom ‘ax’, mesina ‘stringbag’, and marog ‘arrow’.</Possessed>
+						<RelationPRPD>mixed</RelationPRPD>
+					</Semantics>
+					<Morphology>
+<!--							 Possession of an alienable
+noun is marked analytically by a possessive pronoun (pr), such as ofon ‘his/her’ in
+(1) and (2) or mifmin ‘our.pl’ in (3), preceding the possessed noun (Pe).-->
+						<Pronoun AttachmentSite="free" Dedication="no" SharedwithNominal="yes">
+							<pron number="sg" person="1">dadin</pron>
+							<pron number="sg" person="2">buwun</pron>
+							<pron number="sg" person="3">ofon</pron>
+							<pron number="du" person="1">yefyen</pron>
+							<pron number="du" person="2">yogyen</pron>
+							<pron number="du" person="3">ergen</pron>
+							<pron number="pl" person="1">mifmin</pron>
+							<pron number="pl" person="2">yuyun</pron>
+							<pron number="pl" person="3">erin</pron>
+						</Pronoun>
+					<!-- These prefixes have three other functions in the language: (1) They index the subject
+on verbs in both transitive and intransitive clauses, including derived intransitives in
+which the subject is patient/experiencer. (2) They occur on verbal modifiers in a noun
+phrase, indicating agreement with the person and number of the noun modified.
+(These verbal modifiers may be verbal adjectives, quantifiers, or verbal specifiers.)
+(3) They occur on nouns denoting types of humans to indicate the person and
+number of the referent.-->
+					</Morphology>
+				<!--The
+possessed noun is accompanied by either a possessive pronoun (pr) or a possessive
+prefix (pr-) denoting the possessor preceding the possessed noun-->
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pPron>mif</pPron>
+								<pPron>mifmin</pPron>
+								<pPosed>mow</pPosed> ed-em</Text>
+							<Gloss>we.pl our.pl land ncl:2-contr</Gloss>
+							<Translation>our (pl) other land (meaning: our other property)</Translation>
+							<Resources>GRAVELLE:92</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="3">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="yes">It's not explained, but probably the nouns are the same as in strategy 1, transitive nouns</Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+				<!--
+		Doubling! Combination of inflected noun and overtly expressed pronoinal possessor-->
+						<Pronoun AttachmentSite="free" Dedication="no" SharedwithNominal="yes">
+							<pron number="sg" person="1">dadin</pron>
+							<pron number="sg" person="2">buwun</pron>
+							<pron number="sg" person="3">ofon</pron>
+							<pron number="du" person="1">yefyen</pron>
+							<pron number="du" person="2">yogyen</pron>
+							<pron number="du" person="3">ergen</pron>
+							<pron number="pl" person="1">mifmin</pron>
+							<pron number="pl" person="2">yuyun</pron>
+							<pron number="pl" person="3">erin</pron>
+						</Pronoun>
+						<Pronoun AttachmentSite="possessed" Dedication="yes" SharedwithNominal="?no">
+							<pron number="sg" person="1">di-</pron>
+							<pron number="pl" person="1">mi-</pron>
+							<pron number="sg" person="2">bi-</pron>
+							<pron number="du" person="2">y-</pron>
+							<pron number="pl" person="2">Yi-</pron>
+							<pron number="sg" person="3">ø-</pron>
+							<pron number="pl" person="3">i-/ø-</pron> <!--ø- for non-human possessors -->
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>mifmin i-ejena</Text>
+							<Gloss>our.pl 3pl-woman</Gloss>
+							<Translation>our (pl) women</Translation>
+							<Resources>GRAVELLE:97</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+			</PronominalPossession>
+			<NominalPossession>
+				<StrategyNomPron StrategyID="1">
+					<PronStrategy refStrategyID="1"/>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>mesogun nomi ø-eferu</Text>
+							<Gloss>papaya that:giv 3sg-segment</Gloss>
+							<Translation>a slice of the papaya (lit. the papaya its segment)</Translation>
+							<Resources>GRAVELLE:98</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomPron>
+				<StrategyNomPron StrategyID="2">
+					<PronStrategy refStrategyID="2"/>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>Eriefiosga ofon mosu</Text>
+							<Gloss>Eriefiosga his/her mother</Gloss>
+							<Translation>Eriefiosga's mother</Translation>
+							<Resources>GRAVELLE:98</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>ø-<pPosor>ejena</pPosor>
+								<pPron>ofon</pPron>
+								<pPosed>mamga</pPosed>
+							</Text>
+							<Gloss>3sg-woman his/her pestle</Gloss>
+							<Translation>the woman’s pestle</Translation>
+							<Resources>GRAVELLE:92</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomPron>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Koyukon</LangID>
+			<ISO639-3>koy</ISO639-3>
+			<Location>North America</Location>
+			<Country>USA</Country>
+			<Country>Canada</Country>
+			<GeneticRelation>Athabaskan, NaDene</GeneticRelation>
+			<WordOrder></WordOrder>
+			<CaseSystem></CaseSystem>
+			<NominalPhrase></NominalPhrase>
+			<InterchangeaStrategies>The same noun can be marked with -k'e- or just inflected with semantic differences</InterchangeaStrategies>
+			<RelStrategies></RelStrategies>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<StrategyPronom Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="yes" Clothes="no" BodyParts="yes" Kinship="some" PlantParts="yes">Body parts, plant parts, kinship. It is a question if obligatorily possessed nouns have -e' inside them (use strategy 2), many of them end with -e'. 
+						Obligatorily possessed nouns are body parts, kinship terms <!-- (the strategies of "detransitivisation" are different for body parts and kinship terms, see a similar observation about Plains Cree)--> 
+						No alienable nouns
+						</Possessed>
+						<RelationPRPD>inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="before" Dedication="not dedicated" SharedwithNominal="?no">
+							<pron number="sg" person="1">se-</pron>
+							<pron number="sg" person="2">ne-</pron>
+							<pron number="sg" person="3">be-</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>be-leł</Text>
+							<Gloss>3sg-skin</Gloss>
+							<Translation>his skin</Translation>
+							<Resources>Thompson1996:663</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>be-nelaane'</Text>
+							<Gloss>3sg-meat/flesh</Gloss>
+							<Translation>his/her (own) meat/flesh</Translation>
+							<Resources>Thompson1996:666</Resources>
+					<!-- with -K'E- this will mean flesh of the animal belonging to the possessor -->
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="2">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="possibly" Clothes="yes" BodyParts="?yes" Kinship="some" Others="yes">Animals (as pets), clothing... some kinship terms, tools, clothing. It is a question if obligatorily possessed nouns have -e' inside them (use strategy 2), many of them end with -e'. </Possessed>
+						<RelationPRPD>mixed</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="before" Dedication="not dedicated" SharedwithNominal="?no">
+							<pron number="sg" person="1">se-</pron>
+							<pron number="sg" person="2">ne-</pron>
+							<pron number="sg" person="3">be-</pron>
+						</Pronoun>
+						<Morpheme AttachmentSite="possessed" Position="after" SharedWithNominal="yes">
+							<morph>-e'</morph>
+							<Explanation>Typically marks possession on alienable nouns, but also it migbe inside some obligatorily possessed body parts</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>be-lel-e'</Text>
+							<Gloss>3sg-skin-pos</Gloss>
+							<Translation>his belt</Translation>
+							<Resources>Thompson1996:663</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>se-tel-e'</Text>
+							<Gloss>1sg-socks-pos</Gloss>
+							<Translation>my socks</Translation>
+							<Resources>Thompson1996:654</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="3">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="no">animals (caught), body parts of animals if possessed by humans, all loanwords</Possessed>
+						<RelationPRPD>alienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="before" Dedication="not dedicated" SharedwithNominal="?no">
+							<pron number="sg" person="1">se-</pron>
+							<pron number="sg" person="2">ne-</pron>
+							<pron number="sg" person="3">be-</pron>
+						</Pronoun>
+						<Morpheme AttachmentSite="possessed" Position="before" SharedWithNominal="?yes">
+							<morph>-k'e-</morph>
+							<Explanation>"alienating prefix". The full range of functions of k'e- is huge. 
+					It can be used as indefinite non-human pronoun, can code argumants that are unspecified, can be used to indicate a GREAT DISTANCE or a streatch of TIME
+					Described in more detail in Thompson 1991
+					</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>se-k'e-gguh</Text>
+							<Gloss>1sg-K'E-rabbit</Gloss>
+							<Translation>my rabbit (which I caught)</Translation>
+							<Resources>Thompson1996:664</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>se-k'e-nelaane'</Text>
+							<Gloss>1sg-K'E-meat/flesh</Gloss>
+							<Translation>my (animal's meat)</Translation>
+							<Resources>Thompson1996:666</Resources>
+					<!-- without -K'E- this will mean "my own flesh", flesh of my body -->
+						</Adnominal>
+						<Adnominal>
+							<Text>se-k'e-k'e-tlee'</Text>
+							<Gloss>1sg-K'E-K'E-head</Gloss>
+							<Translation>my (animal's) head</Translation>
+							<Resources>Thompson1996:667</Resources>
+						</Adnominal>
+						<Adnominal>
+							<Text>se-k'e-dineega-tlee'</Text>
+							<Gloss>1sg-K'E-mouse-head</Gloss>
+							<Translation>my mouse head</Translation>
+							<Resources>Thompson1996:664</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+			</PronominalPossession>
+			<NominalPossession>
+				<StrategyNomMorph Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="???"></Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Morpheme AttachmentSite="possessed" Position="after" SharedWithNominal="yes">
+							<morph>-e'</morph>
+							<Explanation>Typically marks possession on alienable nouns, but also it migbe inside some obligatorily possessed body parts</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>Dick leeg-e'</Text>
+							<Gloss>Dick dog-pos</Gloss>
+							<Translation>Dick's dog</Translation>
+							<Resources>Thompson1996:656</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomMorph>
+				<StrategyNotFound>
+					<ConsultedResources>
+				Thompson1996</ConsultedResources>
+					<ResourcesToCheck>Thompson 1991 The Low Topicality Pronoun K'I- in Koyukon</ResourcesToCheck>
+					<SyntEnvironment></SyntEnvironment>
+				</StrategyNotFound>
+				<StrategyNotFound>
+					<ConsultedResources>
+				Thompson1996</ConsultedResources>
+					<ResourcesToCheck>Thompson 1991 The Low Topicality Pronoun K'I- in Koyukon</ResourcesToCheck>
+					<SyntEnvironment></SyntEnvironment>
+				</StrategyNotFound>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Saliba</LangID>
+			<ISO639-3>sbe</ISO639-3>
+			<Location>Oceania</Location>
+			<Country>Papua New Guinea</Country>
+			<GeneticRelation>Austronesian, Western Oceanic</GeneticRelation>
+			<WordOrder>SOV</WordOrder>
+			<CaseSystem>pronouns differentiate subject, object, possessive and independent forms</CaseSystem>
+			<NominalPhrase>determiners are suffixes. There are also possessive suffixes, plural suffix (for humans), locative suffix. Pronouns can have a determiner as well</NominalPhrase>
+			<InterchangeaStrategies></InterchangeaStrategies>
+			<RelStrategies>nominal strategies correspond to pronominal</RelStrategies>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<StrategyPronom Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="">bodyparts, part of wholes</Possessed>
+						<RelationPRPD>Inalienable, including spatial relations, quantity, container and content</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="after" Dedication="dedicated" SharedwithNominal="yes">
+							<pron number="sg" person="1">-gu</pron>
+							<pron number="sg" person="2">-m</pron>
+							<pron number="sg" person="3">-na</pron>
+							<pron number="pl" person="1" inclusive="inclusive">-da</pron>
+							<pron number="pl" person="1" inclusive="exclusive">-ma/-mai</pron>
+							<pron number="pl" person="2">-mi</pron>
+							<pron number="pl" person="3">-di</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>pou-na</Text>
+							<Gloss>egg-her</Gloss>
+							<Translation>her egg</Translation>
+							<Resources>Mosel1994:24</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="2">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="">kinship (both classifiers), food, clothes, illness, ownership</Possessed>
+						<RelationPRPD>mixed</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="classifier" Position="after" Dedication="dedicated" SharedwithNominal="yes">
+							<pron number="sg" person="1">-gu</pron>
+							<pron number="sg" person="2">-m</pron>
+							<pron number="sg" person="3">-na</pron>
+							<pron number="pl" person="1" inclusive="inclusive">-da</pron>
+							<pron number="pl" person="1" inclusive="exclusive">-ma/-mai</pron>
+							<pron number="pl" person="2">-mi</pron>
+							<pron number="pl" person="3">-di</pron>
+						</Pronoun>
+						<Morpheme AttachmentSite="free" Label="classifier" SharedWithNominal="?yes">
+							<morph>yo-</morph>
+							<morph>ka-</morph>
+							<Explanation>ka: food, clothes, illness, yo: ownership</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pMorp>yo</pMorp>-<pPron>gu</pPron>
+								<pPosed>numa</pPosed>
+							</Text>
+							<Gloss>CL-1sg house</Gloss>
+							<Translation>my house</Translation>
+							<Resources>Mosel1994:12</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+			</PronominalPossession>
+			<NominalPossession>
+				<StrategyNomPron StrategyID="1">
+					<PronStrategy refStrategyID="1"/>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pPosor>Mausi</pPosor>
+								<pPosed>sina</pPosed>-<pPron>na</pPron>
+							</Text>
+							<Gloss>Mausi mother-her</Gloss>
+							<Translation>Mausi's mother</Translation>
+							<Resources>Mosel1994:10</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomPron>
+				<StrategyNomPron StrategyID="2">
+					<PronStrategy refStrategyID="2"/>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>
+								<pPosor>Mausi</pPosor>
+								<pMorp>yo</pMorp>-<pPron>na</pPron>
+								<pPosed>numa</pPosed>
+							</Text>
+							<Gloss>Mausi CL-her house</Gloss>
+							<Translation>Mausi's house</Translation>
+							<Resources>Mosel1994:22</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomPron>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Acholi</LangID>
+			<ISO639-3>ach</ISO639-3>
+			<Location>Africa</Location>
+			<Country>Uganda</Country>
+			<GeneticRelation>Western Nilotic</GeneticRelation>
+			<WordOrder>SVO</WordOrder>
+			<CaseSystem></CaseSystem>
+			<NominalPhrase></NominalPhrase>
+			<InterchangeaStrategies>some words, like "shadow" are marked as alienable with animate possessors and as inalienable with inanimate possessors</InterchangeaStrategies>
+			<RelStrategies>Pronominal possessors are humans. Nominal possessors can be plants, animals, etc. Body parts overlap between pronominal and nominal possession</RelStrategies>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<StrategyPronom Complexity="simplex" StrategyID="1">
+				<Semantics>
+				<Possessor>human</Possessor>
+				<Possessed ObligatoryPossessed="???" BodyParts="yes">body parts</Possessed>
+				<RelationPRPD>inalienable</RelationPRPD>
+				</Semantics>
+				<Morphology>
+				<Pronoun AttachmentSite="possessed" Position="after" Dedication="not dedicated" SharedwithNominal="no">
+				<!-- the same affixes indicate the object on a verb -->
+				<pron number="sg" person="1">-a</pron>
+				<pron number="sg" person="2">-i</pron>
+				<pron number="sg" person="3">-e/-o</pron>
+				<pron number="pl" person="1">-wa</pron>
+				<pron number="pl" person="2">-wu</pron>
+				<pron number="pl" person="3">-gi/-gu</pron>
+				</Pronoun>
+				</Morphology>
+				<SyntEnvironment>
+				<Adnominal>
+				<Text>cing-a</Text>
+				<Gloss>hand-1:SG:POSS</Gloss>
+				<Translation>my hand</Translation>
+				<Resources>Bavin:852</Resources>
+				</Adnominal>
+				</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyNotFound>
+				<ConsultedResources>Bavin</ConsultedResources>
+				<ResourcesToCheck>???</ResourcesToCheck>
+				<SyntEnvironment>
+				<Adnominal>
+				<Text>ot-na</Text>
+				<Gloss>house-1:SG:POSS</Gloss>
+				<Translation>my house</Translation>
+				<Resources>Bavin:852</Resources>
+				<!--- The full paradigm is not given -->
+				</Adnominal>
+				</SyntEnvironment>
+				</StrategyNotFound>
+			</PronominalPossession>
+			<NominalPossession>
+				<StrategyNomJuxt StrategyID="1">
+					<Semantics>
+						<Possessor>human, animal, plants</Possessor>
+						<Possessed ObligatoryPossessed="???" BodyParts="yes" Others="yes" PlantParts="yes">shadow (for inanimate possessors), body part (including internal organs), tears, hair, name, character, brances of trees, seeds of fruit
+		According to the Bavin:845, 846 it does not make a difference if the body part or plant part is separated from the body</Possessed>
+		<!--according to the Bavin:845, 846 it does not make a difference if the body part or plant part is separated from the body -->
+						<RelationPRPD>inalienable</RelationPRPD>
+					</Semantics>
+					<Juxtaposition>
+						<CompoundingTest>
+							<Text>agulu deko ma-tidi-ni</Text>
+							<Gloss>pot food REL-small-DET</Gloss>
+							<Translation>this small cooking pot</Translation>
+							<Resources>Bavin:850</Resources>
+		<!-- These constructions seem to be componds. A modifier or determiner cannot intervean betwean the two nouns, they modifiy the whole N-N complex-->
+						</CompoundingTest>
+					</Juxtaposition>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>cing lyec</Text>
+							<Gloss>hand elephant</Gloss>
+							<Translation>elephant's truck</Translation>
+							<Resources>Bavin:844</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomJuxt>
+				<StrategyNomMorph Complexity="simplex" StrategyID="2">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="???" Clothes="yes" Kinship="yes">relatives, children, words, animals, toys, clothes, width (width of the road), shadow (only for animate possessors)</Possessed>
+						<RelationPRPD>mixed</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Morpheme AttachmentSite="free">
+							<morph>pa</morph>
+							<Explanation></Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>bongo pa latin</Text>
+							<Gloss>clothes POSS child</Gloss>
+							<Translation>child's clothes</Translation>
+							<Resources>Bavin:847</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomMorph>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<!--	For Chile the main reference for Mapuche is Salas (1992a).-->
 </LanguageData>
