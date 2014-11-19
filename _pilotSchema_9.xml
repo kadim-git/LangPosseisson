@@ -6172,43 +6172,43 @@ prefix (pr-) denoting the possessor preceding the possessed noun-->
 		<Possession>
 			<PronominalPossession>
 				<StrategyPronom Complexity="simplex" StrategyID="1">
-				<Semantics>
-				<Possessor>human</Possessor>
-				<Possessed ObligatoryPossessed="???" BodyParts="yes">body parts</Possessed>
-				<RelationPRPD>inalienable</RelationPRPD>
-				</Semantics>
-				<Morphology>
-				<Pronoun AttachmentSite="possessed" Position="after" Dedication="not dedicated" SharedwithNominal="no">
+					<Semantics>
+						<Possessor>human</Possessor>
+						<Possessed ObligatoryPossessed="???" BodyParts="yes">body parts</Possessed>
+						<RelationPRPD>inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="after" Dedication="not dedicated" SharedwithNominal="no">
 				<!-- the same affixes indicate the object on a verb -->
-				<pron number="sg" person="1">-a</pron>
-				<pron number="sg" person="2">-i</pron>
-				<pron number="sg" person="3">-e/-o</pron>
-				<pron number="pl" person="1">-wa</pron>
-				<pron number="pl" person="2">-wu</pron>
-				<pron number="pl" person="3">-gi/-gu</pron>
-				</Pronoun>
-				</Morphology>
-				<SyntEnvironment>
-				<Adnominal>
-				<Text>cing-a</Text>
-				<Gloss>hand-1:SG:POSS</Gloss>
-				<Translation>my hand</Translation>
-				<Resources>Bavin:852</Resources>
-				</Adnominal>
-				</SyntEnvironment>
+							<pron number="sg" person="1">-a</pron>
+							<pron number="sg" person="2">-i</pron>
+							<pron number="sg" person="3">-e/-o</pron>
+							<pron number="pl" person="1">-wa</pron>
+							<pron number="pl" person="2">-wu</pron>
+							<pron number="pl" person="3">-gi/-gu</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>cing-a</Text>
+							<Gloss>hand-1:SG:POSS</Gloss>
+							<Translation>my hand</Translation>
+							<Resources>Bavin:852</Resources>
+						</Adnominal>
+					</SyntEnvironment>
 				</StrategyPronom>
 				<StrategyNotFound>
-				<ConsultedResources>Bavin</ConsultedResources>
-				<ResourcesToCheck>???</ResourcesToCheck>
-				<SyntEnvironment>
-				<Adnominal>
-				<Text>ot-na</Text>
-				<Gloss>house-1:SG:POSS</Gloss>
-				<Translation>my house</Translation>
-				<Resources>Bavin:852</Resources>
+					<ConsultedResources>Bavin</ConsultedResources>
+					<ResourcesToCheck>???</ResourcesToCheck>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>ot-na</Text>
+							<Gloss>house-1:SG:POSS</Gloss>
+							<Translation>my house</Translation>
+							<Resources>Bavin:852</Resources>
 				<!--- The full paradigm is not given -->
-				</Adnominal>
-				</SyntEnvironment>
+						</Adnominal>
+					</SyntEnvironment>
 				</StrategyNotFound>
 			</PronominalPossession>
 			<NominalPossession>
@@ -6256,6 +6256,300 @@ prefix (pr-) denoting the possessor preceding the possessed noun-->
 							<Gloss>clothes POSS child</Gloss>
 							<Translation>child's clothes</Translation>
 							<Resources>Bavin:847</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomMorph>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Samoan</LangID>
+			<ISO639-3>smo</ISO639-3>
+			<Location>Oceania</Location>
+			<Country>Samoa</Country>
+			<GeneticRelation>Austronesian, Polynesian</GeneticRelation>
+			<WordOrder>VSO</WordOrder>
+			<CaseSystem></CaseSystem>
+			<NominalPhrase>articles precede the noun</NominalPhrase>
+			<InterchangeaStrategies>some words, like "word", "conclusion" can be used with both strategies, depending on the possessor (human vs non human), sometimes contrast betwenn permanent and temporal</InterchangeaStrategies>
+			<RelStrategies>note that possessive preposition is not used/can be omitted with some dual and plural pronominal possessors</RelStrategies>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<StrategyPronom Complexity="complex" StrategyID="1">
+					<Semantics>
+						<Possessor>human, song, story</Possessor>
+						<Possessed ObligatoryPossessed="no" Kinship="partially" BodyParts="yes" Clothes="yes">body parts, numerals (to form ordinals), clothes, spatial relations, blood relation (but not mother-child), word, conclusion</Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						
+						<Pronoun AttachmentSite="morpheme/free" Position="after" Dedication="dedicated" SharedwithNominal="no">
+							<pron number="sg" person="1">-'u</pron>
+							<pron number="sg" person="2">u</pron>
+							<pron number="sg" person="3">-na</pron>
+							<pron number="du" person="1">ta/ta'ua</pron>
+							<pron number="du" person="2">lua/'oulua</pron>
+							<pron number="pl" person="1">matou</pron>
+						</Pronoun>
+						<!-- a split for number-->
+						<Morpheme AttachmentSite="article" Position="after">
+							<morph>-o</morph>
+							<Explanation>possessive preposition</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>'o l=o=na fale</Text>
+							<Gloss>pres art=poss=3.sg. house</Gloss>
+							<Translation>his house</Translation>
+							<Resources>Mosel1992</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="2">
+					<Semantics>
+						<Possessor>typically human being. also cars, boats. institutions and places. relation initiated and controlled by the possessor. Kinship by marriage, but also mother-child relation</Possessor>
+						<Possessed ObligatoryPossessed="no" Kinship="partially">knife, radio</Possessed>
+						<RelationPRPD>mixed</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="morpheme/free" Position="after" Dedication="dedicated" SharedwithNominal="no">
+							<pron number="sg" person="1">-'u</pron>
+							<pron number="sg" person="2">u</pron>
+							<pron number="sg" person="3">-na</pron>
+							<pron number="du" person="1">ta/ta'ua</pron>
+							<pron number="du" person="2">lua/'oulua</pron>
+							<pron number="pl" person="1">matou</pron>
+						</Pronoun>
+						<Morpheme AttachmentSite="article" Position="after">
+							<morph>-a</morph>
+							<Explanation>possessive preposition</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>o l=a=na lanau</Text>
+							<Gloss>pres art=poss=3.sg offspring</Gloss>
+							<Translation>His/her offspring</Translation>
+							<Resources>Mosel1992:286</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyNotFound>
+					<ConsultedResources>Mosel1992: 179 claims that this construction only occurs with second person. The pronoun is not in possessive but in free form</ConsultedResources>
+					<ResourcesToCheck>Vera Hohaus's fieldwork</ResourcesToCheck>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>'o l=a 'oe lava tama</Text>
+							<Gloss>pres art=poss 2sg emph child</Gloss>
+							<Translation>your own child</Translation>
+							<Resources>Mosel1992:277</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNotFound>
+			</PronominalPossession>
+			<NominalPossession>
+				<StrategyNomMorph Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor>human, song, story</Possessor>
+						<Possessed ObligatoryPossessed="no" Kinship="partially" BodyParts="yes" Clothes="yes">body parts, numerals (to form ordinals), clothes, spatial relations, blood relation (but not mother-child), word, conclusion</Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Morpheme AttachmentSite="free">
+							<morph>-o</morph>
+							<Explanation>possessive preposition</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>'o le fale o le ali'i</Text>
+							<Gloss>pres art house poss art chief</Gloss>
+							<Translation>the house of the chief</Translation>
+							<Resources>Mosel1992</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomMorph>
+				<StrategyNomMorph Complexity="simplex" StrategyID="2">
+					<Semantics>
+						<Possessor>typically human being. also cars, boats. institutions and places. relation initiated and controlled by the possessor. Kinship by marriage, but also mother-child relation</Possessor>
+						<Possessed ObligatoryPossessed="no" Kinship="partially">knife, radio</Possessed>
+						<RelationPRPD>mixed</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Morpheme AttachmentSite="free">
+							<morph>-a</morph>
+							<Explanation>possessive preposition</Explanation>
+						</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>le pasese a le Meli Ausetalia</Text>
+							<Gloss>Art passenger poss art boat Australian</Gloss>
+							<Translation>the passangers of the Australian boat</Translation>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomMorph>
+			</NominalPossession>
+		</Possession>
+	</Language>
+	<Language>
+		<GeneralInfo>
+			<LangID>Tolai</LangID>
+			<ISO639-3>ksd</ISO639-3>
+			<Location>Oceania</Location>
+			<Country>Papua New Guinea</Country>
+			<GeneticRelation>Austronesian, Southern New Ireland</GeneticRelation>
+			<WordOrder>SVO</WordOrder>
+			<CaseSystem></CaseSystem>
+			<NominalPhrase></NominalPhrase>
+			<InterchangeaStrategies>there are nouns which may enter differrent types of constructions, alienable, inalienable as well as compounding. For example "my name" as name given by me is classifier construction, but name given by me is inalienable possession</InterchangeaStrategies>
+			<RelStrategies>a split in pronominal possession: number</RelStrategies>
+		</GeneralInfo>
+		<Possession>
+			<PronominalPossession>
+				<StrategyPronom Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor>singular pronominal forms</Possessor>
+						<Possessed ObligatoryPossessed="partially" Kinship="yes" BodyParts="all">body parts of humans or anymals, not plants; one of the words for 'child', descendant, name given to me</Possessed>
+						<!-- kinship terms are obligatorily possessed. Some body patrs need to be detransitivised. Some body parts are optionally possessed and some never take possessive affixes-->
+						<RelationPRPD>inalienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessed" Position="after" Dedication="no" SharedwithNominal="no">
+						<!-- these pronominal forms also occur with some prepositions -->
+							<pron number="sg" person="1">-gu</pron>
+							<pron number="sg" person="2">-m</pron>
+							<pron number="sg" person="3">-na</pron>
+						</Pronoun>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>tura-gu</Text>
+							<Gloss>brother-my</Gloss>
+							<Translation>my brother</Translation>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="complex" StrategyID="2">
+					<Semantics>
+						<Possessor>plural or dual pronominal forms</Possessor>
+						<Possessed ObligatoryPossessed=""></Possessed>
+						<RelationPRPD>alienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+						<Pronoun AttachmentSite="possessive marker" Position="after" Dedication="?yes" SharedwithNominal="no">
+							<pron number="du" person="1" inclusive="exclusive">-dor</pron>
+							<pron number="tri" person="1" inclusive="exclusive">mimir</pron>
+							<pron number="pl" person="3">diat</pron>
+						</Pronoun>
+						<Morpheme AttachmentSite="possessed" Position="after" Label="possessive marker">
+						<morph>-i</morph>
+						<Explanation>possessive marker</Explanation>
+					</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>a bala=i=dor</Text>
+							<Gloss>art belly=poss.m=our</Gloss>
+							<Translation>our belly</Translation>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyPronom>
+				<StrategyPronom Complexity="simplex" StrategyID="3">
+				<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="">relation by marriage, one of the words for 'child', descendant, adopted child, village, name given by me, food, house, verbal nouns like "arrival"</Possessed>
+						<RelationPRPD></RelationPRPD>
+				</Semantics>
+				<Morphology>
+				<Morpheme AttachmentSite="free" Label="classifier">
+					<morph>ka</morph>
+					<morph>a</morph>
+					<Explanation>classifier food-ka: ownership,food-a: determined to be eaten</Explanation>
+				</Morpheme>
+				</Morphology>
+				<SyntEnvironment>
+				<Adnominal>
+				<Text>ka-na pal</Text>
+				<Gloss>poss.clfr=his house</Gloss>
+				<Translation>His house</Translation>
+				<Resources>Mosel1984:31</Resources>
+				</Adnominal>
+				</SyntEnvironment>
+				</StrategyPronom>
+			</PronominalPossession>
+			<NominalPossession>
+				<StrategyNomMorph Complexity="simplex" StrategyID="1">
+					<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="partially" Kinship="yes" BodyParts="all">body parts of humans or anymals, not plants; one of the words for 'child', descendant, name given to me</Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+					<Morphology>
+					<Morpheme AttachmentSite="possessed" Position="after" Label="possessive marker">
+					<morph>-i</morph>
+					<Explanation>possessive marker</Explanation>
+					</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+						<Text>
+								<pPosed>a bala</pPosed>=<pMorp>i</pMorp>
+								<pPosor>ra tutana</pPosor>
+							</Text>
+							<Gloss>art belly=poss.m art man</Gloss>
+							<Translation>the belly of the man</Translation>
+							<Resources>Mosel1984</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomMorph>
+				<StrategyNomMorph Complexity="complex" StrategyID="2">
+					<Semantics>
+						<Possessor>can be inanimate (container, with a- classifier)</Possessor>
+						<Possessed ObligatoryPossessed="">relation by marriage, one of the words for 'child', descendant, adopted child, village, name given by me, food, house, verbal nouns like "arrival"</Possessed>
+						<RelationPRPD>alienable</RelationPRPD>
+					</Semantics>
+					<Morphology>
+					<Morpheme AttachmentSite="free" Label="classifier">
+					<morph>ka</morph>
+					<morph>a</morph>
+					<Explanation>classifier food-ka: ownership,food-a: determined to be eaten</Explanation>
+					</Morpheme>
+					<Morpheme AttachmentSite="possessed" Position="after" Label="possessive marker">
+					<morph>-i</morph>
+					<Explanation>possessive marker</Explanation>
+					</Morpheme>
+					</Morphology>
+					<SyntEnvironment>
+						<Adnominal>
+							<Text>a pal ka=i ra tutana</Text>
+							<Gloss>art house poss.clfr=poss.m art man</Gloss>
+							<Translation>the belly of the man</Translation>
+							<Resources>Mosel1984</Resources>
+						</Adnominal>
+					</SyntEnvironment>
+				</StrategyNomMorph>
+				<StrategyNomMorph Complexity="simplex" StrategyID="3">
+				<Semantics>
+						<Possessor></Possessor>
+						<Possessed ObligatoryPossessed="">characterisitc feature of the possessor</Possessed>
+						<RelationPRPD></RelationPRPD>
+					</Semantics>
+				<Morphology>
+				<Morpheme AttachmentSite="possessed and possessor" Label="connective particle">
+				<morph>-na-</morph>
+				<Explanation>compounding</Explanation>
+				</Morpheme>
+				</Morphology>
+				<SyntEnvironment>
+						<Adnominal>
+							<Text><pPosed>a mapi</pPosed>-<pMorp>na</pMorp>-<pPosor>davai</pPosor></Text>
+							<Gloss>art leaf-C-tree</Gloss>
+							<Translation>the leaf of the tree</Translation>
+							<Resources>Mosel1984:31</Resources>
 						</Adnominal>
 					</SyntEnvironment>
 				</StrategyNomMorph>
